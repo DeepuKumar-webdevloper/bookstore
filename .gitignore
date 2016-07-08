@@ -5,6 +5,6 @@ js/
 lib/
 shell/
 var/
-app/code/core
-app/code/community
+app/code/core/
+app/code/community/
 dev/
