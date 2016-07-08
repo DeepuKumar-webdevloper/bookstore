@@ -4,7 +4,7 @@ SmartOSC Internship Project 2016 - Group 1
 
 Description
 -----------------------------
-* Online book store
+* Online bookstore
 * Framework: Magento
 
 Rules
@@ -18,10 +18,15 @@ Should fork into your github account, and then push into it (Don't push into pro
 
 Instruction
 -----------------------------
+- Pull this repository into folder A
 - Install Magento 1.9.2.4: http://docs.magento.com/m1/ce/user_guide/magento/release-notes-ce-1.9.2.4.html
-using database created from mangento.sql in the repository.
-- Delete files and folders which are listed in the .gitignore.
-- Pull this repository into this folder
+using database created from mangento.sql in the repository into folder B.
+- Copy these missing folder (listed in .gitignore) from B to A.
+- Create a database named "bookstore" from bookstore.sql
+- Access bookstore:
+	* Homepage: 127.0.0.1/bookstore
+	* Admin: 127.0.0.1/bookstore/admin
+	* Admin account: username is "admin", password is "admin 123"
 
 Team members
 -----------------------------
