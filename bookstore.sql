@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 08, 2016 at 04:19 AM
+-- Generation Time: Jul 12, 2016 at 04:03 AM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 5.6.21
 
@@ -141,7 +141,21 @@ INSERT INTO `adminnotification_inbox` (`notification_id`, `severity`, `date_adde
 (97, 1, '2016-01-20 15:17:19', 'Important: New Security Patch (SUPEE-7405) and Release – 1/20/2016', 'Today, we are releasing a new patch (SUPEE-7405) and Community Edition 1.9.2.3 to improve the security of Magento sites. There are no confirmed attacks related to the security issues, but certain vulnerabilities can potentially be exploited to access customer information or take over administrator sessions. You can download the patch and release from the Community Edition Download Page and learn more at https://magento.com/security/patches/supee-7405. ', 'https://magento.com/security/patches/supee-7405', 0, 0),
 (98, 1, '2016-02-24 01:06:43', 'Important: Updates to SUPEE-7405 Security Patch and Release – 2/23/2016', 'Updated versions of the recent SUPEE-7405 patch and Community Edition 1.9.2.3 release are now available. The updates add support for PHP 5.3 and address issues with upload file permissions, merging carts, and SOAP APIs experienced with the original release. They DO NOT address any new security issues, but all merchants should upgrade to the new versions to maintain compatibility with future releases. You can learn more about the updates at https://magento.com/security/patches/supee-7405', 'https://magento.com/security/patches/supee-7405', 0, 0),
 (99, 1, '2016-03-30 17:25:07', 'Protect Your Business from Brute-Force Password Guessing Attacks', 'We just posted an article on the Magento Security Center that shares best practices for protecting stores from brute-force password guessing attacks. We’ve recently been made aware of a rise in these attacks, so we strongly recommend that you review the approaches outlined in this article with your developer and hosting provider immediately and implement the ones that are best suited to your unique situation. Learn more at https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing ', 'https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing ', 0, 0),
-(100, 4, '2016-06-23 09:44:34', 'Increase your sales and productivity, while simplifying PCI compliance with exciting new Magento Community Edition 2.1 features.', 'Shoppers can now check out faster using credit cards stored with PayPal and a redesigned PayPal checkout. PCI compliance is easier thanks to Braintree Hosted Fields. Admin tools are redesigned to help you work more efficiently. Upgrade to Enterprise Edition for new Content Staging and Preview and Enhanced Site Search capabilities.', 'https://magento.com/blog/magento-news/magento-enterprise-edition-21-unleashes-power-marketers-and-merchandisers ', 0, 0);
+(100, 4, '2016-06-23 09:44:34', 'Increase your sales and productivity, while simplifying PCI compliance with exciting new Magento Community Edition 2.1 features.', 'Shoppers can now check out faster using credit cards stored with PayPal and a redesigned PayPal checkout. PCI compliance is easier thanks to Braintree Hosted Fields. Admin tools are redesigned to help you work more efficiently. Upgrade to Enterprise Edition for new Content Staging and Preview and Enhanced Site Search capabilities.', 'https://magento.com/blog/magento-news/magento-enterprise-edition-21-unleashes-power-marketers-and-merchandisers ', 0, 0),
+(101, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(102, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(103, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(104, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(105, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(106, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(107, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(108, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(109, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(110, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(111, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(112, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(113, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(114, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -231,7 +245,7 @@ CREATE TABLE `admin_user` (
 --
 
 INSERT INTO `admin_user` (`user_id`, `firstname`, `lastname`, `email`, `username`, `password`, `created`, `modified`, `logdate`, `lognum`, `reload_acl_flag`, `is_active`, `extra`, `rp_token`, `rp_token_created_at`) VALUES
-(1, 'admin', 'admin', 'tamhoang1412@gmail.com', 'admin', '5d245a3a6f612d4516bac37c729a0937:5xNnSegX84n9B5EHHTvEp9zTRBRgthG8', '2016-07-07 19:14:59', '2016-07-07 19:14:59', '2016-07-07 19:15:13', 1, 0, 1, 'b:0;', NULL, NULL);
+(1, 'admin', 'admin', 'tamhoang1412@gmail.com', 'admin', '5d245a3a6f612d4516bac37c729a0937:5xNnSegX84n9B5EHHTvEp9zTRBRgthG8', '2016-07-07 19:14:59', '2016-07-07 19:14:59', '2016-07-11 18:42:29', 4, 0, 1, 'b:0;', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -433,6 +447,15 @@ CREATE TABLE `cataloginventory_stock_item` (
   `is_decimal_divided` smallint(5) UNSIGNED NOT NULL DEFAULT '0' COMMENT 'Is Divided into Multiple Boxes for Shipping'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Cataloginventory Stock Item';
 
+--
+-- Dumping data for table `cataloginventory_stock_item`
+--
+
+INSERT INTO `cataloginventory_stock_item` (`item_id`, `product_id`, `stock_id`, `qty`, `min_qty`, `use_config_min_qty`, `is_qty_decimal`, `backorders`, `use_config_backorders`, `min_sale_qty`, `use_config_min_sale_qty`, `max_sale_qty`, `use_config_max_sale_qty`, `is_in_stock`, `low_stock_date`, `notify_stock_qty`, `use_config_notify_stock_qty`, `manage_stock`, `use_config_manage_stock`, `stock_status_changed_auto`, `use_config_qty_increments`, `qty_increments`, `use_config_enable_qty_inc`, `enable_qty_increments`, `is_decimal_divided`) VALUES
+(2, 2, 1, '10.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 1, NULL, NULL, 1, 0, 1, 0, 1, '0.0000', 1, 0, 0),
+(4, 4, 1, '10.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 1, NULL, NULL, 1, 0, 1, 0, 1, '0.0000', 1, 0, 0),
+(6, 6, 1, '2.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 1, NULL, NULL, 1, 0, 1, 0, 1, '0.0000', 1, 0, 0);
+
 -- --------------------------------------------------------
 
 --
@@ -446,6 +469,15 @@ CREATE TABLE `cataloginventory_stock_status` (
   `qty` decimal(12,4) NOT NULL DEFAULT '0.0000' COMMENT 'Qty',
   `stock_status` smallint(5) UNSIGNED NOT NULL COMMENT 'Stock Status'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Cataloginventory Stock Status';
+
+--
+-- Dumping data for table `cataloginventory_stock_status`
+--
+
+INSERT INTO `cataloginventory_stock_status` (`product_id`, `website_id`, `stock_id`, `qty`, `stock_status`) VALUES
+(2, 1, 1, '10.0000', 1),
+(4, 1, 1, '10.0000', 1),
+(6, 1, 1, '2.0000', 1);
 
 -- --------------------------------------------------------
 
@@ -595,6 +627,18 @@ CREATE TABLE `catalogsearch_fulltext` (
   `data_index` longtext COMMENT 'Data index'
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Catalog search result table';
 
+--
+-- Dumping data for table `catalogsearch_fulltext`
+--
+
+INSERT INTO `catalogsearch_fulltext` (`fulltext_id`, `product_id`, `store_id`, `data_index`) VALUES
+(22, 4, 3, '7705218158170|None|Scrapbook PS I Love You|20 x 20 cm|Scrapbook l&agrave; dạng sổ ảnh lưu niệm, lưu trữ h&igrave;nh ảnh kết hợp ghi ch&uacute;, sổ đ&atilde; được trang tr&iacute; sẵn gi&uacute;p bạn dễ d&agrave;ng lưu trữ những h&igrave;nh ảnh m&agrave; bạn y&ecirc;u th&iacute;ch. Scrapbook được đầu tư thiết kế ph&ugrave; hợp với nhiều sự kiện, đặc biệt hơn l&agrave; sản phẩm được l&agrave;m thủ c&ocirc;ng, tỉ mỉ đến từng chi tiết trang tr&iacute; b&ecirc;n trong. Sản phẩm đa dạng về m&agrave;u sắc cũng như c&aacute;c chủ để trang tr&iacute; như t&igrave;nh y&ecirc;u, gia đ&igrave;nh, cuộc sống... Bạn chỉ cần d&aacute;n th&ecirc;m c&aacute;c tấm h&igrave;nh sinh động, viết "nhật k&yacute;" để tạo th&agrave;nh quyển album ảnh kh&ocirc;ng đụng h&agrave;ng. Scrapbook PS I Love You chắc chắn sẽ l&agrave; một quyển sổ v&ocirc; c&ugrave;ng th&uacute; vị cho bạn v&agrave; người th&acirc;n của bạn.|Scrapbook là dạng sổ ảnh lưu niệm, lưu trữ hình ảnh kết hợp ghi chú.|607000|1'),
+(25, 2, 1, '9789881950871|None|Painting In Wall Design|Darren Du|||Công ty TNHH Sách Á Châu|Whether in private homes or hotels, restaurants or airports, wall paintings as decor add a rich, individualised dimension. Here, the work of illustrators, interior designers and graphic designers from different countries is presented to show the inspirational qualities they contain and release when integrated into interiors. This book shows the transformations, effects and possibilies they offer.|Whether in private homes or hotels, restaurants or airports, wall paintings as decor add a rich, individualised dimension. Here, the work of illustrators, interior designers and graphic designers from different countries is presented to show the inspirational qualities they contain and release when integrated into interiors. This book shows the transformations, effects and possibilies they offer.|616000|1'),
+(24, 2, 3, '9789881950871|None|Painting In Wall Design|Darren Du|||Công ty TNHH Sách Á Châu|Whether in private homes or hotels, restaurants or airports, wall paintings as decor add a rich, individualised dimension. Here, the work of illustrators, interior designers and graphic designers from different countries is presented to show the inspirational qualities they contain and release when integrated into interiors. This book shows the transformations, effects and possibilies they offer.|Whether in private homes or hotels, restaurants or airports, wall paintings as decor add a rich, individualised dimension. Here, the work of illustrators, interior designers and graphic designers from different countries is presented to show the inspirational qualities they contain and release when integrated into interiors. This book shows the transformations, effects and possibilies they offer.|616000|1'),
+(23, 4, 1, '7705218158170|None|Scrapbook PS I Love You|20 x 20 cm|Scrapbook l&agrave; dạng sổ ảnh lưu niệm, lưu trữ h&igrave;nh ảnh kết hợp ghi ch&uacute;, sổ đ&atilde; được trang tr&iacute; sẵn gi&uacute;p bạn dễ d&agrave;ng lưu trữ những h&igrave;nh ảnh m&agrave; bạn y&ecirc;u th&iacute;ch. Scrapbook được đầu tư thiết kế ph&ugrave; hợp với nhiều sự kiện, đặc biệt hơn l&agrave; sản phẩm được l&agrave;m thủ c&ocirc;ng, tỉ mỉ đến từng chi tiết trang tr&iacute; b&ecirc;n trong. Sản phẩm đa dạng về m&agrave;u sắc cũng như c&aacute;c chủ để trang tr&iacute; như t&igrave;nh y&ecirc;u, gia đ&igrave;nh, cuộc sống... Bạn chỉ cần d&aacute;n th&ecirc;m c&aacute;c tấm h&igrave;nh sinh động, viết "nhật k&yacute;" để tạo th&agrave;nh quyển album ảnh kh&ocirc;ng đụng h&agrave;ng. Scrapbook PS I Love You chắc chắn sẽ l&agrave; một quyển sổ v&ocirc; c&ugrave;ng th&uacute; vị cho bạn v&agrave; người th&acirc;n của bạn.|Scrapbook là dạng sổ ảnh lưu niệm, lưu trữ hình ảnh kết hợp ghi chú.|607000|1'),
+(20, 6, 3, '9780008150280|None|The Profession Of Violence: The Rise and Fall Of The Kray Twins|John Pearson|HarperCollins Publishers Ltd||Amazon|The classic, bestselling account of the infamous Kray twins, now a major film, starring Tom Hardy. Reggie and Ronnie Kray ruled London’s gangland during the 60s with a ruthlessness and viciousness that shocks even now. Building an empire of organised crime that has never been matched, the brothers swindled, extorted and terrorised – while enjoying a glittering celebrity status at the heart of the swinging 60s scene, until their downfall and imprisonment for life.|The classic, bestselling account of the infamous Kray twins, now a major film, starring Tom Hardy.|202000|1'),
+(21, 6, 1, '9780008150280|None|The Profession Of Violence: The Rise and Fall Of The Kray Twins|John Pearson|HarperCollins Publishers Ltd||Amazon|The classic, bestselling account of the infamous Kray twins, now a major film, starring Tom Hardy. Reggie and Ronnie Kray ruled London’s gangland during the 60s with a ruthlessness and viciousness that shocks even now. Building an empire of organised crime that has never been matched, the brothers swindled, extorted and terrorised – while enjoying a glittering celebrity status at the heart of the swinging 60s scene, until their downfall and imprisonment for life.|The classic, bestselling account of the infamous Kray twins, now a major film, starring Tom Hardy.|202000|1');
+
 -- --------------------------------------------------------
 
 --
@@ -697,8 +741,75 @@ CREATE TABLE `catalog_category_entity` (
 --
 
 INSERT INTO `catalog_category_entity` (`entity_id`, `entity_type_id`, `attribute_set_id`, `parent_id`, `created_at`, `updated_at`, `path`, `position`, `level`, `children_count`) VALUES
-(1, 3, 0, 0, '2016-07-07 19:07:44', '2016-07-07 19:07:44', '1', 0, 0, 1),
-(2, 3, 3, 1, '2016-07-07 19:07:46', '2016-07-07 19:07:46', '1/2', 1, 1, 0);
+(1, 3, 0, 0, '2016-07-07 19:07:44', '2016-07-07 19:07:44', '1', 0, 0, 68),
+(2, 3, 3, 1, '2016-07-07 19:07:46', '2016-07-07 19:07:46', '1/2', 1, 1, 67),
+(3, 3, 3, 2, '2016-07-10 19:50:49', '2016-07-11 02:56:11', '1/2/3', 1, 2, 52),
+(4, 3, 3, 3, '2016-07-10 19:53:41', '2016-07-10 19:53:41', '1/2/3/4', 1, 3, 32),
+(5, 3, 3, 3, '2016-07-10 19:54:52', '2016-07-10 19:55:25', '1/2/3/5', 2, 3, 4),
+(6, 3, 3, 3, '2016-07-10 19:57:05', '2016-07-10 19:57:05', '1/2/3/6', 3, 3, 3),
+(7, 3, 3, 3, '2016-07-10 19:58:03', '2016-07-10 21:02:25', '1/2/3/7', 4, 3, 4),
+(8, 3, 3, 3, '2016-07-10 19:59:12', '2016-07-10 19:59:12', '1/2/3/8', 5, 3, 4),
+(9, 3, 3, 2, '2016-07-10 20:00:03', '2016-07-10 20:00:03', '1/2/9', 2, 2, 4),
+(10, 3, 3, 9, '2016-07-10 20:00:43', '2016-07-10 20:00:43', '1/2/9/10', 1, 3, 0),
+(11, 3, 3, 9, '2016-07-10 20:01:49', '2016-07-10 20:01:49', '1/2/9/11', 2, 3, 0),
+(12, 3, 3, 9, '2016-07-10 20:03:19', '2016-07-10 20:03:19', '1/2/9/12', 3, 3, 0),
+(13, 3, 3, 9, '2016-07-10 20:03:57', '2016-07-10 20:03:57', '1/2/9/13', 4, 3, 0),
+(14, 3, 3, 2, '2016-07-10 20:05:29', '2016-07-10 20:05:29', '1/2/14', 3, 2, 4),
+(15, 3, 3, 14, '2016-07-10 20:06:20', '2016-07-10 20:06:51', '1/2/14/15', 1, 3, 0),
+(16, 3, 3, 14, '2016-07-10 20:09:00', '2016-07-10 20:09:00', '1/2/14/16', 2, 3, 0),
+(17, 3, 3, 14, '2016-07-10 20:10:28', '2016-07-10 20:10:28', '1/2/14/17', 3, 3, 0),
+(18, 3, 3, 14, '2016-07-10 20:11:17', '2016-07-10 20:11:17', '1/2/14/18', 4, 3, 0),
+(19, 3, 3, 2, '2016-07-10 20:12:40', '2016-07-10 20:12:40', '1/2/19', 4, 2, 3),
+(20, 3, 3, 19, '2016-07-10 20:13:43', '2016-07-10 20:13:43', '1/2/19/20', 1, 3, 0),
+(21, 3, 3, 19, '2016-07-10 20:14:36', '2016-07-10 20:14:45', '1/2/19/21', 2, 3, 0),
+(22, 3, 3, 19, '2016-07-10 20:16:08', '2016-07-10 20:16:08', '1/2/19/22', 3, 3, 0),
+(23, 3, 3, 4, '2016-07-10 20:18:09', '2016-07-10 20:18:09', '1/2/3/4/23', 1, 4, 15),
+(24, 3, 3, 4, '2016-07-10 20:18:31', '2016-07-10 20:43:55', '1/2/3/4/24', 2, 4, 15),
+(25, 3, 3, 23, '2016-07-10 20:18:48', '2016-07-10 20:18:48', '1/2/3/4/23/25', 1, 5, 5),
+(26, 3, 3, 25, '2016-07-10 20:19:16', '2016-07-10 20:19:16', '1/2/3/4/23/25/26', 1, 6, 0),
+(27, 3, 3, 25, '2016-07-10 20:19:30', '2016-07-10 20:19:30', '1/2/3/4/23/25/27', 2, 6, 0),
+(28, 3, 3, 25, '2016-07-10 20:21:14', '2016-07-10 20:21:14', '1/2/3/4/23/25/28', 3, 6, 0),
+(29, 3, 3, 23, '2016-07-10 20:21:40', '2016-07-10 20:21:40', '1/2/3/4/23/29', 2, 5, 4),
+(30, 3, 3, 29, '2016-07-10 20:21:59', '2016-07-10 20:21:59', '1/2/3/4/23/29/30', 1, 6, 0),
+(31, 3, 3, 29, '2016-07-10 20:22:24', '2016-07-10 20:22:24', '1/2/3/4/23/29/31', 2, 6, 0),
+(32, 3, 3, 29, '2016-07-10 20:22:40', '2016-07-10 20:22:40', '1/2/3/4/23/29/32', 3, 6, 0),
+(33, 3, 3, 29, '2016-07-10 20:22:53', '2016-07-10 20:22:53', '1/2/3/4/23/29/33', 4, 6, 0),
+(34, 3, 3, 25, '2016-07-10 20:23:08', '2016-07-10 20:23:08', '1/2/3/4/23/25/34', 4, 6, 0),
+(35, 3, 3, 25, '2016-07-10 20:23:41', '2016-07-10 20:23:41', '1/2/3/4/23/25/35', 5, 6, 0),
+(36, 3, 3, 23, '2016-07-10 20:24:08', '2016-07-10 20:24:22', '1/2/3/4/23/36', 3, 5, 3),
+(37, 3, 3, 36, '2016-07-10 20:24:39', '2016-07-10 20:24:39', '1/2/3/4/23/36/37', 1, 6, 0),
+(38, 3, 3, 36, '2016-07-10 20:24:51', '2016-07-10 20:24:51', '1/2/3/4/23/36/38', 2, 6, 0),
+(39, 3, 3, 36, '2016-07-10 20:25:05', '2016-07-10 20:25:05', '1/2/3/4/23/36/39', 3, 6, 0),
+(40, 3, 3, 24, '2016-07-10 20:43:17', '2016-07-10 20:43:17', '1/2/3/4/24/40', 1, 5, 5),
+(42, 3, 3, 24, '2016-07-10 20:43:50', '2016-07-10 20:43:50', '1/2/3/4/24/42', 2, 5, 4),
+(43, 3, 3, 24, '2016-07-10 20:44:25', '2016-07-10 20:44:25', '1/2/3/4/24/43', 3, 5, 3),
+(44, 3, 3, 40, '2016-07-10 20:46:22', '2016-07-10 20:46:22', '1/2/3/4/24/40/44', 1, 6, 0),
+(45, 3, 3, 40, '2016-07-10 20:47:10', '2016-07-10 20:47:10', '1/2/3/4/24/40/45', 2, 6, 0),
+(46, 3, 3, 40, '2016-07-10 20:47:29', '2016-07-10 20:47:29', '1/2/3/4/24/40/46', 3, 6, 0),
+(47, 3, 3, 40, '2016-07-10 20:47:42', '2016-07-10 20:47:42', '1/2/3/4/24/40/47', 4, 6, 0),
+(48, 3, 3, 40, '2016-07-10 20:47:57', '2016-07-10 20:47:57', '1/2/3/4/24/40/48', 5, 6, 0),
+(49, 3, 3, 42, '2016-07-10 20:50:42', '2016-07-10 20:50:42', '1/2/3/4/24/42/49', 1, 6, 0),
+(50, 3, 3, 42, '2016-07-10 20:51:11', '2016-07-10 20:51:11', '1/2/3/4/24/42/50', 2, 6, 0),
+(51, 3, 3, 42, '2016-07-10 20:51:26', '2016-07-10 20:52:45', '1/2/3/4/24/42/51', 3, 6, 0),
+(52, 3, 3, 42, '2016-07-10 20:52:58', '2016-07-10 20:52:58', '1/2/3/4/24/42/52', 4, 6, 0),
+(53, 3, 3, 43, '2016-07-10 20:54:43', '2016-07-10 20:54:43', '1/2/3/4/24/43/53', 1, 6, 0),
+(54, 3, 3, 43, '2016-07-10 20:55:14', '2016-07-10 20:55:14', '1/2/3/4/24/43/54', 2, 6, 0),
+(55, 3, 3, 43, '2016-07-10 20:55:27', '2016-07-10 20:55:27', '1/2/3/4/24/43/55', 3, 6, 0),
+(56, 3, 3, 5, '2016-07-10 20:57:05', '2016-07-10 20:57:05', '1/2/3/5/56', 1, 4, 0),
+(57, 3, 3, 5, '2016-07-10 20:58:20', '2016-07-10 20:58:20', '1/2/3/5/57', 2, 4, 0),
+(58, 3, 3, 5, '2016-07-10 20:58:53', '2016-07-10 20:58:53', '1/2/3/5/58', 3, 4, 0),
+(59, 3, 3, 5, '2016-07-10 20:59:08', '2016-07-10 20:59:08', '1/2/3/5/59', 4, 4, 0),
+(60, 3, 3, 6, '2016-07-10 20:59:43', '2016-07-10 20:59:43', '1/2/3/6/60', 1, 4, 0),
+(61, 3, 3, 6, '2016-07-10 21:00:03', '2016-07-10 21:00:03', '1/2/3/6/61', 2, 4, 0),
+(62, 3, 3, 6, '2016-07-10 21:00:25', '2016-07-10 21:00:25', '1/2/3/6/62', 3, 4, 0),
+(63, 3, 3, 7, '2016-07-10 21:01:16', '2016-07-10 21:01:16', '1/2/3/7/63', 1, 4, 0),
+(64, 3, 3, 7, '2016-07-10 21:01:32', '2016-07-10 21:01:44', '1/2/3/7/64', 2, 4, 0),
+(65, 3, 3, 7, '2016-07-10 21:02:19', '2016-07-10 21:02:19', '1/2/3/7/65', 3, 4, 0),
+(66, 3, 3, 7, '2016-07-10 21:02:48', '2016-07-10 21:02:48', '1/2/3/7/66', 4, 4, 0),
+(67, 3, 3, 8, '2016-07-10 21:03:06', '2016-07-10 21:03:06', '1/2/3/8/67', 1, 4, 0),
+(68, 3, 3, 8, '2016-07-10 21:03:16', '2016-07-10 21:03:26', '1/2/3/8/68', 2, 4, 0),
+(69, 3, 3, 8, '2016-07-10 21:03:41', '2016-07-10 21:03:41', '1/2/3/8/69', 3, 4, 0),
+(70, 3, 3, 8, '2016-07-10 21:04:05', '2016-07-10 21:04:05', '1/2/3/8/70', 4, 4, 0);
 
 -- --------------------------------------------------------
 
@@ -715,6 +826,146 @@ CREATE TABLE `catalog_category_entity_datetime` (
   `value` datetime DEFAULT NULL COMMENT 'Value'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Category Datetime Attribute Backend Table';
 
+--
+-- Dumping data for table `catalog_category_entity_datetime`
+--
+
+INSERT INTO `catalog_category_entity_datetime` (`value_id`, `entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`) VALUES
+(1, 3, 59, 0, 3, NULL),
+(2, 3, 60, 0, 3, NULL),
+(3, 3, 59, 0, 4, NULL),
+(4, 3, 60, 0, 4, NULL),
+(5, 3, 59, 0, 5, NULL),
+(6, 3, 60, 0, 5, NULL),
+(9, 3, 59, 0, 6, NULL),
+(10, 3, 60, 0, 6, NULL),
+(11, 3, 59, 0, 7, NULL),
+(12, 3, 60, 0, 7, NULL),
+(13, 3, 59, 0, 8, NULL),
+(14, 3, 60, 0, 8, NULL),
+(15, 3, 59, 0, 9, NULL),
+(16, 3, 60, 0, 9, NULL),
+(17, 3, 59, 0, 10, NULL),
+(18, 3, 60, 0, 10, NULL),
+(19, 3, 59, 0, 11, NULL),
+(20, 3, 60, 0, 11, NULL),
+(21, 3, 59, 0, 12, NULL),
+(22, 3, 60, 0, 12, NULL),
+(23, 3, 59, 0, 13, NULL),
+(24, 3, 60, 0, 13, NULL),
+(25, 3, 59, 0, 14, NULL),
+(26, 3, 60, 0, 14, NULL),
+(27, 3, 59, 0, 15, NULL),
+(28, 3, 60, 0, 15, NULL),
+(31, 3, 59, 0, 16, NULL),
+(32, 3, 60, 0, 16, NULL),
+(33, 3, 59, 0, 17, NULL),
+(34, 3, 60, 0, 17, NULL),
+(35, 3, 59, 0, 18, NULL),
+(36, 3, 60, 0, 18, NULL),
+(37, 3, 59, 0, 19, NULL),
+(38, 3, 60, 0, 19, NULL),
+(39, 3, 59, 0, 20, NULL),
+(40, 3, 60, 0, 20, NULL),
+(41, 3, 59, 0, 21, NULL),
+(42, 3, 60, 0, 21, NULL),
+(45, 3, 59, 0, 22, NULL),
+(46, 3, 60, 0, 22, NULL),
+(47, 3, 59, 0, 23, NULL),
+(48, 3, 60, 0, 23, NULL),
+(49, 3, 59, 0, 24, NULL),
+(50, 3, 60, 0, 24, NULL),
+(51, 3, 59, 0, 25, NULL),
+(52, 3, 60, 0, 25, NULL),
+(53, 3, 59, 0, 26, NULL),
+(54, 3, 60, 0, 26, NULL),
+(55, 3, 59, 0, 27, NULL),
+(56, 3, 60, 0, 27, NULL),
+(57, 3, 59, 0, 28, NULL),
+(58, 3, 60, 0, 28, NULL),
+(59, 3, 59, 0, 29, NULL),
+(60, 3, 60, 0, 29, NULL),
+(61, 3, 59, 0, 30, NULL),
+(62, 3, 60, 0, 30, NULL),
+(63, 3, 59, 0, 31, NULL),
+(64, 3, 60, 0, 31, NULL),
+(65, 3, 59, 0, 32, NULL),
+(66, 3, 60, 0, 32, NULL),
+(67, 3, 59, 0, 33, NULL),
+(68, 3, 60, 0, 33, NULL),
+(69, 3, 59, 0, 34, NULL),
+(70, 3, 60, 0, 34, NULL),
+(71, 3, 59, 0, 35, NULL),
+(72, 3, 60, 0, 35, NULL),
+(73, 3, 59, 0, 36, NULL),
+(74, 3, 60, 0, 36, NULL),
+(79, 3, 59, 0, 37, NULL),
+(80, 3, 60, 0, 37, NULL),
+(81, 3, 59, 0, 38, NULL),
+(82, 3, 60, 0, 38, NULL),
+(83, 3, 59, 0, 39, NULL),
+(84, 3, 60, 0, 39, NULL),
+(85, 3, 59, 0, 40, NULL),
+(86, 3, 60, 0, 40, NULL),
+(89, 3, 59, 0, 42, NULL),
+(90, 3, 60, 0, 42, NULL),
+(93, 3, 59, 0, 43, NULL),
+(94, 3, 60, 0, 43, NULL),
+(95, 3, 59, 0, 44, NULL),
+(96, 3, 60, 0, 44, NULL),
+(97, 3, 59, 0, 45, NULL),
+(98, 3, 60, 0, 45, NULL),
+(99, 3, 59, 0, 46, NULL),
+(100, 3, 60, 0, 46, NULL),
+(101, 3, 59, 0, 47, NULL),
+(102, 3, 60, 0, 47, NULL),
+(103, 3, 59, 0, 48, NULL),
+(104, 3, 60, 0, 48, NULL),
+(105, 3, 59, 0, 49, NULL),
+(106, 3, 60, 0, 49, NULL),
+(107, 3, 59, 0, 50, NULL),
+(108, 3, 60, 0, 50, NULL),
+(109, 3, 59, 0, 51, NULL),
+(110, 3, 60, 0, 51, NULL),
+(113, 3, 59, 0, 52, NULL),
+(114, 3, 60, 0, 52, NULL),
+(115, 3, 59, 0, 53, NULL),
+(116, 3, 60, 0, 53, NULL),
+(117, 3, 59, 0, 54, NULL),
+(118, 3, 60, 0, 54, NULL),
+(119, 3, 59, 0, 55, NULL),
+(120, 3, 60, 0, 55, NULL),
+(121, 3, 59, 0, 56, NULL),
+(122, 3, 60, 0, 56, NULL),
+(123, 3, 59, 0, 57, NULL),
+(124, 3, 60, 0, 57, NULL),
+(125, 3, 59, 0, 58, NULL),
+(126, 3, 60, 0, 58, NULL),
+(127, 3, 59, 0, 59, NULL),
+(128, 3, 60, 0, 59, NULL),
+(129, 3, 59, 0, 60, NULL),
+(130, 3, 60, 0, 60, NULL),
+(131, 3, 59, 0, 61, NULL),
+(132, 3, 60, 0, 61, NULL),
+(133, 3, 59, 0, 62, NULL),
+(134, 3, 60, 0, 62, NULL),
+(135, 3, 59, 0, 63, NULL),
+(136, 3, 60, 0, 63, NULL),
+(137, 3, 59, 0, 64, NULL),
+(138, 3, 60, 0, 64, NULL),
+(141, 3, 59, 0, 65, NULL),
+(142, 3, 60, 0, 65, NULL),
+(145, 3, 59, 0, 66, NULL),
+(146, 3, 60, 0, 66, NULL),
+(147, 3, 59, 0, 67, NULL),
+(148, 3, 60, 0, 67, NULL),
+(149, 3, 59, 0, 68, NULL),
+(150, 3, 60, 0, 68, NULL),
+(153, 3, 59, 0, 69, NULL),
+(154, 3, 60, 0, 69, NULL),
+(155, 3, 59, 0, 70, NULL),
+(156, 3, 60, 0, 70, NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -729,6 +980,79 @@ CREATE TABLE `catalog_category_entity_decimal` (
   `entity_id` int(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT 'Entity ID',
   `value` decimal(12,4) DEFAULT NULL COMMENT 'Value'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Category Decimal Attribute Backend Table';
+
+--
+-- Dumping data for table `catalog_category_entity_decimal`
+--
+
+INSERT INTO `catalog_category_entity_decimal` (`value_id`, `entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`) VALUES
+(1, 3, 70, 0, 3, NULL),
+(2, 3, 70, 0, 4, NULL),
+(3, 3, 70, 0, 5, NULL),
+(4, 3, 70, 0, 6, NULL),
+(5, 3, 70, 0, 7, NULL),
+(6, 3, 70, 0, 8, NULL),
+(7, 3, 70, 0, 9, NULL),
+(8, 3, 70, 0, 10, NULL),
+(9, 3, 70, 0, 11, NULL),
+(10, 3, 70, 0, 12, NULL),
+(11, 3, 70, 0, 13, NULL),
+(12, 3, 70, 0, 14, NULL),
+(13, 3, 70, 0, 15, NULL),
+(14, 3, 70, 0, 16, NULL),
+(15, 3, 70, 0, 17, NULL),
+(16, 3, 70, 0, 18, NULL),
+(17, 3, 70, 0, 19, NULL),
+(18, 3, 70, 0, 20, NULL),
+(19, 3, 70, 0, 21, NULL),
+(20, 3, 70, 0, 22, NULL),
+(21, 3, 70, 0, 23, NULL),
+(22, 3, 70, 0, 24, NULL),
+(23, 3, 70, 0, 25, NULL),
+(24, 3, 70, 0, 26, NULL),
+(25, 3, 70, 0, 27, NULL),
+(26, 3, 70, 0, 28, NULL),
+(27, 3, 70, 0, 29, NULL),
+(28, 3, 70, 0, 30, NULL),
+(29, 3, 70, 0, 31, NULL),
+(30, 3, 70, 0, 32, NULL),
+(31, 3, 70, 0, 33, NULL),
+(32, 3, 70, 0, 34, NULL),
+(33, 3, 70, 0, 35, NULL),
+(34, 3, 70, 0, 36, NULL),
+(35, 3, 70, 0, 37, NULL),
+(36, 3, 70, 0, 38, NULL),
+(37, 3, 70, 0, 39, NULL),
+(38, 3, 70, 0, 40, NULL),
+(40, 3, 70, 0, 42, NULL),
+(41, 3, 70, 0, 43, NULL),
+(42, 3, 70, 0, 44, NULL),
+(43, 3, 70, 0, 45, NULL),
+(44, 3, 70, 0, 46, NULL),
+(45, 3, 70, 0, 47, NULL),
+(46, 3, 70, 0, 48, NULL),
+(47, 3, 70, 0, 49, NULL),
+(48, 3, 70, 0, 50, NULL),
+(49, 3, 70, 0, 51, NULL),
+(50, 3, 70, 0, 52, NULL),
+(51, 3, 70, 0, 53, NULL),
+(52, 3, 70, 0, 54, NULL),
+(53, 3, 70, 0, 55, NULL),
+(54, 3, 70, 0, 56, NULL),
+(55, 3, 70, 0, 57, NULL),
+(56, 3, 70, 0, 58, NULL),
+(57, 3, 70, 0, 59, NULL),
+(58, 3, 70, 0, 60, NULL),
+(59, 3, 70, 0, 61, NULL),
+(60, 3, 70, 0, 62, NULL),
+(61, 3, 70, 0, 63, NULL),
+(62, 3, 70, 0, 64, NULL),
+(63, 3, 70, 0, 65, NULL),
+(64, 3, 70, 0, 66, NULL),
+(65, 3, 70, 0, 67, NULL),
+(66, 3, 70, 0, 68, NULL),
+(67, 3, 70, 0, 69, NULL),
+(68, 3, 70, 0, 70, NULL);
 
 -- --------------------------------------------------------
 
@@ -755,7 +1079,409 @@ INSERT INTO `catalog_category_entity_int` (`value_id`, `entity_type_id`, `attrib
 (3, 3, 42, 0, 2, 1),
 (4, 3, 67, 0, 2, 1),
 (5, 3, 42, 1, 2, 1),
-(6, 3, 67, 1, 2, 1);
+(6, 3, 67, 1, 2, 1),
+(7, 3, 42, 0, 3, 1),
+(8, 3, 67, 0, 3, 1),
+(9, 3, 50, 0, 3, NULL),
+(10, 3, 51, 0, 3, 0),
+(11, 3, 68, 0, 3, 0),
+(12, 3, 69, 0, 3, 0),
+(13, 3, 42, 0, 4, 1),
+(14, 3, 67, 0, 4, 1),
+(15, 3, 50, 0, 4, NULL),
+(16, 3, 51, 0, 4, 0),
+(17, 3, 68, 0, 4, 0),
+(18, 3, 69, 0, 4, 0),
+(19, 3, 42, 0, 5, 1),
+(20, 3, 67, 0, 5, 1),
+(21, 3, 50, 0, 5, NULL),
+(22, 3, 51, 0, 5, 0),
+(23, 3, 68, 0, 5, 0),
+(24, 3, 69, 0, 5, 0),
+(26, 3, 42, 0, 6, 1),
+(27, 3, 67, 0, 6, 1),
+(28, 3, 50, 0, 6, NULL),
+(29, 3, 51, 0, 6, 0),
+(30, 3, 68, 0, 6, 0),
+(31, 3, 69, 0, 6, 0),
+(32, 3, 42, 0, 7, 1),
+(33, 3, 67, 0, 7, 1),
+(34, 3, 50, 0, 7, NULL),
+(35, 3, 51, 0, 7, 0),
+(36, 3, 68, 0, 7, 0),
+(37, 3, 69, 0, 7, 0),
+(38, 3, 42, 0, 8, 1),
+(39, 3, 67, 0, 8, 1),
+(40, 3, 50, 0, 8, NULL),
+(41, 3, 51, 0, 8, 0),
+(42, 3, 68, 0, 8, 0),
+(43, 3, 69, 0, 8, 0),
+(44, 3, 42, 0, 9, 1),
+(45, 3, 67, 0, 9, 1),
+(46, 3, 50, 0, 9, NULL),
+(47, 3, 51, 0, 9, 0),
+(48, 3, 68, 0, 9, 0),
+(49, 3, 69, 0, 9, 0),
+(50, 3, 42, 0, 10, 1),
+(51, 3, 67, 0, 10, 1),
+(52, 3, 50, 0, 10, NULL),
+(53, 3, 51, 0, 10, 0),
+(54, 3, 68, 0, 10, 0),
+(55, 3, 69, 0, 10, 0),
+(56, 3, 42, 0, 11, 1),
+(57, 3, 67, 0, 11, 1),
+(58, 3, 50, 0, 11, NULL),
+(59, 3, 51, 0, 11, 0),
+(60, 3, 68, 0, 11, 0),
+(61, 3, 69, 0, 11, 0),
+(62, 3, 42, 0, 12, 1),
+(63, 3, 67, 0, 12, 1),
+(64, 3, 50, 0, 12, NULL),
+(65, 3, 51, 0, 12, 0),
+(66, 3, 68, 0, 12, 0),
+(67, 3, 69, 0, 12, 0),
+(68, 3, 42, 0, 13, 1),
+(69, 3, 67, 0, 13, 1),
+(70, 3, 50, 0, 13, NULL),
+(71, 3, 51, 0, 13, 0),
+(72, 3, 68, 0, 13, 0),
+(73, 3, 69, 0, 13, 0),
+(74, 3, 42, 0, 14, 1),
+(75, 3, 67, 0, 14, 1),
+(76, 3, 50, 0, 14, NULL),
+(77, 3, 51, 0, 14, 0),
+(78, 3, 68, 0, 14, 0),
+(79, 3, 69, 0, 14, 0),
+(80, 3, 42, 0, 15, 1),
+(81, 3, 67, 0, 15, 1),
+(82, 3, 50, 0, 15, NULL),
+(83, 3, 51, 0, 15, 0),
+(84, 3, 68, 0, 15, 0),
+(85, 3, 69, 0, 15, 0),
+(87, 3, 42, 0, 16, 1),
+(88, 3, 67, 0, 16, 1),
+(89, 3, 50, 0, 16, NULL),
+(90, 3, 51, 0, 16, 0),
+(91, 3, 68, 0, 16, 0),
+(92, 3, 69, 0, 16, 0),
+(93, 3, 42, 0, 17, 1),
+(94, 3, 67, 0, 17, 1),
+(95, 3, 50, 0, 17, NULL),
+(96, 3, 51, 0, 17, 0),
+(97, 3, 68, 0, 17, 0),
+(98, 3, 69, 0, 17, 0),
+(99, 3, 42, 0, 18, 1),
+(100, 3, 67, 0, 18, 1),
+(101, 3, 50, 0, 18, NULL),
+(102, 3, 51, 0, 18, 0),
+(103, 3, 68, 0, 18, 0),
+(104, 3, 69, 0, 18, 0),
+(105, 3, 42, 0, 19, 1),
+(106, 3, 67, 0, 19, 1),
+(107, 3, 50, 0, 19, NULL),
+(108, 3, 51, 0, 19, 0),
+(109, 3, 68, 0, 19, 0),
+(110, 3, 69, 0, 19, 0),
+(111, 3, 42, 0, 20, 1),
+(112, 3, 67, 0, 20, 1),
+(113, 3, 50, 0, 20, NULL),
+(114, 3, 51, 0, 20, 0),
+(115, 3, 68, 0, 20, 0),
+(116, 3, 69, 0, 20, 0),
+(117, 3, 42, 0, 21, 1),
+(118, 3, 67, 0, 21, 1),
+(119, 3, 50, 0, 21, NULL),
+(120, 3, 51, 0, 21, 0),
+(121, 3, 68, 0, 21, 0),
+(122, 3, 69, 0, 21, 0),
+(125, 3, 42, 0, 22, 1),
+(126, 3, 67, 0, 22, 1),
+(127, 3, 50, 0, 22, NULL),
+(128, 3, 51, 0, 22, 0),
+(129, 3, 68, 0, 22, 0),
+(130, 3, 69, 0, 22, 0),
+(131, 3, 42, 0, 23, 1),
+(132, 3, 67, 0, 23, 1),
+(133, 3, 50, 0, 23, NULL),
+(134, 3, 51, 0, 23, 0),
+(135, 3, 68, 0, 23, 0),
+(136, 3, 69, 0, 23, 0),
+(137, 3, 42, 0, 24, 1),
+(138, 3, 67, 0, 24, 1),
+(139, 3, 50, 0, 24, NULL),
+(140, 3, 51, 0, 24, 0),
+(141, 3, 68, 0, 24, 0),
+(142, 3, 69, 0, 24, 0),
+(143, 3, 42, 0, 25, 1),
+(144, 3, 67, 0, 25, 1),
+(145, 3, 50, 0, 25, NULL),
+(146, 3, 51, 0, 25, 0),
+(147, 3, 68, 0, 25, 0),
+(148, 3, 69, 0, 25, 0),
+(149, 3, 42, 0, 26, 1),
+(150, 3, 67, 0, 26, 1),
+(151, 3, 50, 0, 26, NULL),
+(152, 3, 51, 0, 26, 0),
+(153, 3, 68, 0, 26, 0),
+(154, 3, 69, 0, 26, 0),
+(155, 3, 42, 0, 27, 1),
+(156, 3, 67, 0, 27, 1),
+(157, 3, 50, 0, 27, NULL),
+(158, 3, 51, 0, 27, 0),
+(159, 3, 68, 0, 27, 0),
+(160, 3, 69, 0, 27, 0),
+(161, 3, 42, 0, 28, 1),
+(162, 3, 67, 0, 28, 1),
+(163, 3, 50, 0, 28, NULL),
+(164, 3, 51, 0, 28, 0),
+(165, 3, 68, 0, 28, 0),
+(166, 3, 69, 0, 28, 0),
+(167, 3, 42, 0, 29, 1),
+(168, 3, 67, 0, 29, 1),
+(169, 3, 50, 0, 29, NULL),
+(170, 3, 51, 0, 29, 0),
+(171, 3, 68, 0, 29, 0),
+(172, 3, 69, 0, 29, 0),
+(173, 3, 42, 0, 30, 1),
+(174, 3, 67, 0, 30, 1),
+(175, 3, 50, 0, 30, NULL),
+(176, 3, 51, 0, 30, 0),
+(177, 3, 68, 0, 30, 0),
+(178, 3, 69, 0, 30, 0),
+(179, 3, 42, 0, 31, 1),
+(180, 3, 67, 0, 31, 1),
+(181, 3, 50, 0, 31, NULL),
+(182, 3, 51, 0, 31, 0),
+(183, 3, 68, 0, 31, 0),
+(184, 3, 69, 0, 31, 0),
+(185, 3, 42, 0, 32, 1),
+(186, 3, 67, 0, 32, 1),
+(187, 3, 50, 0, 32, NULL),
+(188, 3, 51, 0, 32, 0),
+(189, 3, 68, 0, 32, 0),
+(190, 3, 69, 0, 32, 0),
+(191, 3, 42, 0, 33, 1),
+(192, 3, 67, 0, 33, 1),
+(193, 3, 50, 0, 33, NULL),
+(194, 3, 51, 0, 33, 0),
+(195, 3, 68, 0, 33, 0),
+(196, 3, 69, 0, 33, 0),
+(197, 3, 42, 0, 34, 1),
+(198, 3, 67, 0, 34, 1),
+(199, 3, 50, 0, 34, NULL),
+(200, 3, 51, 0, 34, 0),
+(201, 3, 68, 0, 34, 0),
+(202, 3, 69, 0, 34, 0),
+(203, 3, 42, 0, 35, 1),
+(204, 3, 67, 0, 35, 1),
+(205, 3, 50, 0, 35, NULL),
+(206, 3, 51, 0, 35, 0),
+(207, 3, 68, 0, 35, 0),
+(208, 3, 69, 0, 35, 0),
+(209, 3, 42, 0, 36, 1),
+(210, 3, 67, 0, 36, 1),
+(211, 3, 50, 0, 36, NULL),
+(212, 3, 51, 0, 36, 0),
+(213, 3, 68, 0, 36, 0),
+(214, 3, 69, 0, 36, 0),
+(218, 3, 42, 0, 37, 1),
+(219, 3, 67, 0, 37, 1),
+(220, 3, 50, 0, 37, NULL),
+(221, 3, 51, 0, 37, 0),
+(222, 3, 68, 0, 37, 0),
+(223, 3, 69, 0, 37, 0),
+(224, 3, 42, 0, 38, 1),
+(225, 3, 67, 0, 38, 1),
+(226, 3, 50, 0, 38, NULL),
+(227, 3, 51, 0, 38, 0),
+(228, 3, 68, 0, 38, 0),
+(229, 3, 69, 0, 38, 0),
+(230, 3, 42, 0, 39, 1),
+(231, 3, 67, 0, 39, 1),
+(232, 3, 50, 0, 39, NULL),
+(233, 3, 51, 0, 39, 0),
+(234, 3, 68, 0, 39, 0),
+(235, 3, 69, 0, 39, 0),
+(236, 3, 42, 0, 40, 1),
+(237, 3, 67, 0, 40, 1),
+(238, 3, 50, 0, 40, NULL),
+(239, 3, 51, 0, 40, 0),
+(240, 3, 68, 0, 40, 0),
+(241, 3, 69, 0, 40, 0),
+(248, 3, 42, 0, 42, 1),
+(249, 3, 67, 0, 42, 1),
+(250, 3, 50, 0, 42, NULL),
+(251, 3, 51, 0, 42, 0),
+(252, 3, 68, 0, 42, 0),
+(253, 3, 69, 0, 42, 0),
+(255, 3, 42, 0, 43, 1),
+(256, 3, 67, 0, 43, 1),
+(257, 3, 50, 0, 43, NULL),
+(258, 3, 51, 0, 43, 0),
+(259, 3, 68, 0, 43, 0),
+(260, 3, 69, 0, 43, 0),
+(261, 3, 42, 0, 44, 1),
+(262, 3, 67, 0, 44, 1),
+(263, 3, 50, 0, 44, NULL),
+(264, 3, 51, 0, 44, 0),
+(265, 3, 68, 0, 44, 0),
+(266, 3, 69, 0, 44, 0),
+(267, 3, 42, 0, 45, 1),
+(268, 3, 67, 0, 45, 1),
+(269, 3, 50, 0, 45, NULL),
+(270, 3, 51, 0, 45, 0),
+(271, 3, 68, 0, 45, 0),
+(272, 3, 69, 0, 45, 0),
+(273, 3, 42, 0, 46, 1),
+(274, 3, 67, 0, 46, 1),
+(275, 3, 50, 0, 46, NULL),
+(276, 3, 51, 0, 46, 0),
+(277, 3, 68, 0, 46, 0),
+(278, 3, 69, 0, 46, 0),
+(279, 3, 42, 0, 47, 1),
+(280, 3, 67, 0, 47, 1),
+(281, 3, 50, 0, 47, NULL),
+(282, 3, 51, 0, 47, 0),
+(283, 3, 68, 0, 47, 0),
+(284, 3, 69, 0, 47, 0),
+(285, 3, 42, 0, 48, 1),
+(286, 3, 67, 0, 48, 1),
+(287, 3, 50, 0, 48, NULL),
+(288, 3, 51, 0, 48, 0),
+(289, 3, 68, 0, 48, 0),
+(290, 3, 69, 0, 48, 0),
+(291, 3, 42, 0, 49, 1),
+(292, 3, 67, 0, 49, 1),
+(293, 3, 50, 0, 49, NULL),
+(294, 3, 51, 0, 49, 0),
+(295, 3, 68, 0, 49, 0),
+(296, 3, 69, 0, 49, 0),
+(297, 3, 42, 0, 50, 1),
+(298, 3, 67, 0, 50, 1),
+(299, 3, 50, 0, 50, NULL),
+(300, 3, 51, 0, 50, 0),
+(301, 3, 68, 0, 50, 0),
+(302, 3, 69, 0, 50, 0),
+(303, 3, 42, 0, 51, 1),
+(304, 3, 67, 0, 51, 1),
+(305, 3, 50, 0, 51, NULL),
+(306, 3, 51, 0, 51, 0),
+(307, 3, 68, 0, 51, 0),
+(308, 3, 69, 0, 51, 0),
+(310, 3, 42, 0, 52, 1),
+(311, 3, 67, 0, 52, 1),
+(312, 3, 50, 0, 52, NULL),
+(313, 3, 51, 0, 52, 0),
+(314, 3, 68, 0, 52, 0),
+(315, 3, 69, 0, 52, 0),
+(316, 3, 42, 0, 53, 1),
+(317, 3, 67, 0, 53, 1),
+(318, 3, 50, 0, 53, NULL),
+(319, 3, 51, 0, 53, 0),
+(320, 3, 68, 0, 53, 0),
+(321, 3, 69, 0, 53, 0),
+(322, 3, 42, 0, 54, 1),
+(323, 3, 67, 0, 54, 1),
+(324, 3, 50, 0, 54, NULL),
+(325, 3, 51, 0, 54, 0),
+(326, 3, 68, 0, 54, 0),
+(327, 3, 69, 0, 54, 0),
+(328, 3, 42, 0, 55, 1),
+(329, 3, 67, 0, 55, 1),
+(330, 3, 50, 0, 55, NULL),
+(331, 3, 51, 0, 55, 0),
+(332, 3, 68, 0, 55, 0),
+(333, 3, 69, 0, 55, 0),
+(334, 3, 42, 0, 56, 1),
+(335, 3, 67, 0, 56, 1),
+(336, 3, 50, 0, 56, NULL),
+(337, 3, 51, 0, 56, 0),
+(338, 3, 68, 0, 56, 0),
+(339, 3, 69, 0, 56, 0),
+(340, 3, 42, 0, 57, 1),
+(341, 3, 67, 0, 57, 1),
+(342, 3, 50, 0, 57, NULL),
+(343, 3, 51, 0, 57, 0),
+(344, 3, 68, 0, 57, 0),
+(345, 3, 69, 0, 57, 0),
+(346, 3, 42, 0, 58, 1),
+(347, 3, 67, 0, 58, 1),
+(348, 3, 50, 0, 58, NULL),
+(349, 3, 51, 0, 58, 0),
+(350, 3, 68, 0, 58, 0),
+(351, 3, 69, 0, 58, 0),
+(352, 3, 42, 0, 59, 1),
+(353, 3, 67, 0, 59, 1),
+(354, 3, 50, 0, 59, NULL),
+(355, 3, 51, 0, 59, 0),
+(356, 3, 68, 0, 59, 0),
+(357, 3, 69, 0, 59, 0),
+(358, 3, 42, 0, 60, 1),
+(359, 3, 67, 0, 60, 1),
+(360, 3, 50, 0, 60, NULL),
+(361, 3, 51, 0, 60, 0),
+(362, 3, 68, 0, 60, 0),
+(363, 3, 69, 0, 60, 0),
+(364, 3, 42, 0, 61, 1),
+(365, 3, 67, 0, 61, 1),
+(366, 3, 50, 0, 61, NULL),
+(367, 3, 51, 0, 61, 0),
+(368, 3, 68, 0, 61, 0),
+(369, 3, 69, 0, 61, 0),
+(370, 3, 42, 0, 62, 1),
+(371, 3, 67, 0, 62, 1),
+(372, 3, 50, 0, 62, NULL),
+(373, 3, 51, 0, 62, 0),
+(374, 3, 68, 0, 62, 0),
+(375, 3, 69, 0, 62, 0),
+(376, 3, 42, 0, 63, 1),
+(377, 3, 67, 0, 63, 1),
+(378, 3, 50, 0, 63, NULL),
+(379, 3, 51, 0, 63, 0),
+(380, 3, 68, 0, 63, 0),
+(381, 3, 69, 0, 63, 0),
+(382, 3, 42, 0, 64, 1),
+(383, 3, 67, 0, 64, 1),
+(384, 3, 50, 0, 64, NULL),
+(385, 3, 51, 0, 64, 0),
+(386, 3, 68, 0, 64, 0),
+(387, 3, 69, 0, 64, 0),
+(390, 3, 42, 0, 65, 1),
+(391, 3, 67, 0, 65, 1),
+(392, 3, 50, 0, 65, NULL),
+(393, 3, 51, 0, 65, 0),
+(394, 3, 68, 0, 65, 0),
+(395, 3, 69, 0, 65, 0),
+(397, 3, 42, 0, 66, 1),
+(398, 3, 67, 0, 66, 1),
+(399, 3, 50, 0, 66, NULL),
+(400, 3, 51, 0, 66, 0),
+(401, 3, 68, 0, 66, 0),
+(402, 3, 69, 0, 66, 0),
+(403, 3, 42, 0, 67, 1),
+(404, 3, 67, 0, 67, 1),
+(405, 3, 50, 0, 67, NULL),
+(406, 3, 51, 0, 67, 0),
+(407, 3, 68, 0, 67, 0),
+(408, 3, 69, 0, 67, 0),
+(409, 3, 42, 0, 68, 1),
+(410, 3, 67, 0, 68, 1),
+(411, 3, 50, 0, 68, NULL),
+(412, 3, 51, 0, 68, 0),
+(413, 3, 68, 0, 68, 0),
+(414, 3, 69, 0, 68, 0),
+(416, 3, 42, 0, 69, 1),
+(417, 3, 67, 0, 69, 1),
+(418, 3, 50, 0, 69, NULL),
+(419, 3, 51, 0, 69, 0),
+(420, 3, 68, 0, 69, 0),
+(421, 3, 69, 0, 69, 0),
+(422, 3, 42, 0, 70, 1),
+(423, 3, 67, 0, 70, 1),
+(424, 3, 50, 0, 70, NULL),
+(425, 3, 51, 0, 70, 0),
+(426, 3, 68, 0, 70, 0),
+(427, 3, 69, 0, 70, 0);
 
 -- --------------------------------------------------------
 
@@ -780,7 +1506,342 @@ INSERT INTO `catalog_category_entity_text` (`value_id`, `entity_type_id`, `attri
 (1, 3, 65, 0, 1, NULL),
 (2, 3, 65, 1, 1, NULL),
 (3, 3, 65, 0, 2, NULL),
-(4, 3, 65, 1, 2, NULL);
+(4, 3, 65, 1, 2, NULL),
+(5, 3, 44, 0, 3, NULL),
+(6, 3, 47, 0, 3, NULL),
+(7, 3, 48, 0, 3, NULL),
+(8, 3, 62, 0, 3, NULL),
+(9, 3, 65, 0, 3, NULL),
+(10, 3, 44, 0, 4, NULL),
+(11, 3, 47, 0, 4, NULL),
+(12, 3, 48, 0, 4, NULL),
+(13, 3, 62, 0, 4, NULL),
+(14, 3, 65, 0, 4, NULL),
+(15, 3, 44, 0, 5, NULL),
+(16, 3, 47, 0, 5, NULL),
+(17, 3, 48, 0, 5, NULL),
+(18, 3, 62, 0, 5, NULL),
+(19, 3, 65, 0, 5, NULL),
+(25, 3, 44, 0, 6, NULL),
+(26, 3, 47, 0, 6, NULL),
+(27, 3, 48, 0, 6, NULL),
+(28, 3, 62, 0, 6, NULL),
+(29, 3, 65, 0, 6, NULL),
+(30, 3, 44, 0, 7, NULL),
+(31, 3, 47, 0, 7, NULL),
+(32, 3, 48, 0, 7, NULL),
+(33, 3, 62, 0, 7, NULL),
+(34, 3, 65, 0, 7, NULL),
+(35, 3, 44, 0, 8, NULL),
+(36, 3, 47, 0, 8, NULL),
+(37, 3, 48, 0, 8, NULL),
+(38, 3, 62, 0, 8, NULL),
+(39, 3, 65, 0, 8, NULL),
+(40, 3, 44, 0, 9, NULL),
+(41, 3, 47, 0, 9, NULL),
+(42, 3, 48, 0, 9, NULL),
+(43, 3, 62, 0, 9, NULL),
+(44, 3, 65, 0, 9, NULL),
+(45, 3, 44, 0, 10, NULL),
+(46, 3, 47, 0, 10, NULL),
+(47, 3, 48, 0, 10, NULL),
+(48, 3, 62, 0, 10, NULL),
+(49, 3, 65, 0, 10, NULL),
+(50, 3, 44, 0, 11, NULL),
+(51, 3, 47, 0, 11, NULL),
+(52, 3, 48, 0, 11, NULL),
+(53, 3, 62, 0, 11, NULL),
+(54, 3, 65, 0, 11, NULL),
+(55, 3, 44, 0, 12, NULL),
+(56, 3, 47, 0, 12, NULL),
+(57, 3, 48, 0, 12, NULL),
+(58, 3, 62, 0, 12, NULL),
+(59, 3, 65, 0, 12, NULL),
+(60, 3, 44, 0, 13, NULL),
+(61, 3, 47, 0, 13, NULL),
+(62, 3, 48, 0, 13, NULL),
+(63, 3, 62, 0, 13, NULL),
+(64, 3, 65, 0, 13, NULL),
+(65, 3, 44, 0, 14, NULL),
+(66, 3, 47, 0, 14, NULL),
+(67, 3, 48, 0, 14, NULL),
+(68, 3, 62, 0, 14, NULL),
+(69, 3, 65, 0, 14, NULL),
+(70, 3, 44, 0, 15, NULL),
+(71, 3, 47, 0, 15, NULL),
+(72, 3, 48, 0, 15, NULL),
+(73, 3, 62, 0, 15, NULL),
+(74, 3, 65, 0, 15, NULL),
+(80, 3, 44, 0, 16, NULL),
+(81, 3, 47, 0, 16, NULL),
+(82, 3, 48, 0, 16, NULL),
+(83, 3, 62, 0, 16, NULL),
+(84, 3, 65, 0, 16, NULL),
+(85, 3, 44, 0, 17, NULL),
+(86, 3, 47, 0, 17, NULL),
+(87, 3, 48, 0, 17, NULL),
+(88, 3, 62, 0, 17, NULL),
+(89, 3, 65, 0, 17, NULL),
+(90, 3, 44, 0, 18, NULL),
+(91, 3, 47, 0, 18, NULL),
+(92, 3, 48, 0, 18, NULL),
+(93, 3, 62, 0, 18, NULL),
+(94, 3, 65, 0, 18, NULL),
+(95, 3, 44, 0, 19, NULL),
+(96, 3, 47, 0, 19, NULL),
+(97, 3, 48, 0, 19, NULL),
+(98, 3, 62, 0, 19, NULL),
+(99, 3, 65, 0, 19, NULL),
+(100, 3, 44, 0, 20, NULL),
+(101, 3, 47, 0, 20, NULL),
+(102, 3, 48, 0, 20, NULL),
+(103, 3, 62, 0, 20, NULL),
+(104, 3, 65, 0, 20, NULL),
+(105, 3, 44, 0, 21, NULL),
+(106, 3, 47, 0, 21, NULL),
+(107, 3, 48, 0, 21, NULL),
+(108, 3, 62, 0, 21, NULL),
+(109, 3, 65, 0, 21, NULL),
+(115, 3, 44, 0, 22, NULL),
+(116, 3, 47, 0, 22, NULL),
+(117, 3, 48, 0, 22, NULL),
+(118, 3, 62, 0, 22, NULL),
+(119, 3, 65, 0, 22, NULL),
+(120, 3, 44, 0, 23, NULL),
+(121, 3, 47, 0, 23, NULL),
+(122, 3, 48, 0, 23, NULL),
+(123, 3, 62, 0, 23, NULL),
+(124, 3, 65, 0, 23, NULL),
+(125, 3, 44, 0, 24, NULL),
+(126, 3, 47, 0, 24, NULL),
+(127, 3, 48, 0, 24, NULL),
+(128, 3, 62, 0, 24, NULL),
+(129, 3, 65, 0, 24, NULL),
+(130, 3, 44, 0, 25, NULL),
+(131, 3, 47, 0, 25, NULL),
+(132, 3, 48, 0, 25, NULL),
+(133, 3, 62, 0, 25, NULL),
+(134, 3, 65, 0, 25, NULL),
+(135, 3, 44, 0, 26, NULL),
+(136, 3, 47, 0, 26, NULL),
+(137, 3, 48, 0, 26, NULL),
+(138, 3, 62, 0, 26, NULL),
+(139, 3, 65, 0, 26, NULL),
+(140, 3, 44, 0, 27, NULL),
+(141, 3, 47, 0, 27, NULL),
+(142, 3, 48, 0, 27, NULL),
+(143, 3, 62, 0, 27, NULL),
+(144, 3, 65, 0, 27, NULL),
+(145, 3, 44, 0, 28, NULL),
+(146, 3, 47, 0, 28, NULL),
+(147, 3, 48, 0, 28, NULL),
+(148, 3, 62, 0, 28, NULL),
+(149, 3, 65, 0, 28, NULL),
+(150, 3, 44, 0, 29, NULL),
+(151, 3, 47, 0, 29, NULL),
+(152, 3, 48, 0, 29, NULL),
+(153, 3, 62, 0, 29, NULL),
+(154, 3, 65, 0, 29, NULL),
+(155, 3, 44, 0, 30, NULL),
+(156, 3, 47, 0, 30, NULL),
+(157, 3, 48, 0, 30, NULL),
+(158, 3, 62, 0, 30, NULL),
+(159, 3, 65, 0, 30, NULL),
+(160, 3, 44, 0, 31, NULL),
+(161, 3, 47, 0, 31, NULL),
+(162, 3, 48, 0, 31, NULL),
+(163, 3, 62, 0, 31, NULL),
+(164, 3, 65, 0, 31, NULL),
+(165, 3, 44, 0, 32, NULL),
+(166, 3, 47, 0, 32, NULL),
+(167, 3, 48, 0, 32, NULL),
+(168, 3, 62, 0, 32, NULL),
+(169, 3, 65, 0, 32, NULL),
+(170, 3, 44, 0, 33, NULL),
+(171, 3, 47, 0, 33, NULL),
+(172, 3, 48, 0, 33, NULL),
+(173, 3, 62, 0, 33, NULL),
+(174, 3, 65, 0, 33, NULL),
+(175, 3, 44, 0, 34, NULL),
+(176, 3, 47, 0, 34, NULL),
+(177, 3, 48, 0, 34, NULL),
+(178, 3, 62, 0, 34, NULL),
+(179, 3, 65, 0, 34, NULL),
+(180, 3, 44, 0, 35, NULL),
+(181, 3, 47, 0, 35, NULL),
+(182, 3, 48, 0, 35, NULL),
+(183, 3, 62, 0, 35, NULL),
+(184, 3, 65, 0, 35, NULL),
+(185, 3, 44, 0, 36, NULL),
+(186, 3, 47, 0, 36, NULL),
+(187, 3, 48, 0, 36, NULL),
+(188, 3, 62, 0, 36, NULL),
+(189, 3, 65, 0, 36, NULL),
+(200, 3, 44, 0, 37, NULL),
+(201, 3, 47, 0, 37, NULL),
+(202, 3, 48, 0, 37, NULL),
+(203, 3, 62, 0, 37, NULL),
+(204, 3, 65, 0, 37, NULL),
+(205, 3, 44, 0, 38, NULL),
+(206, 3, 47, 0, 38, NULL),
+(207, 3, 48, 0, 38, NULL),
+(208, 3, 62, 0, 38, NULL),
+(209, 3, 65, 0, 38, NULL),
+(210, 3, 44, 0, 39, NULL),
+(211, 3, 47, 0, 39, NULL),
+(212, 3, 48, 0, 39, NULL),
+(213, 3, 62, 0, 39, NULL),
+(214, 3, 65, 0, 39, NULL),
+(215, 3, 44, 0, 40, NULL),
+(216, 3, 47, 0, 40, NULL),
+(217, 3, 48, 0, 40, NULL),
+(218, 3, 62, 0, 40, NULL),
+(219, 3, 65, 0, 40, NULL),
+(225, 3, 44, 0, 42, NULL),
+(226, 3, 47, 0, 42, NULL),
+(227, 3, 48, 0, 42, NULL),
+(228, 3, 62, 0, 42, NULL),
+(229, 3, 65, 0, 42, NULL),
+(235, 3, 44, 0, 43, NULL),
+(236, 3, 47, 0, 43, NULL),
+(237, 3, 48, 0, 43, NULL),
+(238, 3, 62, 0, 43, NULL),
+(239, 3, 65, 0, 43, NULL),
+(240, 3, 44, 0, 44, NULL),
+(241, 3, 47, 0, 44, NULL),
+(242, 3, 48, 0, 44, NULL),
+(243, 3, 62, 0, 44, NULL),
+(244, 3, 65, 0, 44, NULL),
+(245, 3, 44, 0, 45, NULL),
+(246, 3, 47, 0, 45, NULL),
+(247, 3, 48, 0, 45, NULL),
+(248, 3, 62, 0, 45, NULL),
+(249, 3, 65, 0, 45, NULL),
+(250, 3, 44, 0, 46, NULL),
+(251, 3, 47, 0, 46, NULL),
+(252, 3, 48, 0, 46, NULL),
+(253, 3, 62, 0, 46, NULL),
+(254, 3, 65, 0, 46, NULL),
+(255, 3, 44, 0, 47, NULL),
+(256, 3, 47, 0, 47, NULL),
+(257, 3, 48, 0, 47, NULL),
+(258, 3, 62, 0, 47, NULL),
+(259, 3, 65, 0, 47, NULL),
+(260, 3, 44, 0, 48, NULL),
+(261, 3, 47, 0, 48, NULL),
+(262, 3, 48, 0, 48, NULL),
+(263, 3, 62, 0, 48, NULL),
+(264, 3, 65, 0, 48, NULL),
+(265, 3, 44, 0, 49, NULL),
+(266, 3, 47, 0, 49, NULL),
+(267, 3, 48, 0, 49, NULL),
+(268, 3, 62, 0, 49, NULL),
+(269, 3, 65, 0, 49, NULL),
+(270, 3, 44, 0, 50, NULL),
+(271, 3, 47, 0, 50, NULL),
+(272, 3, 48, 0, 50, NULL),
+(273, 3, 62, 0, 50, NULL),
+(274, 3, 65, 0, 50, NULL),
+(275, 3, 44, 0, 51, NULL),
+(276, 3, 47, 0, 51, NULL),
+(277, 3, 48, 0, 51, NULL),
+(278, 3, 62, 0, 51, NULL),
+(279, 3, 65, 0, 51, NULL),
+(285, 3, 44, 0, 52, NULL),
+(286, 3, 47, 0, 52, NULL),
+(287, 3, 48, 0, 52, NULL),
+(288, 3, 62, 0, 52, NULL),
+(289, 3, 65, 0, 52, NULL),
+(290, 3, 44, 0, 53, NULL),
+(291, 3, 47, 0, 53, NULL),
+(292, 3, 48, 0, 53, NULL),
+(293, 3, 62, 0, 53, NULL),
+(294, 3, 65, 0, 53, NULL),
+(295, 3, 44, 0, 54, NULL),
+(296, 3, 47, 0, 54, NULL),
+(297, 3, 48, 0, 54, NULL),
+(298, 3, 62, 0, 54, NULL),
+(299, 3, 65, 0, 54, NULL),
+(300, 3, 44, 0, 55, NULL),
+(301, 3, 47, 0, 55, NULL),
+(302, 3, 48, 0, 55, NULL),
+(303, 3, 62, 0, 55, NULL),
+(304, 3, 65, 0, 55, NULL),
+(305, 3, 44, 0, 56, NULL),
+(306, 3, 47, 0, 56, NULL),
+(307, 3, 48, 0, 56, NULL),
+(308, 3, 62, 0, 56, NULL),
+(309, 3, 65, 0, 56, NULL),
+(310, 3, 44, 0, 57, NULL),
+(311, 3, 47, 0, 57, NULL),
+(312, 3, 48, 0, 57, NULL),
+(313, 3, 62, 0, 57, NULL),
+(314, 3, 65, 0, 57, NULL),
+(315, 3, 44, 0, 58, NULL),
+(316, 3, 47, 0, 58, NULL),
+(317, 3, 48, 0, 58, NULL),
+(318, 3, 62, 0, 58, NULL),
+(319, 3, 65, 0, 58, NULL),
+(320, 3, 44, 0, 59, NULL),
+(321, 3, 47, 0, 59, NULL),
+(322, 3, 48, 0, 59, NULL),
+(323, 3, 62, 0, 59, NULL),
+(324, 3, 65, 0, 59, NULL),
+(325, 3, 44, 0, 60, NULL),
+(326, 3, 47, 0, 60, NULL),
+(327, 3, 48, 0, 60, NULL),
+(328, 3, 62, 0, 60, NULL),
+(329, 3, 65, 0, 60, NULL),
+(330, 3, 44, 0, 61, NULL),
+(331, 3, 47, 0, 61, NULL),
+(332, 3, 48, 0, 61, NULL),
+(333, 3, 62, 0, 61, NULL),
+(334, 3, 65, 0, 61, NULL),
+(335, 3, 44, 0, 62, NULL),
+(336, 3, 47, 0, 62, NULL),
+(337, 3, 48, 0, 62, NULL),
+(338, 3, 62, 0, 62, NULL),
+(339, 3, 65, 0, 62, NULL),
+(340, 3, 44, 0, 63, NULL),
+(341, 3, 47, 0, 63, NULL),
+(342, 3, 48, 0, 63, NULL),
+(343, 3, 62, 0, 63, NULL),
+(344, 3, 65, 0, 63, NULL),
+(345, 3, 44, 0, 64, NULL),
+(346, 3, 47, 0, 64, NULL),
+(347, 3, 48, 0, 64, NULL),
+(348, 3, 62, 0, 64, NULL),
+(349, 3, 65, 0, 64, NULL),
+(355, 3, 44, 0, 65, NULL),
+(356, 3, 47, 0, 65, NULL),
+(357, 3, 48, 0, 65, NULL),
+(358, 3, 62, 0, 65, NULL),
+(359, 3, 65, 0, 65, NULL),
+(365, 3, 44, 0, 66, NULL),
+(366, 3, 47, 0, 66, NULL),
+(367, 3, 48, 0, 66, NULL),
+(368, 3, 62, 0, 66, NULL),
+(369, 3, 65, 0, 66, NULL),
+(370, 3, 44, 0, 67, NULL),
+(371, 3, 47, 0, 67, NULL),
+(372, 3, 48, 0, 67, NULL),
+(373, 3, 62, 0, 67, NULL),
+(374, 3, 65, 0, 67, NULL),
+(375, 3, 44, 0, 68, NULL),
+(376, 3, 47, 0, 68, NULL),
+(377, 3, 48, 0, 68, NULL),
+(378, 3, 62, 0, 68, NULL),
+(379, 3, 65, 0, 68, NULL),
+(385, 3, 44, 0, 69, NULL),
+(386, 3, 47, 0, 69, NULL),
+(387, 3, 48, 0, 69, NULL),
+(388, 3, 62, 0, 69, NULL),
+(389, 3, 65, 0, 69, NULL),
+(390, 3, 44, 0, 70, NULL),
+(391, 3, 47, 0, 70, NULL),
+(392, 3, 48, 0, 70, NULL),
+(393, 3, 62, 0, 70, NULL),
+(394, 3, 65, 0, 70, NULL);
 
 -- --------------------------------------------------------
 
@@ -808,7 +1869,545 @@ INSERT INTO `catalog_category_entity_varchar` (`value_id`, `entity_type_id`, `at
 (4, 3, 41, 0, 2, 'Default Category'),
 (5, 3, 41, 1, 2, 'Default Category'),
 (6, 3, 49, 1, 2, 'PRODUCTS'),
-(7, 3, 43, 1, 2, 'default-category');
+(7, 3, 43, 1, 2, 'default-category'),
+(8, 3, 41, 0, 3, 'Sách tiếng việt'),
+(9, 3, 43, 0, 3, 'vietnamese-book'),
+(10, 3, 46, 0, 3, 'Sách tiếng việt'),
+(11, 3, 49, 0, 3, 'PRODUCTS'),
+(12, 3, 58, 0, 3, NULL),
+(13, 3, 61, 0, 3, NULL),
+(14, 3, 57, 1, 3, 'vietnamese-book.html'),
+(15, 3, 57, 0, 3, 'vietnamese-book.html'),
+(16, 3, 41, 0, 4, 'Sách giáo khoa - tham khảo'),
+(17, 3, 43, 0, 4, 'schoolbook'),
+(18, 3, 46, 0, 4, NULL),
+(19, 3, 49, 0, 4, 'PRODUCTS'),
+(20, 3, 58, 0, 4, NULL),
+(21, 3, 61, 0, 4, NULL),
+(22, 3, 57, 1, 4, 'vietnamese-book/schoolbook.html'),
+(23, 3, 57, 0, 4, 'vietnamese-book/schoolbook.html'),
+(24, 3, 41, 0, 5, 'Sách văn học - tiểu thuyết'),
+(25, 3, 43, 0, 5, 'fiction-literature'),
+(26, 3, 46, 0, 5, NULL),
+(27, 3, 49, 0, 5, 'PRODUCTS'),
+(28, 3, 58, 0, 5, NULL),
+(29, 3, 61, 0, 5, NULL),
+(30, 3, 57, 1, 5, 'vietnamese-book/fiction-literature.html'),
+(31, 3, 57, 0, 5, 'vietnamese-book/fiction-literature.html'),
+(36, 3, 41, 0, 6, 'Sách ngoại ngữ - từ điển'),
+(37, 3, 43, 0, 6, 'foreign-language-dictionary'),
+(38, 3, 46, 0, 6, NULL),
+(39, 3, 49, 0, 6, 'PRODUCTS'),
+(40, 3, 58, 0, 6, NULL),
+(41, 3, 61, 0, 6, NULL),
+(42, 3, 57, 1, 6, 'vietnamese-book/foreign-language-dictionary.html'),
+(43, 3, 57, 0, 6, 'vietnamese-book/foreign-language-dictionary.html'),
+(44, 3, 41, 0, 7, 'Sách kinh tế'),
+(45, 3, 43, 0, 7, 'economy'),
+(46, 3, 46, 0, 7, NULL),
+(47, 3, 49, 0, 7, 'PRODUCTS'),
+(48, 3, 58, 0, 7, NULL),
+(49, 3, 61, 0, 7, NULL),
+(50, 3, 57, 1, 7, 'vietnamese-book/economy.html'),
+(51, 3, 57, 0, 7, 'vietnamese-book/economy.html'),
+(52, 3, 41, 0, 8, 'Truyện tranh'),
+(53, 3, 43, 0, 8, 'comic'),
+(54, 3, 46, 0, 8, NULL),
+(55, 3, 49, 0, 8, 'PRODUCTS'),
+(56, 3, 58, 0, 8, NULL),
+(57, 3, 61, 0, 8, NULL),
+(58, 3, 57, 1, 8, 'vietnamese-book/comic.html'),
+(59, 3, 57, 0, 8, 'vietnamese-book/comic.html'),
+(60, 3, 41, 0, 9, 'Sách tiếng anh'),
+(61, 3, 43, 0, 9, 'english-book'),
+(62, 3, 46, 0, 9, NULL),
+(63, 3, 49, 0, 9, 'PRODUCTS'),
+(64, 3, 58, 0, 9, NULL),
+(65, 3, 61, 0, 9, NULL),
+(66, 3, 57, 1, 9, 'english-book.html'),
+(67, 3, 57, 0, 9, 'english-book.html'),
+(68, 3, 41, 0, 10, 'Business - Investing'),
+(69, 3, 43, 0, 10, 'business-investing'),
+(70, 3, 46, 0, 10, NULL),
+(71, 3, 49, 0, 10, 'PRODUCTS'),
+(72, 3, 58, 0, 10, NULL),
+(73, 3, 61, 0, 10, NULL),
+(74, 3, 57, 1, 10, 'english-book/business-investing.html'),
+(75, 3, 57, 0, 10, 'english-book/business-investing.html'),
+(76, 3, 41, 0, 11, 'Fiction - Literature'),
+(77, 3, 43, 0, 11, 'fiction-literature'),
+(78, 3, 46, 0, 11, NULL),
+(79, 3, 49, 0, 11, 'PRODUCTS'),
+(80, 3, 58, 0, 11, NULL),
+(81, 3, 61, 0, 11, NULL),
+(82, 3, 57, 1, 11, 'english-book/fiction-literature.html'),
+(83, 3, 57, 0, 11, 'english-book/fiction-literature.html'),
+(84, 3, 41, 0, 12, 'Foreign Language Learning'),
+(85, 3, 43, 0, 12, 'foreign-language-dictionary'),
+(86, 3, 46, 0, 12, NULL),
+(87, 3, 49, 0, 12, 'PRODUCTS'),
+(88, 3, 58, 0, 12, NULL),
+(89, 3, 61, 0, 12, NULL),
+(90, 3, 57, 1, 12, 'english-book/foreign-language-dictionary.html'),
+(91, 3, 57, 0, 12, 'english-book/foreign-language-dictionary.html'),
+(92, 3, 41, 0, 13, 'Culture - Art'),
+(93, 3, 43, 0, 13, 'culture-art'),
+(94, 3, 46, 0, 13, NULL),
+(95, 3, 49, 0, 13, 'PRODUCTS'),
+(96, 3, 58, 0, 13, NULL),
+(97, 3, 61, 0, 13, NULL),
+(98, 3, 57, 1, 13, 'english-book/culture-art.html'),
+(99, 3, 57, 0, 13, 'english-book/culture-art.html'),
+(100, 3, 41, 0, 14, 'Văn phòng phẩm'),
+(101, 3, 43, 0, 14, 'stationery'),
+(102, 3, 46, 0, 14, NULL),
+(103, 3, 49, 0, 14, 'PRODUCTS'),
+(104, 3, 58, 0, 14, NULL),
+(105, 3, 61, 0, 14, NULL),
+(106, 3, 57, 1, 14, 'stationery.html'),
+(107, 3, 57, 0, 14, 'stationery.html'),
+(108, 3, 41, 0, 15, 'Dụng cụ văn phòng'),
+(109, 3, 43, 0, 15, 'office-equipment'),
+(110, 3, 46, 0, 15, NULL),
+(111, 3, 49, 0, 15, 'PRODUCTS'),
+(112, 3, 58, 0, 15, NULL),
+(113, 3, 61, 0, 15, NULL),
+(114, 3, 57, 1, 15, 'stationery/office-equipment.html'),
+(115, 3, 57, 0, 15, 'stationery/office-equipment.html'),
+(120, 3, 41, 0, 16, 'Dụng cụ học sinh'),
+(121, 3, 43, 0, 16, 'school-supply'),
+(122, 3, 46, 0, 16, NULL),
+(123, 3, 49, 0, 16, 'PRODUCTS'),
+(124, 3, 58, 0, 16, NULL),
+(125, 3, 61, 0, 16, NULL),
+(126, 3, 57, 1, 16, 'stationery/school-supply.html'),
+(127, 3, 57, 0, 16, 'stationery/school-supply.html'),
+(128, 3, 41, 0, 17, 'Sản phẩm về giấy'),
+(129, 3, 43, 0, 17, 'paper-product'),
+(130, 3, 46, 0, 17, NULL),
+(131, 3, 49, 0, 17, 'PRODUCTS'),
+(132, 3, 58, 0, 17, NULL),
+(133, 3, 61, 0, 17, NULL),
+(134, 3, 57, 1, 17, 'stationery/paper-product.html'),
+(135, 3, 57, 0, 17, 'stationery/paper-product.html'),
+(136, 3, 41, 0, 18, 'Bút'),
+(137, 3, 43, 0, 18, 'pen'),
+(138, 3, 46, 0, 18, NULL),
+(139, 3, 49, 0, 18, 'PRODUCTS'),
+(140, 3, 58, 0, 18, NULL),
+(141, 3, 61, 0, 18, NULL),
+(142, 3, 57, 1, 18, 'stationery/pen.html'),
+(143, 3, 57, 0, 18, 'stationery/pen.html'),
+(144, 3, 41, 0, 19, 'Quà lưu niệm'),
+(145, 3, 43, 0, 19, 'souvenir'),
+(146, 3, 46, 0, 19, NULL),
+(147, 3, 49, 0, 19, 'PRODUCTS'),
+(148, 3, 58, 0, 19, NULL),
+(149, 3, 61, 0, 19, NULL),
+(150, 3, 57, 1, 19, 'souvenir.html'),
+(151, 3, 57, 0, 19, 'souvenir.html'),
+(152, 3, 41, 0, 20, 'Album - Khung hình'),
+(153, 3, 43, 0, 20, 'album-frame'),
+(154, 3, 46, 0, 20, NULL),
+(155, 3, 49, 0, 20, 'PRODUCTS'),
+(156, 3, 58, 0, 20, NULL),
+(157, 3, 61, 0, 20, NULL),
+(158, 3, 57, 1, 20, 'souvenir/album-frame.html'),
+(159, 3, 57, 0, 20, 'souvenir/album-frame.html'),
+(160, 3, 41, 0, 21, 'Móc chìa khoá'),
+(161, 3, 43, 0, 21, 'key-chain'),
+(162, 3, 46, 0, 21, NULL),
+(163, 3, 49, 0, 21, 'PRODUCTS'),
+(164, 3, 58, 0, 21, NULL),
+(165, 3, 61, 0, 21, NULL),
+(166, 3, 57, 1, 21, 'souvenir/key-chain.html'),
+(167, 3, 57, 0, 21, 'souvenir/key-chain.html'),
+(171, 3, 41, 0, 22, 'Thú bông'),
+(172, 3, 43, 0, 22, 'stuffed-animal'),
+(173, 3, 46, 0, 22, NULL),
+(174, 3, 49, 0, 22, 'PRODUCTS'),
+(175, 3, 58, 0, 22, NULL),
+(176, 3, 61, 0, 22, NULL),
+(177, 3, 57, 1, 22, 'souvenir/stuffed-animal.html'),
+(178, 3, 57, 0, 22, 'souvenir/stuffed-animal.html'),
+(179, 3, 41, 0, 23, 'Sách giáo khoa'),
+(180, 3, 43, 0, 23, 'sach-giao-khoa'),
+(181, 3, 46, 0, 23, NULL),
+(182, 3, 49, 0, 23, 'PRODUCTS'),
+(183, 3, 58, 0, 23, NULL),
+(184, 3, 61, 0, 23, NULL),
+(185, 3, 57, 1, 23, 'vietnamese-book/schoolbook/sach-giao-khoa.html'),
+(186, 3, 57, 0, 23, 'vietnamese-book/schoolbook/sach-giao-khoa.html'),
+(187, 3, 41, 0, 24, 'Sách tham khảo'),
+(188, 3, 43, 0, 24, 'sach-tham-khao'),
+(189, 3, 46, 0, 24, NULL),
+(190, 3, 49, 0, 24, 'PRODUCTS'),
+(191, 3, 58, 0, 24, NULL),
+(192, 3, 61, 0, 24, NULL),
+(193, 3, 57, 1, 24, 'vietnamese-book/schoolbook/sach-tham-khao.html'),
+(194, 3, 57, 0, 24, 'vietnamese-book/schoolbook/sach-tham-khao.html'),
+(195, 3, 41, 0, 25, 'Cấp 1'),
+(196, 3, 43, 0, 25, 'cap1'),
+(197, 3, 46, 0, 25, NULL),
+(198, 3, 49, 0, 25, 'PRODUCTS'),
+(199, 3, 58, 0, 25, NULL),
+(200, 3, 61, 0, 25, NULL),
+(201, 3, 57, 1, 25, 'vietnamese-book/schoolbook/sach-giao-khoa/cap1.html'),
+(202, 3, 57, 0, 25, 'vietnamese-book/schoolbook/sach-giao-khoa/cap1.html'),
+(203, 3, 41, 0, 26, 'Lớp 1'),
+(204, 3, 43, 0, 26, 'lop1'),
+(205, 3, 46, 0, 26, NULL),
+(206, 3, 49, 0, 26, 'PRODUCTS'),
+(207, 3, 58, 0, 26, NULL),
+(208, 3, 61, 0, 26, NULL),
+(209, 3, 57, 1, 26, 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop1.html'),
+(210, 3, 57, 0, 26, 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop1.html'),
+(211, 3, 41, 0, 27, 'Lớp 2'),
+(212, 3, 43, 0, 27, 'lop2'),
+(213, 3, 46, 0, 27, NULL),
+(214, 3, 49, 0, 27, 'PRODUCTS'),
+(215, 3, 58, 0, 27, NULL),
+(216, 3, 61, 0, 27, NULL),
+(217, 3, 57, 1, 27, 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop2.html'),
+(218, 3, 57, 0, 27, 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop2.html'),
+(219, 3, 41, 0, 28, 'Lớp 3'),
+(220, 3, 43, 0, 28, 'lop3'),
+(221, 3, 46, 0, 28, NULL),
+(222, 3, 49, 0, 28, 'PRODUCTS'),
+(223, 3, 58, 0, 28, NULL),
+(224, 3, 61, 0, 28, NULL),
+(225, 3, 57, 1, 28, 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop3.html'),
+(226, 3, 57, 0, 28, 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop3.html'),
+(227, 3, 41, 0, 29, 'Cấp 2'),
+(228, 3, 43, 0, 29, 'cap2'),
+(229, 3, 46, 0, 29, NULL),
+(230, 3, 49, 0, 29, 'PRODUCTS'),
+(231, 3, 58, 0, 29, NULL),
+(232, 3, 61, 0, 29, NULL),
+(233, 3, 57, 1, 29, 'vietnamese-book/schoolbook/sach-giao-khoa/cap2.html'),
+(234, 3, 57, 0, 29, 'vietnamese-book/schoolbook/sach-giao-khoa/cap2.html'),
+(235, 3, 41, 0, 30, 'Lớp 6'),
+(236, 3, 43, 0, 30, 'lop6'),
+(237, 3, 46, 0, 30, NULL),
+(238, 3, 49, 0, 30, 'PRODUCTS'),
+(239, 3, 58, 0, 30, NULL),
+(240, 3, 61, 0, 30, NULL),
+(241, 3, 57, 1, 30, 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop6.html'),
+(242, 3, 57, 0, 30, 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop6.html'),
+(243, 3, 41, 0, 31, 'Lớp 7'),
+(244, 3, 43, 0, 31, 'lop7'),
+(245, 3, 46, 0, 31, NULL),
+(246, 3, 49, 0, 31, 'PRODUCTS'),
+(247, 3, 58, 0, 31, NULL),
+(248, 3, 61, 0, 31, NULL),
+(249, 3, 57, 1, 31, 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop7.html'),
+(250, 3, 57, 0, 31, 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop7.html'),
+(251, 3, 41, 0, 32, 'Lớp 8'),
+(252, 3, 43, 0, 32, 'lop8'),
+(253, 3, 46, 0, 32, NULL),
+(254, 3, 49, 0, 32, 'PRODUCTS'),
+(255, 3, 58, 0, 32, NULL),
+(256, 3, 61, 0, 32, NULL),
+(257, 3, 57, 1, 32, 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop8.html'),
+(258, 3, 57, 0, 32, 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop8.html'),
+(259, 3, 41, 0, 33, 'Lớp 9'),
+(260, 3, 43, 0, 33, 'lop9'),
+(261, 3, 46, 0, 33, NULL),
+(262, 3, 49, 0, 33, 'PRODUCTS'),
+(263, 3, 58, 0, 33, NULL),
+(264, 3, 61, 0, 33, NULL),
+(265, 3, 57, 1, 33, 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop9.html'),
+(266, 3, 57, 0, 33, 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop9.html'),
+(267, 3, 41, 0, 34, 'Lớp 4'),
+(268, 3, 43, 0, 34, 'lop4'),
+(269, 3, 46, 0, 34, NULL),
+(270, 3, 49, 0, 34, 'PRODUCTS'),
+(271, 3, 58, 0, 34, NULL),
+(272, 3, 61, 0, 34, NULL),
+(273, 3, 57, 1, 34, 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop4.html'),
+(274, 3, 57, 0, 34, 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop4.html'),
+(275, 3, 41, 0, 35, 'Lớp 5'),
+(276, 3, 43, 0, 35, 'lop5'),
+(277, 3, 46, 0, 35, NULL),
+(278, 3, 49, 0, 35, 'PRODUCTS'),
+(279, 3, 58, 0, 35, NULL),
+(280, 3, 61, 0, 35, NULL),
+(281, 3, 57, 1, 35, 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop5.html'),
+(282, 3, 57, 0, 35, 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop5.html'),
+(283, 3, 41, 0, 36, 'Cấp 3'),
+(284, 3, 43, 0, 36, 'cap3'),
+(285, 3, 46, 0, 36, NULL),
+(286, 3, 49, 0, 36, 'PRODUCTS'),
+(287, 3, 58, 0, 36, NULL),
+(288, 3, 61, 0, 36, NULL),
+(289, 3, 57, 1, 36, 'vietnamese-book/schoolbook/sach-giao-khoa/cap3.html'),
+(290, 3, 57, 0, 36, 'vietnamese-book/schoolbook/sach-giao-khoa/cap3.html'),
+(299, 3, 41, 0, 37, 'Lớp 10'),
+(300, 3, 43, 0, 37, 'lop10'),
+(301, 3, 46, 0, 37, NULL),
+(302, 3, 49, 0, 37, 'PRODUCTS'),
+(303, 3, 58, 0, 37, NULL),
+(304, 3, 61, 0, 37, NULL),
+(305, 3, 57, 1, 37, 'vietnamese-book/schoolbook/sach-giao-khoa/cap3/lop10.html'),
+(306, 3, 57, 0, 37, 'vietnamese-book/schoolbook/sach-giao-khoa/cap3/lop10.html'),
+(307, 3, 41, 0, 38, 'Lớp 11'),
+(308, 3, 43, 0, 38, 'lop11'),
+(309, 3, 46, 0, 38, NULL),
+(310, 3, 49, 0, 38, 'PRODUCTS'),
+(311, 3, 58, 0, 38, NULL),
+(312, 3, 61, 0, 38, NULL),
+(313, 3, 57, 1, 38, 'vietnamese-book/schoolbook/sach-giao-khoa/cap3/lop11.html'),
+(314, 3, 57, 0, 38, 'vietnamese-book/schoolbook/sach-giao-khoa/cap3/lop11.html'),
+(315, 3, 41, 0, 39, 'Lớp 12'),
+(316, 3, 43, 0, 39, 'lop12'),
+(317, 3, 46, 0, 39, NULL),
+(318, 3, 49, 0, 39, 'PRODUCTS'),
+(319, 3, 58, 0, 39, NULL),
+(320, 3, 61, 0, 39, NULL),
+(321, 3, 57, 1, 39, 'vietnamese-book/schoolbook/sach-giao-khoa/cap3/lop12.html'),
+(322, 3, 57, 0, 39, 'vietnamese-book/schoolbook/sach-giao-khoa/cap3/lop12.html'),
+(323, 3, 41, 0, 40, 'Cấp 1'),
+(324, 3, 43, 0, 40, 'cap1'),
+(325, 3, 46, 0, 40, NULL),
+(326, 3, 49, 0, 40, 'PRODUCTS'),
+(327, 3, 58, 0, 40, NULL),
+(328, 3, 61, 0, 40, NULL),
+(329, 3, 57, 1, 40, 'vietnamese-book/schoolbook/sach-tham-khao/cap1.html'),
+(330, 3, 57, 0, 40, 'vietnamese-book/schoolbook/sach-tham-khao/cap1.html'),
+(339, 3, 41, 0, 42, 'Cấp 2'),
+(340, 3, 43, 0, 42, 'cap2'),
+(341, 3, 46, 0, 42, NULL),
+(342, 3, 49, 0, 42, 'PRODUCTS'),
+(343, 3, 58, 0, 42, NULL),
+(344, 3, 61, 0, 42, NULL),
+(345, 3, 57, 1, 42, 'vietnamese-book/schoolbook/sach-tham-khao/cap2.html'),
+(346, 3, 57, 0, 42, 'vietnamese-book/schoolbook/sach-tham-khao/cap2.html'),
+(350, 3, 41, 0, 43, 'Cấp 3'),
+(351, 3, 43, 0, 43, 'cap3'),
+(352, 3, 46, 0, 43, NULL),
+(353, 3, 49, 0, 43, 'PRODUCTS'),
+(354, 3, 58, 0, 43, NULL),
+(355, 3, 61, 0, 43, NULL),
+(356, 3, 57, 1, 43, 'vietnamese-book/schoolbook/sach-tham-khao/cap3.html'),
+(357, 3, 57, 0, 43, 'vietnamese-book/schoolbook/sach-tham-khao/cap3.html'),
+(358, 3, 41, 0, 44, 'Lớp 1'),
+(359, 3, 43, 0, 44, 'lop1'),
+(360, 3, 46, 0, 44, NULL),
+(361, 3, 49, 0, 44, 'PRODUCTS'),
+(362, 3, 58, 0, 44, NULL),
+(363, 3, 61, 0, 44, NULL),
+(364, 3, 57, 1, 44, 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop1.html'),
+(365, 3, 57, 0, 44, 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop1.html'),
+(366, 3, 41, 0, 45, 'Lớp 2'),
+(367, 3, 43, 0, 45, 'lop2'),
+(368, 3, 46, 0, 45, NULL),
+(369, 3, 49, 0, 45, 'PRODUCTS'),
+(370, 3, 58, 0, 45, NULL),
+(371, 3, 61, 0, 45, NULL),
+(372, 3, 57, 1, 45, 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop2.html'),
+(373, 3, 57, 0, 45, 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop2.html'),
+(374, 3, 41, 0, 46, 'Lớp 3'),
+(375, 3, 43, 0, 46, 'lop3'),
+(376, 3, 46, 0, 46, NULL),
+(377, 3, 49, 0, 46, 'PRODUCTS'),
+(378, 3, 58, 0, 46, NULL),
+(379, 3, 61, 0, 46, NULL),
+(380, 3, 57, 1, 46, 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop3.html'),
+(381, 3, 57, 0, 46, 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop3.html'),
+(382, 3, 41, 0, 47, 'Lớp 4'),
+(383, 3, 43, 0, 47, 'lop4'),
+(384, 3, 46, 0, 47, NULL),
+(385, 3, 49, 0, 47, 'PRODUCTS'),
+(386, 3, 58, 0, 47, NULL),
+(387, 3, 61, 0, 47, NULL),
+(388, 3, 57, 1, 47, 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop4.html'),
+(389, 3, 57, 0, 47, 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop4.html'),
+(390, 3, 41, 0, 48, 'Lớp 5'),
+(391, 3, 43, 0, 48, 'lop5'),
+(392, 3, 46, 0, 48, NULL),
+(393, 3, 49, 0, 48, 'PRODUCTS'),
+(394, 3, 58, 0, 48, NULL),
+(395, 3, 61, 0, 48, NULL),
+(396, 3, 57, 1, 48, 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop5.html'),
+(397, 3, 57, 0, 48, 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop5.html'),
+(398, 3, 41, 0, 49, 'Lớp 6'),
+(399, 3, 43, 0, 49, 'lop6'),
+(400, 3, 46, 0, 49, NULL),
+(401, 3, 49, 0, 49, 'PRODUCTS'),
+(402, 3, 58, 0, 49, NULL),
+(403, 3, 61, 0, 49, NULL),
+(404, 3, 57, 1, 49, 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop6.html'),
+(405, 3, 57, 0, 49, 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop6.html'),
+(406, 3, 41, 0, 50, 'Lớp 7'),
+(407, 3, 43, 0, 50, 'lop7'),
+(408, 3, 46, 0, 50, NULL),
+(409, 3, 49, 0, 50, 'PRODUCTS'),
+(410, 3, 58, 0, 50, NULL),
+(411, 3, 61, 0, 50, NULL),
+(412, 3, 57, 1, 50, 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop7.html'),
+(413, 3, 57, 0, 50, 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop7.html'),
+(414, 3, 41, 0, 51, 'Lớp 8'),
+(415, 3, 43, 0, 51, 'lop8'),
+(416, 3, 46, 0, 51, NULL),
+(417, 3, 49, 0, 51, 'PRODUCTS'),
+(418, 3, 58, 0, 51, NULL),
+(419, 3, 61, 0, 51, NULL),
+(420, 3, 57, 1, 51, 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop8.html'),
+(421, 3, 57, 0, 51, 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop8.html'),
+(425, 3, 41, 0, 52, 'Lớp 9'),
+(426, 3, 43, 0, 52, 'lop9'),
+(427, 3, 46, 0, 52, NULL),
+(428, 3, 49, 0, 52, 'PRODUCTS'),
+(429, 3, 58, 0, 52, NULL),
+(430, 3, 61, 0, 52, NULL),
+(431, 3, 57, 1, 52, 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop9.html'),
+(432, 3, 57, 0, 52, 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop9.html'),
+(433, 3, 41, 0, 53, 'Lớp 10'),
+(434, 3, 43, 0, 53, 'lop10'),
+(435, 3, 46, 0, 53, NULL),
+(436, 3, 49, 0, 53, 'PRODUCTS'),
+(437, 3, 58, 0, 53, NULL),
+(438, 3, 61, 0, 53, NULL),
+(439, 3, 57, 1, 53, 'vietnamese-book/schoolbook/sach-tham-khao/cap3/lop10.html'),
+(440, 3, 57, 0, 53, 'vietnamese-book/schoolbook/sach-tham-khao/cap3/lop10.html'),
+(441, 3, 41, 0, 54, 'Lớp 11'),
+(442, 3, 43, 0, 54, 'lop11'),
+(443, 3, 46, 0, 54, NULL),
+(444, 3, 49, 0, 54, 'PRODUCTS'),
+(445, 3, 58, 0, 54, NULL),
+(446, 3, 61, 0, 54, NULL),
+(447, 3, 57, 1, 54, 'vietnamese-book/schoolbook/sach-tham-khao/cap3/lop11.html'),
+(448, 3, 57, 0, 54, 'vietnamese-book/schoolbook/sach-tham-khao/cap3/lop11.html'),
+(449, 3, 41, 0, 55, 'Lớp 12'),
+(450, 3, 43, 0, 55, 'lop12'),
+(451, 3, 46, 0, 55, NULL),
+(452, 3, 49, 0, 55, 'PRODUCTS'),
+(453, 3, 58, 0, 55, NULL),
+(454, 3, 61, 0, 55, NULL),
+(455, 3, 57, 1, 55, 'vietnamese-book/schoolbook/sach-tham-khao/cap3/lop12.html'),
+(456, 3, 57, 0, 55, 'vietnamese-book/schoolbook/sach-tham-khao/cap3/lop12.html'),
+(457, 3, 41, 0, 56, 'Truyện cười'),
+(458, 3, 43, 0, 56, 'truyen-cuoi'),
+(459, 3, 46, 0, 56, NULL),
+(460, 3, 49, 0, 56, 'PRODUCTS'),
+(461, 3, 58, 0, 56, NULL),
+(462, 3, 61, 0, 56, NULL),
+(463, 3, 57, 1, 56, 'vietnamese-book/fiction-literature/truyen-cuoi.html'),
+(464, 3, 57, 0, 56, 'vietnamese-book/fiction-literature/truyen-cuoi.html'),
+(465, 3, 41, 0, 57, 'Văn học nước ngoài'),
+(466, 3, 43, 0, 57, 'van-hoc-nuoc-ngoai'),
+(467, 3, 46, 0, 57, NULL),
+(468, 3, 49, 0, 57, 'PRODUCTS'),
+(469, 3, 58, 0, 57, NULL),
+(470, 3, 61, 0, 57, NULL),
+(471, 3, 57, 1, 57, 'vietnamese-book/fiction-literature/van-hoc-nuoc-ngoai.html'),
+(472, 3, 57, 0, 57, 'vietnamese-book/fiction-literature/van-hoc-nuoc-ngoai.html'),
+(473, 3, 41, 0, 58, 'Văn học Việt Nam'),
+(474, 3, 43, 0, 58, 'van-hoc-viet-nam'),
+(475, 3, 46, 0, 58, NULL),
+(476, 3, 49, 0, 58, 'PRODUCTS'),
+(477, 3, 58, 0, 58, NULL),
+(478, 3, 61, 0, 58, NULL),
+(479, 3, 57, 1, 58, 'vietnamese-book/fiction-literature/van-hoc-viet-nam.html'),
+(480, 3, 57, 0, 58, 'vietnamese-book/fiction-literature/van-hoc-viet-nam.html'),
+(481, 3, 41, 0, 59, 'Thơ'),
+(482, 3, 43, 0, 59, 'tho'),
+(483, 3, 46, 0, 59, NULL),
+(484, 3, 49, 0, 59, 'PRODUCTS'),
+(485, 3, 58, 0, 59, NULL),
+(486, 3, 61, 0, 59, NULL),
+(487, 3, 57, 1, 59, 'vietnamese-book/fiction-literature/tho.html'),
+(488, 3, 57, 0, 59, 'vietnamese-book/fiction-literature/tho.html'),
+(489, 3, 41, 0, 60, 'Tiếng Anh'),
+(490, 3, 43, 0, 60, 'tieng-anh'),
+(491, 3, 46, 0, 60, NULL),
+(492, 3, 49, 0, 60, 'PRODUCTS'),
+(493, 3, 58, 0, 60, NULL),
+(494, 3, 61, 0, 60, NULL),
+(495, 3, 57, 1, 60, 'vietnamese-book/foreign-language-dictionary/tieng-anh.html'),
+(496, 3, 57, 0, 60, 'vietnamese-book/foreign-language-dictionary/tieng-anh.html'),
+(497, 3, 41, 0, 61, 'Tiếng Nhật'),
+(498, 3, 43, 0, 61, 'tieng-nhat'),
+(499, 3, 46, 0, 61, NULL),
+(500, 3, 49, 0, 61, 'PRODUCTS'),
+(501, 3, 58, 0, 61, NULL),
+(502, 3, 61, 0, 61, NULL),
+(503, 3, 57, 1, 61, 'vietnamese-book/foreign-language-dictionary/tieng-nhat.html'),
+(504, 3, 57, 0, 61, 'vietnamese-book/foreign-language-dictionary/tieng-nhat.html'),
+(505, 3, 41, 0, 62, 'Tiếng Hoa'),
+(506, 3, 43, 0, 62, 'tieng-hoa'),
+(507, 3, 46, 0, 62, NULL),
+(508, 3, 49, 0, 62, 'PRODUCTS'),
+(509, 3, 58, 0, 62, NULL),
+(510, 3, 61, 0, 62, NULL),
+(511, 3, 57, 1, 62, 'vietnamese-book/foreign-language-dictionary/tieng-hoa.html'),
+(512, 3, 57, 0, 62, 'vietnamese-book/foreign-language-dictionary/tieng-hoa.html'),
+(513, 3, 41, 0, 63, 'Quản trị - Lãnh đạo'),
+(514, 3, 43, 0, 63, 'quan-tri-lanh-dao'),
+(515, 3, 46, 0, 63, NULL),
+(516, 3, 49, 0, 63, 'PRODUCTS'),
+(517, 3, 58, 0, 63, NULL),
+(518, 3, 61, 0, 63, NULL),
+(519, 3, 57, 1, 63, 'vietnamese-book/economy/quan-tri-lanh-dao.html'),
+(520, 3, 57, 0, 63, 'vietnamese-book/economy/quan-tri-lanh-dao.html'),
+(521, 3, 41, 0, 64, 'Marketing - Bán hàng'),
+(522, 3, 43, 0, 64, 'marketing-ban-hang'),
+(523, 3, 46, 0, 64, NULL),
+(524, 3, 49, 0, 64, 'PRODUCTS'),
+(525, 3, 58, 0, 64, NULL),
+(526, 3, 61, 0, 64, NULL),
+(527, 3, 57, 1, 64, 'vietnamese-book/economy/marketing-ban-hang.html'),
+(528, 3, 57, 0, 64, 'vietnamese-book/economy/marketing-ban-hang.html'),
+(532, 3, 41, 0, 65, 'Tài chính - kế toán'),
+(533, 3, 43, 0, 65, 'tai-chinh-ke-toan'),
+(534, 3, 46, 0, 65, NULL),
+(535, 3, 49, 0, 65, 'PRODUCTS'),
+(536, 3, 58, 0, 65, NULL),
+(537, 3, 61, 0, 65, NULL),
+(538, 3, 57, 1, 65, 'vietnamese-book/economy/tai-chinh-ke-toan.html'),
+(539, 3, 57, 0, 65, 'vietnamese-book/economy/tai-chinh-ke-toan.html'),
+(543, 3, 41, 0, 66, 'Khởi nghiệp'),
+(544, 3, 43, 0, 66, 'khoi-nghiep'),
+(545, 3, 46, 0, 66, NULL),
+(546, 3, 49, 0, 66, 'PRODUCTS'),
+(547, 3, 58, 0, 66, NULL),
+(548, 3, 61, 0, 66, NULL),
+(549, 3, 57, 1, 66, 'vietnamese-book/economy/khoi-nghiep.html'),
+(550, 3, 57, 0, 66, 'vietnamese-book/economy/khoi-nghiep.html'),
+(551, 3, 41, 0, 67, 'Doraemon'),
+(552, 3, 43, 0, 67, 'doraemon'),
+(553, 3, 46, 0, 67, NULL),
+(554, 3, 49, 0, 67, 'PRODUCTS'),
+(555, 3, 58, 0, 67, NULL),
+(556, 3, 61, 0, 67, NULL),
+(557, 3, 57, 1, 67, 'vietnamese-book/comic/doraemon.html'),
+(558, 3, 57, 0, 67, 'vietnamese-book/comic/doraemon.html'),
+(559, 3, 41, 0, 68, 'Thám tử lừng danh Conan'),
+(560, 3, 43, 0, 68, 'conan'),
+(561, 3, 46, 0, 68, NULL),
+(562, 3, 49, 0, 68, 'PRODUCTS'),
+(563, 3, 58, 0, 68, NULL),
+(564, 3, 61, 0, 68, NULL),
+(565, 3, 57, 1, 68, 'vietnamese-book/comic/conan.html'),
+(566, 3, 57, 0, 68, 'vietnamese-book/comic/conan.html'),
+(571, 3, 41, 0, 69, 'One Piece'),
+(572, 3, 43, 0, 69, 'one-piece'),
+(573, 3, 46, 0, 69, NULL),
+(574, 3, 49, 0, 69, 'PRODUCTS'),
+(575, 3, 58, 0, 69, NULL),
+(576, 3, 61, 0, 69, NULL),
+(577, 3, 57, 1, 69, 'vietnamese-book/comic/one-piece.html'),
+(578, 3, 57, 0, 69, 'vietnamese-book/comic/one-piece.html'),
+(579, 3, 41, 0, 70, 'Cậu bé bút chì'),
+(580, 3, 43, 0, 70, 'shin'),
+(581, 3, 46, 0, 70, NULL),
+(582, 3, 49, 0, 70, 'PRODUCTS'),
+(583, 3, 58, 0, 70, NULL),
+(584, 3, 61, 0, 70, NULL),
+(585, 3, 57, 1, 70, 'vietnamese-book/comic/shin.html'),
+(586, 3, 57, 0, 70, 'vietnamese-book/comic/shin.html'),
+(587, 3, 57, 3, 3, 'vietnamese-book.html'),
+(588, 3, 41, 3, 3, 'Vietnamese book');
 
 -- --------------------------------------------------------
 
@@ -821,6 +2420,18 @@ CREATE TABLE `catalog_category_product` (
   `product_id` int(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT 'Product ID',
   `position` int(11) NOT NULL DEFAULT '0' COMMENT 'Position'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product To Category Linkage Table';
+
+--
+-- Dumping data for table `catalog_category_product`
+--
+
+INSERT INTO `catalog_category_product` (`category_id`, `product_id`, `position`) VALUES
+(9, 2, 1),
+(9, 6, 1),
+(10, 6, 1),
+(13, 2, 1),
+(19, 4, 1),
+(20, 4, 1);
 
 -- --------------------------------------------------------
 
@@ -836,6 +2447,30 @@ CREATE TABLE `catalog_category_product_index` (
   `store_id` smallint(5) UNSIGNED NOT NULL DEFAULT '0' COMMENT 'Store ID',
   `visibility` smallint(5) UNSIGNED NOT NULL COMMENT 'Visibility'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Category Product Index';
+
+--
+-- Dumping data for table `catalog_category_product_index`
+--
+
+INSERT INTO `catalog_category_product_index` (`category_id`, `product_id`, `position`, `is_parent`, `store_id`, `visibility`) VALUES
+(2, 4, 80001, 0, 1, 4),
+(2, 6, 80001, 0, 1, 4),
+(2, 2, 90001, 0, 1, 4),
+(9, 2, 1, 1, 1, 4),
+(9, 6, 1, 1, 1, 4),
+(10, 6, 1, 1, 1, 4),
+(13, 2, 1, 1, 1, 4),
+(19, 4, 1, 1, 1, 4),
+(20, 4, 1, 1, 1, 4),
+(2, 4, 80001, 0, 3, 4),
+(2, 6, 80001, 0, 3, 4),
+(2, 2, 90001, 0, 3, 4),
+(9, 2, 1, 1, 3, 4),
+(9, 6, 1, 1, 3, 4),
+(10, 6, 1, 1, 3, 4),
+(13, 2, 1, 1, 3, 4),
+(19, 4, 1, 1, 3, 4),
+(20, 4, 1, 1, 3, 4);
 
 -- --------------------------------------------------------
 
@@ -975,7 +2610,7 @@ INSERT INTO `catalog_eav_attribute` (`attribute_id`, `frontend_input_renderer`, 
 (77, NULL, 2, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 'simple,configurable,virtual,bundle,downloadable', 0, 0, 0, 0),
 (78, NULL, 2, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 'simple,configurable,virtual,bundle,downloadable', 0, 0, 0, 0),
 (79, NULL, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 'virtual,downloadable', 0, 0, 0, 0),
-(80, NULL, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 'simple,bundle', 0, 0, 0, 0),
+(80, NULL, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 'simple', 0, 0, 0, 0),
 (81, NULL, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 'simple', 1, 0, 0, 0),
 (82, NULL, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, NULL, 0, 0, 0, 0),
 (83, NULL, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, NULL, 0, 0, 0, 0),
@@ -1012,7 +2647,7 @@ INSERT INTO `catalog_eav_attribute` (`attribute_id`, `frontend_input_renderer`, 
 (114, NULL, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, NULL, 0, 0, 0, 0),
 (115, NULL, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, NULL, 0, 0, 0, 0),
 (116, NULL, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, NULL, 0, 0, 0, 0),
-(117, NULL, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'simple,configurable,bundle,grouped', 0, 0, 0, 0),
+(117, NULL, 2, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 'simple,grouped,configurable,bundle', 0, 0, 0, 0),
 (118, 'adminhtml/catalog_product_helper_form_msrp_enabled', 2, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 'simple,bundle,configurable,virtual,downloadable', 0, 0, 0, 0),
 (119, 'adminhtml/catalog_product_helper_form_msrp_price', 2, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 'simple,bundle,configurable,virtual,downloadable', 0, 0, 0, 0),
 (120, NULL, 2, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 'simple,bundle,configurable,virtual,downloadable', 0, 0, 0, 0),
@@ -1026,7 +2661,16 @@ INSERT INTO `catalog_eav_attribute` (`attribute_id`, `frontend_input_renderer`, 
 (128, NULL, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 'downloadable', 0, 0, 0, 0),
 (129, NULL, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'downloadable', 0, 0, 0, 0),
 (130, NULL, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'downloadable', 0, 0, 0, 0),
-(131, NULL, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 'downloadable', 0, 0, 0, 0);
+(131, NULL, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 'downloadable', 0, 0, 0, 0),
+(133, NULL, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, NULL, 1, 0, 0, 0),
+(134, NULL, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, NULL, 1, 0, 0, 0),
+(135, NULL, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, NULL, 1, 0, 0, 0),
+(136, NULL, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, NULL, 0, 0, 0, 0),
+(137, NULL, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, NULL, 1, 0, 0, 0),
+(138, NULL, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, NULL, 0, 0, 0, 0),
+(139, NULL, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, NULL, 0, 0, 0, 0),
+(140, NULL, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, NULL, 0, 0, 0, 0),
+(141, NULL, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, NULL, 0, 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -1145,6 +2789,15 @@ CREATE TABLE `catalog_product_entity` (
   `updated_at` timestamp NULL DEFAULT NULL COMMENT 'Update Time'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Table';
 
+--
+-- Dumping data for table `catalog_product_entity`
+--
+
+INSERT INTO `catalog_product_entity` (`entity_id`, `entity_type_id`, `attribute_set_id`, `type_id`, `sku`, `has_options`, `required_options`, `created_at`, `updated_at`) VALUES
+(2, 4, 9, 'simple', '9789881950871', 0, 0, '2016-07-11 02:13:07', '2016-07-11 19:01:56'),
+(4, 4, 10, 'simple', '7705218158170', 0, 0, '2016-07-11 03:47:24', '2016-07-11 19:01:29'),
+(6, 4, 9, 'simple', '9780008150280', 0, 0, '2016-07-11 18:53:11', '2016-07-11 18:59:49');
+
 -- --------------------------------------------------------
 
 --
@@ -1160,6 +2813,30 @@ CREATE TABLE `catalog_product_entity_datetime` (
   `value` datetime DEFAULT NULL COMMENT 'Value'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Datetime Attribute Backend Table';
 
+--
+-- Dumping data for table `catalog_product_entity_datetime`
+--
+
+INSERT INTO `catalog_product_entity_datetime` (`value_id`, `entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`) VALUES
+(19, 4, 93, 0, 2, NULL),
+(20, 4, 94, 0, 2, NULL),
+(21, 4, 77, 0, 2, NULL),
+(22, 4, 78, 0, 2, NULL),
+(23, 4, 104, 0, 2, NULL),
+(24, 4, 105, 0, 2, NULL),
+(57, 4, 93, 0, 4, NULL),
+(58, 4, 94, 0, 4, NULL),
+(59, 4, 77, 0, 4, NULL),
+(60, 4, 78, 0, 4, NULL),
+(61, 4, 104, 0, 4, NULL),
+(62, 4, 105, 0, 4, NULL),
+(75, 4, 93, 0, 6, '2016-07-20 00:00:00'),
+(76, 4, 94, 0, 6, NULL),
+(77, 4, 77, 0, 6, NULL),
+(78, 4, 78, 0, 6, NULL),
+(79, 4, 104, 0, 6, NULL),
+(80, 4, 105, 0, 6, NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -1174,6 +2851,24 @@ CREATE TABLE `catalog_product_entity_decimal` (
   `entity_id` int(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT 'Entity ID',
   `value` decimal(12,4) DEFAULT NULL COMMENT 'Value'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Decimal Attribute Backend Table';
+
+--
+-- Dumping data for table `catalog_product_entity_decimal`
+--
+
+INSERT INTO `catalog_product_entity_decimal` (`value_id`, `entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`) VALUES
+(23, 4, 80, 0, 2, '1496.0000'),
+(24, 4, 75, 0, 2, '616000.0000'),
+(25, 4, 76, 0, 2, NULL),
+(26, 4, 120, 0, 2, NULL),
+(49, 4, 80, 0, 4, '800.0000'),
+(50, 4, 75, 0, 4, '607000.0000'),
+(51, 4, 76, 0, 4, NULL),
+(52, 4, 120, 0, 4, NULL),
+(63, 4, 80, 0, 6, '100.0000'),
+(64, 4, 75, 0, 6, '202000.0000'),
+(65, 4, 76, 0, 6, NULL),
+(66, 4, 120, 0, 6, NULL);
 
 -- --------------------------------------------------------
 
@@ -1221,6 +2916,24 @@ CREATE TABLE `catalog_product_entity_int` (
   `value` int(11) DEFAULT NULL COMMENT 'Value'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Integer Attribute Backend Table';
 
+--
+-- Dumping data for table `catalog_product_entity_int`
+--
+
+INSERT INTO `catalog_product_entity_int` (`value_id`, `entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`) VALUES
+(5, 4, 96, 0, 2, 1),
+(6, 4, 102, 0, 2, 4),
+(7, 4, 121, 0, 2, 0),
+(8, 4, 100, 0, 2, 0),
+(14, 4, 96, 0, 4, 1),
+(15, 4, 102, 0, 4, 4),
+(16, 4, 121, 0, 4, 0),
+(17, 4, 100, 0, 4, 0),
+(22, 4, 96, 0, 6, 1),
+(23, 4, 102, 0, 6, 4),
+(24, 4, 121, 0, 6, 0),
+(25, 4, 100, 0, 6, 0);
+
 -- --------------------------------------------------------
 
 --
@@ -1233,6 +2946,15 @@ CREATE TABLE `catalog_product_entity_media_gallery` (
   `entity_id` int(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT 'Entity ID',
   `value` varchar(255) DEFAULT NULL COMMENT 'Value'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Media Gallery Attribute Backend Table';
+
+--
+-- Dumping data for table `catalog_product_entity_media_gallery`
+--
+
+INSERT INTO `catalog_product_entity_media_gallery` (`value_id`, `attribute_id`, `entity_id`, `value`) VALUES
+(5, 88, 2, '/5/1/51lgemqzczl._sx422_bo1_204_203_200_.u547.d20160512.t113426.jpg'),
+(6, 88, 4, '/p/s/ps-i-love-you_2_2.jpg'),
+(7, 88, 6, '/3/2/326.u2654.d20160709.t135630.jpg');
 
 -- --------------------------------------------------------
 
@@ -1248,6 +2970,15 @@ CREATE TABLE `catalog_product_entity_media_gallery_value` (
   `disabled` smallint(5) UNSIGNED NOT NULL DEFAULT '0' COMMENT 'Is Disabled'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Media Gallery Attribute Value Table';
 
+--
+-- Dumping data for table `catalog_product_entity_media_gallery_value`
+--
+
+INSERT INTO `catalog_product_entity_media_gallery_value` (`value_id`, `store_id`, `label`, `position`, `disabled`) VALUES
+(5, 0, NULL, 1, 0),
+(6, 0, NULL, 1, 0),
+(7, 0, NULL, 1, 0);
+
 -- --------------------------------------------------------
 
 --
@@ -1262,6 +2993,24 @@ CREATE TABLE `catalog_product_entity_text` (
   `entity_id` int(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT 'Entity ID',
   `value` text COMMENT 'Value'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Text Attribute Backend Table';
+
+--
+-- Dumping data for table `catalog_product_entity_text`
+--
+
+INSERT INTO `catalog_product_entity_text` (`value_id`, `entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`) VALUES
+(18, 4, 72, 0, 2, 'Whether in private homes or hotels, restaurants or airports, wall paintings as decor add a rich, individualised dimension. Here, the work of illustrators, interior designers and graphic designers from different countries is presented to show the inspirational qualities they contain and release when integrated into interiors. This book shows the transformations, effects and possibilies they offer.'),
+(19, 4, 73, 0, 2, 'Whether in private homes or hotels, restaurants or airports, wall paintings as decor add a rich, individualised dimension. Here, the work of illustrators, interior designers and graphic designers from different countries is presented to show the inspirational qualities they contain and release when integrated into interiors. This book shows the transformations, effects and possibilies they offer.'),
+(20, 4, 83, 0, 2, NULL),
+(21, 4, 106, 0, 2, NULL),
+(36, 4, 72, 0, 4, '<p>Scrapbook l&agrave; dạng sổ ảnh lưu niệm, lưu trữ h&igrave;nh ảnh kết hợp ghi ch&uacute;, sổ đ&atilde; được trang tr&iacute; sẵn gi&uacute;p bạn dễ d&agrave;ng lưu trữ những h&igrave;nh ảnh m&agrave; bạn y&ecirc;u th&iacute;ch. Scrapbook được đầu tư thiết kế ph&ugrave; hợp với nhiều sự kiện, đặc biệt hơn l&agrave; sản phẩm được l&agrave;m thủ c&ocirc;ng, tỉ mỉ đến từng chi tiết trang tr&iacute; b&ecirc;n trong. Sản phẩm đa dạng về m&agrave;u sắc cũng như c&aacute;c chủ để trang tr&iacute; như t&igrave;nh y&ecirc;u, gia đ&igrave;nh, cuộc sống... Bạn chỉ cần d&aacute;n th&ecirc;m c&aacute;c tấm h&igrave;nh sinh động, viết "nhật k&yacute;" để tạo th&agrave;nh quyển album ảnh kh&ocirc;ng đụng h&agrave;ng. Scrapbook PS I Love You chắc chắn sẽ l&agrave; một quyển sổ v&ocirc; c&ugrave;ng th&uacute; vị cho bạn v&agrave; người th&acirc;n của bạn.<img alt="" src="{{media url="wysiwyg/Souvenir/scrapbook_sb_34__1.jpg"}}" /></p>'),
+(37, 4, 73, 0, 4, 'Scrapbook là dạng sổ ảnh lưu niệm, lưu trữ hình ảnh kết hợp ghi chú.'),
+(38, 4, 83, 0, 4, NULL),
+(39, 4, 106, 0, 4, NULL),
+(46, 4, 72, 0, 6, 'The classic, bestselling account of the infamous Kray twins, now a major film, starring Tom Hardy.\r\n\r\nReggie and Ronnie Kray ruled London’s gangland during the 60s with a ruthlessness and viciousness that shocks even now. Building an empire of organised crime that has never been matched, the brothers swindled, extorted and terrorised – while enjoying a glittering celebrity status at the heart of the swinging 60s scene, until their downfall and imprisonment for life.'),
+(47, 4, 73, 0, 6, 'The classic, bestselling account of the infamous Kray twins, now a major film, starring Tom Hardy.'),
+(48, 4, 83, 0, 6, 'dfdf'),
+(49, 4, 106, 0, 6, NULL);
 
 -- --------------------------------------------------------
 
@@ -1294,6 +3043,87 @@ CREATE TABLE `catalog_product_entity_varchar` (
   `value` varchar(255) DEFAULT NULL COMMENT 'Value'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Varchar Attribute Backend Table';
 
+--
+-- Dumping data for table `catalog_product_entity_varchar`
+--
+
+INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`) VALUES
+(60, 4, 71, 0, 2, 'Painting In Wall Design'),
+(61, 4, 97, 0, 2, 'painting-in-wall-design'),
+(62, 4, 117, 0, 2, NULL),
+(63, 4, 118, 0, 2, '2'),
+(64, 4, 119, 0, 2, '4'),
+(65, 4, 82, 0, 2, NULL),
+(66, 4, 84, 0, 2, NULL),
+(67, 4, 85, 0, 2, '/5/1/51lgemqzczl._sx422_bo1_204_203_200_.u547.d20160512.t113426.jpg'),
+(68, 4, 86, 0, 2, '/5/1/51lgemqzczl._sx422_bo1_204_203_200_.u547.d20160512.t113426.jpg'),
+(69, 4, 87, 0, 2, '/5/1/51lgemqzczl._sx422_bo1_204_203_200_.u547.d20160512.t113426.jpg'),
+(70, 4, 103, 0, 2, NULL),
+(71, 4, 107, 0, 2, NULL),
+(72, 4, 109, 0, 2, 'container1'),
+(73, 4, 136, 0, 2, '208'),
+(74, 4, 135, 0, 2, NULL),
+(75, 4, 134, 0, 2, NULL),
+(76, 4, 133, 0, 2, 'Darren Du'),
+(77, 4, 122, 0, 2, NULL),
+(78, 4, 112, 0, 2, NULL),
+(79, 4, 113, 0, 2, NULL),
+(80, 4, 114, 0, 2, NULL),
+(81, 4, 98, 1, 2, 'painting-in-wall-design.html'),
+(82, 4, 98, 0, 2, 'painting-in-wall-design.html'),
+(103, 4, 137, 0, 2, 'Công ty TNHH Sách Á Châu'),
+(115, 4, 138, 0, 2, '12-2010'),
+(157, 4, 71, 0, 4, 'Scrapbook PS I Love You'),
+(158, 4, 97, 0, 4, 'scrapbook-ps-i-love-you'),
+(159, 4, 117, 0, 4, 'VN'),
+(160, 4, 118, 0, 4, '2'),
+(161, 4, 119, 0, 4, '4'),
+(162, 4, 82, 0, 4, NULL),
+(163, 4, 84, 0, 4, NULL),
+(164, 4, 85, 0, 4, '/p/s/ps-i-love-you_2_2.jpg'),
+(165, 4, 86, 0, 4, '/p/s/ps-i-love-you_2_2.jpg'),
+(166, 4, 87, 0, 4, '/p/s/ps-i-love-you_2_2.jpg'),
+(167, 4, 103, 0, 4, NULL),
+(168, 4, 107, 0, 4, NULL),
+(169, 4, 109, 0, 4, 'container1'),
+(170, 4, 139, 0, 4, 'Fairy Corner'),
+(171, 4, 140, 0, 4, 'Việt Nam'),
+(172, 4, 135, 0, 4, '20 x 20 cm'),
+(173, 4, 141, 0, 4, '800'),
+(174, 4, 122, 0, 4, NULL),
+(194, 4, 112, 0, 4, NULL),
+(195, 4, 113, 0, 4, NULL),
+(196, 4, 114, 0, 4, NULL),
+(205, 4, 98, 3, 4, 'scrapbook-ps-i-love-you.html'),
+(206, 4, 98, 0, 4, 'scrapbook-ps-i-love-you.html'),
+(207, 4, 71, 0, 6, '  The Profession Of Violence: The Rise and Fall Of The Kray Twins'),
+(208, 4, 97, 0, 6, 'the-profession-of-violence-the-rise-and-fall-of-the-kray-twins'),
+(209, 4, 117, 0, 6, NULL),
+(210, 4, 118, 0, 6, '2'),
+(211, 4, 119, 0, 6, '4'),
+(212, 4, 82, 0, 6, 'dfdf'),
+(213, 4, 84, 0, 6, 'dfdf'),
+(214, 4, 85, 0, 6, '/3/2/326.u2654.d20160709.t135630.jpg'),
+(215, 4, 86, 0, 6, '/3/2/326.u2654.d20160709.t135630.jpg'),
+(216, 4, 87, 0, 6, '/3/2/326.u2654.d20160709.t135630.jpg'),
+(217, 4, 103, 0, 6, NULL),
+(218, 4, 107, 0, 6, NULL),
+(219, 4, 109, 0, 6, 'container1'),
+(220, 4, 133, 0, 6, 'John Pearson'),
+(221, 4, 137, 0, 6, 'Amazon'),
+(222, 4, 134, 0, 6, 'HarperCollins Publishers Ltd'),
+(223, 4, 136, 0, 6, NULL),
+(224, 4, 135, 0, 6, NULL),
+(225, 4, 141, 0, 6, '400'),
+(226, 4, 138, 0, 6, '04-2016'),
+(227, 4, 122, 0, 6, NULL),
+(228, 4, 112, 0, 6, NULL),
+(229, 4, 113, 0, 6, NULL),
+(230, 4, 114, 0, 6, NULL),
+(231, 4, 98, 3, 6, 'the-profession-of-violence-the-rise-and-fall-of-the-kray-twins.html'),
+(232, 4, 98, 0, 6, 'the-profession-of-violence-the-rise-and-fall-of-the-kray-twins.html'),
+(263, 4, 141, 0, 2, '400');
+
 -- --------------------------------------------------------
 
 --
@@ -1306,6 +3136,18 @@ CREATE TABLE `catalog_product_index_eav` (
   `store_id` smallint(5) UNSIGNED NOT NULL COMMENT 'Store ID',
   `value` int(10) UNSIGNED NOT NULL COMMENT 'Value'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product EAV Index Table';
+
+--
+-- Dumping data for table `catalog_product_index_eav`
+--
+
+INSERT INTO `catalog_product_index_eav` (`entity_id`, `attribute_id`, `store_id`, `value`) VALUES
+(2, 121, 1, 0),
+(2, 121, 3, 0),
+(4, 121, 1, 0),
+(4, 121, 3, 0),
+(6, 121, 1, 0),
+(6, 121, 3, 0);
 
 -- --------------------------------------------------------
 
@@ -1372,6 +3214,14 @@ CREATE TABLE `catalog_product_index_eav_tmp` (
   `value` int(10) UNSIGNED NOT NULL COMMENT 'Value'
 ) ENGINE=MEMORY DEFAULT CHARSET=utf8 COMMENT='Catalog Product EAV Indexer Temp Table';
 
+--
+-- Dumping data for table `catalog_product_index_eav_tmp`
+--
+
+INSERT INTO `catalog_product_index_eav_tmp` (`entity_id`, `attribute_id`, `store_id`, `value`) VALUES
+(2, 121, 1, 0),
+(2, 121, 3, 0);
+
 -- --------------------------------------------------------
 
 --
@@ -1403,6 +3253,24 @@ CREATE TABLE `catalog_product_index_price` (
   `tier_price` decimal(12,4) DEFAULT NULL COMMENT 'Tier Price',
   `group_price` decimal(12,4) DEFAULT NULL COMMENT 'Group price'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Price Index Table';
+
+--
+-- Dumping data for table `catalog_product_index_price`
+--
+
+INSERT INTO `catalog_product_index_price` (`entity_id`, `customer_group_id`, `website_id`, `tax_class_id`, `price`, `final_price`, `min_price`, `max_price`, `tier_price`, `group_price`) VALUES
+(2, 0, 1, 0, '616000.0000', '616000.0000', '616000.0000', '616000.0000', NULL, NULL),
+(2, 1, 1, 0, '616000.0000', '616000.0000', '616000.0000', '616000.0000', NULL, NULL),
+(2, 2, 1, 0, '616000.0000', '616000.0000', '616000.0000', '616000.0000', NULL, NULL),
+(2, 3, 1, 0, '616000.0000', '616000.0000', '616000.0000', '616000.0000', NULL, NULL),
+(4, 0, 1, 0, '607000.0000', '607000.0000', '607000.0000', '607000.0000', NULL, NULL),
+(4, 1, 1, 0, '607000.0000', '607000.0000', '607000.0000', '607000.0000', NULL, NULL),
+(4, 2, 1, 0, '607000.0000', '607000.0000', '607000.0000', '607000.0000', NULL, NULL),
+(4, 3, 1, 0, '607000.0000', '607000.0000', '607000.0000', '607000.0000', NULL, NULL),
+(6, 0, 1, 0, '202000.0000', '202000.0000', '202000.0000', '202000.0000', NULL, NULL),
+(6, 1, 1, 0, '202000.0000', '202000.0000', '202000.0000', '202000.0000', NULL, NULL),
+(6, 2, 1, 0, '202000.0000', '202000.0000', '202000.0000', '202000.0000', NULL, NULL),
+(6, 3, 1, 0, '202000.0000', '202000.0000', '202000.0000', '202000.0000', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -1770,6 +3638,16 @@ CREATE TABLE `catalog_product_index_price_tmp` (
   `group_price` decimal(12,4) DEFAULT NULL COMMENT 'Group price'
 ) ENGINE=MEMORY DEFAULT CHARSET=utf8 COMMENT='Catalog Product Price Indexer Temp Table';
 
+--
+-- Dumping data for table `catalog_product_index_price_tmp`
+--
+
+INSERT INTO `catalog_product_index_price_tmp` (`entity_id`, `customer_group_id`, `website_id`, `tax_class_id`, `price`, `final_price`, `min_price`, `max_price`, `tier_price`, `group_price`) VALUES
+(2, 0, 1, 0, '616000.0000', '616000.0000', '616000.0000', '616000.0000', NULL, NULL),
+(2, 1, 1, 0, '616000.0000', '616000.0000', '616000.0000', '616000.0000', NULL, NULL),
+(2, 2, 1, 0, '616000.0000', '616000.0000', '616000.0000', '616000.0000', NULL, NULL),
+(2, 3, 1, 0, '616000.0000', '616000.0000', '616000.0000', '616000.0000', NULL, NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -1794,6 +3672,13 @@ CREATE TABLE `catalog_product_index_website` (
   `website_date` date DEFAULT NULL COMMENT 'Website Date',
   `rate` float DEFAULT '1' COMMENT 'Rate'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Website Index Table';
+
+--
+-- Dumping data for table `catalog_product_index_website`
+--
+
+INSERT INTO `catalog_product_index_website` (`website_id`, `website_date`, `rate`) VALUES
+(1, '2016-07-12', 1);
 
 -- --------------------------------------------------------
 
@@ -2054,6 +3939,15 @@ CREATE TABLE `catalog_product_website` (
   `website_id` smallint(5) UNSIGNED NOT NULL COMMENT 'Website ID'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product To Website Linkage Table';
 
+--
+-- Dumping data for table `catalog_product_website`
+--
+
+INSERT INTO `catalog_product_website` (`product_id`, `website_id`) VALUES
+(2, 1),
+(4, 1),
+(6, 1);
+
 -- --------------------------------------------------------
 
 --
@@ -2218,14 +4112,14 @@ CREATE TABLE `core_cache_option` (
 --
 
 INSERT INTO `core_cache_option` (`code`, `value`) VALUES
-('block_html', 1),
-('collections', 1),
-('config', 1),
-('config_api', 1),
-('config_api2', 1),
-('eav', 1),
-('layout', 1),
-('translate', 1);
+('block_html', 0),
+('collections', 0),
+('config', 0),
+('config_api', 0),
+('config_api2', 0),
+('eav', 0),
+('layout', 0),
+('translate', 0);
 
 -- --------------------------------------------------------
 
@@ -2479,7 +4373,8 @@ CREATE TABLE `core_store` (
 
 INSERT INTO `core_store` (`store_id`, `code`, `website_id`, `group_id`, `name`, `sort_order`, `is_active`) VALUES
 (0, 'admin', 0, 0, 'Admin', 0, 1),
-(1, 'default', 1, 1, 'Default Store View', 0, 1);
+(1, 'vi', 1, 1, 'Tiếng việt', 0, 1),
+(3, 'en', 1, 1, 'English', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -2501,7 +4396,7 @@ CREATE TABLE `core_store_group` (
 
 INSERT INTO `core_store_group` (`group_id`, `website_id`, `name`, `root_category_id`, `default_store_id`) VALUES
 (0, 0, 'Default', 0, 0),
-(1, 1, 'Main Website Store', 2, 1);
+(1, 1, 'Book store', 2, 1);
 
 -- --------------------------------------------------------
 
@@ -2536,6 +4431,155 @@ CREATE TABLE `core_url_rewrite` (
   `category_id` int(10) UNSIGNED DEFAULT NULL COMMENT 'Category Id',
   `product_id` int(10) UNSIGNED DEFAULT NULL COMMENT 'Product Id'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Url Rewrites';
+
+--
+-- Dumping data for table `core_url_rewrite`
+--
+
+INSERT INTO `core_url_rewrite` (`url_rewrite_id`, `store_id`, `id_path`, `request_path`, `target_path`, `is_system`, `options`, `description`, `category_id`, `product_id`) VALUES
+(1, 1, 'category/3', 'vietnamese-book.html', 'catalog/category/view/id/3', 1, NULL, NULL, 3, NULL),
+(2, 1, 'category/4', 'vietnamese-book/schoolbook.html', 'catalog/category/view/id/4', 1, NULL, NULL, 4, NULL),
+(3, 1, 'category/5', 'vietnamese-book/fiction-literature.html', 'catalog/category/view/id/5', 1, NULL, NULL, 5, NULL),
+(5, 1, '67596200_1468205725', 'vietnamese-book/sach-van-h-c-ti-u-thuy-t.html', 'vietnamese-book/fiction-literature.html', 0, 'RP', NULL, 5, NULL),
+(6, 1, 'category/6', 'vietnamese-book/foreign-language-dictionary.html', 'catalog/category/view/id/6', 1, NULL, NULL, 6, NULL),
+(7, 1, 'category/7', 'vietnamese-book/economy.html', 'catalog/category/view/id/7', 1, NULL, NULL, 7, NULL),
+(8, 1, 'category/8', 'vietnamese-book/comic.html', 'catalog/category/view/id/8', 1, NULL, NULL, 8, NULL),
+(9, 1, 'category/9', 'english-book.html', 'catalog/category/view/id/9', 1, NULL, NULL, 9, NULL),
+(10, 1, 'category/10', 'english-book/business-investing.html', 'catalog/category/view/id/10', 1, NULL, NULL, 10, NULL),
+(11, 1, 'category/11', 'english-book/fiction-literature.html', 'catalog/category/view/id/11', 1, NULL, NULL, 11, NULL),
+(12, 1, 'category/12', 'english-book/foreign-language-dictionary.html', 'catalog/category/view/id/12', 1, NULL, NULL, 12, NULL),
+(13, 1, 'category/13', 'english-book/culture-art.html', 'catalog/category/view/id/13', 1, NULL, NULL, 13, NULL),
+(14, 1, 'category/14', 'stationery.html', 'catalog/category/view/id/14', 1, NULL, NULL, 14, NULL),
+(15, 1, 'category/15', 'stationery/office-equipment.html', 'catalog/category/view/id/15', 1, NULL, NULL, 15, NULL),
+(17, 1, '07205900_1468206412', 'stationery/d-ng-c-van-phong.html', 'stationery/office-equipment.html', 0, 'RP', NULL, 15, NULL),
+(18, 1, 'category/16', 'stationery/school-supply.html', 'catalog/category/view/id/16', 1, NULL, NULL, 16, NULL),
+(19, 1, 'category/17', 'stationery/paper-product.html', 'catalog/category/view/id/17', 1, NULL, NULL, 17, NULL),
+(20, 1, 'category/18', 'stationery/pen.html', 'catalog/category/view/id/18', 1, NULL, NULL, 18, NULL),
+(21, 1, 'category/19', 'souvenir.html', 'catalog/category/view/id/19', 1, NULL, NULL, 19, NULL),
+(22, 1, 'category/20', 'souvenir/album-frame.html', 'catalog/category/view/id/20', 1, NULL, NULL, 20, NULL),
+(23, 1, 'category/21', 'souvenir/key-chain.html', 'catalog/category/view/id/21', 1, NULL, NULL, 21, NULL),
+(24, 1, 'category/22', 'souvenir/stuffed-animal.html', 'catalog/category/view/id/22', 1, NULL, NULL, 22, NULL),
+(25, 1, 'category/23', 'vietnamese-book/schoolbook/sach-giao-khoa.html', 'catalog/category/view/id/23', 1, NULL, NULL, 23, NULL),
+(26, 1, 'category/24', 'vietnamese-book/schoolbook/sach-tham-khao.html', 'catalog/category/view/id/24', 1, NULL, NULL, 24, NULL),
+(27, 1, 'category/25', 'vietnamese-book/schoolbook/sach-giao-khoa/cap1.html', 'catalog/category/view/id/25', 1, NULL, NULL, 25, NULL),
+(28, 1, 'category/26', 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop1.html', 'catalog/category/view/id/26', 1, NULL, NULL, 26, NULL),
+(29, 1, 'category/27', 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop2.html', 'catalog/category/view/id/27', 1, NULL, NULL, 27, NULL),
+(30, 1, 'category/28', 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop3.html', 'catalog/category/view/id/28', 1, NULL, NULL, 28, NULL),
+(31, 1, 'category/29', 'vietnamese-book/schoolbook/sach-giao-khoa/cap2.html', 'catalog/category/view/id/29', 1, NULL, NULL, 29, NULL),
+(32, 1, 'category/30', 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop6.html', 'catalog/category/view/id/30', 1, NULL, NULL, 30, NULL),
+(33, 1, 'category/31', 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop7.html', 'catalog/category/view/id/31', 1, NULL, NULL, 31, NULL),
+(34, 1, 'category/32', 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop8.html', 'catalog/category/view/id/32', 1, NULL, NULL, 32, NULL),
+(35, 1, 'category/33', 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop9.html', 'catalog/category/view/id/33', 1, NULL, NULL, 33, NULL),
+(36, 1, 'category/34', 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop4.html', 'catalog/category/view/id/34', 1, NULL, NULL, 34, NULL),
+(37, 1, 'category/35', 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop5.html', 'catalog/category/view/id/35', 1, NULL, NULL, 35, NULL),
+(38, 1, 'category/36', 'vietnamese-book/schoolbook/sach-giao-khoa/cap3.html', 'catalog/category/view/id/36', 1, NULL, NULL, 36, NULL),
+(40, 1, '97639700_1468207453', 'vietnamese-book/schoolbook/sach-giao-khoa/c-p-3.html', 'vietnamese-book/schoolbook/sach-giao-khoa/cap3.html', 0, 'RP', NULL, 36, NULL),
+(42, 1, '86438500_1468207462', 'vietnamese-book/schoolbook/sach-giao-khoa/cap-3.html', 'vietnamese-book/schoolbook/sach-giao-khoa/cap3.html', 0, 'RP', NULL, 36, NULL),
+(43, 1, 'category/37', 'vietnamese-book/schoolbook/sach-giao-khoa/cap3/lop10.html', 'catalog/category/view/id/37', 1, NULL, NULL, 37, NULL),
+(44, 1, 'category/38', 'vietnamese-book/schoolbook/sach-giao-khoa/cap3/lop11.html', 'catalog/category/view/id/38', 1, NULL, NULL, 38, NULL),
+(45, 1, 'category/39', 'vietnamese-book/schoolbook/sach-giao-khoa/cap3/lop12.html', 'catalog/category/view/id/39', 1, NULL, NULL, 39, NULL),
+(46, 1, 'category/40', 'vietnamese-book/schoolbook/sach-tham-khao/cap1.html', 'catalog/category/view/id/40', 1, NULL, NULL, 40, NULL),
+(48, 1, 'category/42', 'vietnamese-book/schoolbook/sach-tham-khao/cap2.html', 'catalog/category/view/id/42', 1, NULL, NULL, 42, NULL),
+(49, 1, 'category/43', 'vietnamese-book/schoolbook/sach-tham-khao/cap3.html', 'catalog/category/view/id/43', 1, NULL, NULL, 43, NULL),
+(50, 1, 'category/44', 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop1.html', 'catalog/category/view/id/44', 1, NULL, NULL, 44, NULL),
+(51, 1, 'category/45', 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop2.html', 'catalog/category/view/id/45', 1, NULL, NULL, 45, NULL),
+(52, 1, 'category/46', 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop3.html', 'catalog/category/view/id/46', 1, NULL, NULL, 46, NULL),
+(53, 1, 'category/47', 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop4.html', 'catalog/category/view/id/47', 1, NULL, NULL, 47, NULL),
+(54, 1, 'category/48', 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop5.html', 'catalog/category/view/id/48', 1, NULL, NULL, 48, NULL),
+(55, 1, 'category/49', 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop6.html', 'catalog/category/view/id/49', 1, NULL, NULL, 49, NULL),
+(56, 1, 'category/50', 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop7.html', 'catalog/category/view/id/50', 1, NULL, NULL, 50, NULL),
+(57, 1, 'category/51', 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop8.html', 'catalog/category/view/id/51', 1, NULL, NULL, 51, NULL),
+(58, 1, 'category/52', 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop9.html', 'catalog/category/view/id/52', 1, NULL, NULL, 52, NULL),
+(59, 1, 'category/53', 'vietnamese-book/schoolbook/sach-tham-khao/cap3/lop10.html', 'catalog/category/view/id/53', 1, NULL, NULL, 53, NULL),
+(60, 1, 'category/54', 'vietnamese-book/schoolbook/sach-tham-khao/cap3/lop11.html', 'catalog/category/view/id/54', 1, NULL, NULL, 54, NULL),
+(61, 1, 'category/55', 'vietnamese-book/schoolbook/sach-tham-khao/cap3/lop12.html', 'catalog/category/view/id/55', 1, NULL, NULL, 55, NULL),
+(62, 1, 'category/56', 'vietnamese-book/fiction-literature/truyen-cuoi.html', 'catalog/category/view/id/56', 1, NULL, NULL, 56, NULL),
+(63, 1, 'category/57', 'vietnamese-book/fiction-literature/van-hoc-nuoc-ngoai.html', 'catalog/category/view/id/57', 1, NULL, NULL, 57, NULL),
+(64, 1, 'category/58', 'vietnamese-book/fiction-literature/van-hoc-viet-nam.html', 'catalog/category/view/id/58', 1, NULL, NULL, 58, NULL),
+(65, 1, 'category/59', 'vietnamese-book/fiction-literature/tho.html', 'catalog/category/view/id/59', 1, NULL, NULL, 59, NULL),
+(66, 1, 'category/60', 'vietnamese-book/foreign-language-dictionary/tieng-anh.html', 'catalog/category/view/id/60', 1, NULL, NULL, 60, NULL),
+(67, 1, 'category/61', 'vietnamese-book/foreign-language-dictionary/tieng-nhat.html', 'catalog/category/view/id/61', 1, NULL, NULL, 61, NULL),
+(68, 1, 'category/62', 'vietnamese-book/foreign-language-dictionary/tieng-hoa.html', 'catalog/category/view/id/62', 1, NULL, NULL, 62, NULL),
+(69, 1, 'category/63', 'vietnamese-book/economy/quan-tri-lanh-dao.html', 'catalog/category/view/id/63', 1, NULL, NULL, 63, NULL),
+(70, 1, 'category/64', 'vietnamese-book/economy/marketing-ban-hang.html', 'catalog/category/view/id/64', 1, NULL, NULL, 64, NULL),
+(72, 1, '99110700_1468209700', 'vietnamese-book/foreign-language-dictionary/tieng-hoa/marketing-ban-hang.html', 'vietnamese-book/economy/marketing-ban-hang.html', 0, 'RP', NULL, 64, NULL),
+(77, 1, 'category/65', 'vietnamese-book/economy/tai-chinh-ke-toan.html', 'catalog/category/view/id/65', 1, NULL, NULL, 65, NULL),
+(78, 1, 'category/66', 'vietnamese-book/economy/khoi-nghiep.html', 'catalog/category/view/id/66', 1, NULL, NULL, 66, NULL),
+(79, 1, 'category/67', 'vietnamese-book/comic/doraemon.html', 'catalog/category/view/id/67', 1, NULL, NULL, 67, NULL),
+(80, 1, 'category/68', 'vietnamese-book/comic/conan.html', 'catalog/category/view/id/68', 1, NULL, NULL, 68, NULL),
+(81, 1, 'category/69', 'vietnamese-book/comic/one-piece.html', 'catalog/category/view/id/69', 1, NULL, NULL, 69, NULL),
+(82, 1, 'category/70', 'vietnamese-book/comic/shin.html', 'catalog/category/view/id/70', 1, NULL, NULL, 70, NULL),
+(85, 1, 'product/2/13', 'english-book/culture-art/painting-in-wall-design.html', 'catalog/product/view/id/2/category/13', 1, NULL, NULL, 13, 2),
+(86, 1, 'product/2', 'painting-in-wall-design.html', 'catalog/product/view/id/2', 1, NULL, NULL, NULL, 2),
+(91, 3, 'category/3', 'vietnamese-book.html', 'catalog/category/view/id/3', 1, NULL, NULL, 3, NULL),
+(92, 3, 'category/4', 'vietnamese-book/schoolbook.html', 'catalog/category/view/id/4', 1, NULL, NULL, 4, NULL),
+(93, 3, 'category/23', 'vietnamese-book/schoolbook/sach-giao-khoa.html', 'catalog/category/view/id/23', 1, NULL, NULL, 23, NULL),
+(94, 3, 'category/25', 'vietnamese-book/schoolbook/sach-giao-khoa/cap1.html', 'catalog/category/view/id/25', 1, NULL, NULL, 25, NULL),
+(95, 3, 'category/26', 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop1.html', 'catalog/category/view/id/26', 1, NULL, NULL, 26, NULL),
+(96, 3, 'category/27', 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop2.html', 'catalog/category/view/id/27', 1, NULL, NULL, 27, NULL),
+(97, 3, 'category/28', 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop3.html', 'catalog/category/view/id/28', 1, NULL, NULL, 28, NULL),
+(98, 3, 'category/34', 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop4.html', 'catalog/category/view/id/34', 1, NULL, NULL, 34, NULL),
+(99, 3, 'category/35', 'vietnamese-book/schoolbook/sach-giao-khoa/cap1/lop5.html', 'catalog/category/view/id/35', 1, NULL, NULL, 35, NULL),
+(100, 3, 'category/29', 'vietnamese-book/schoolbook/sach-giao-khoa/cap2.html', 'catalog/category/view/id/29', 1, NULL, NULL, 29, NULL),
+(101, 3, 'category/30', 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop6.html', 'catalog/category/view/id/30', 1, NULL, NULL, 30, NULL),
+(102, 3, 'category/31', 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop7.html', 'catalog/category/view/id/31', 1, NULL, NULL, 31, NULL),
+(103, 3, 'category/32', 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop8.html', 'catalog/category/view/id/32', 1, NULL, NULL, 32, NULL),
+(104, 3, 'category/33', 'vietnamese-book/schoolbook/sach-giao-khoa/cap2/lop9.html', 'catalog/category/view/id/33', 1, NULL, NULL, 33, NULL),
+(105, 3, 'category/36', 'vietnamese-book/schoolbook/sach-giao-khoa/cap3.html', 'catalog/category/view/id/36', 1, NULL, NULL, 36, NULL),
+(106, 3, 'category/37', 'vietnamese-book/schoolbook/sach-giao-khoa/cap3/lop10.html', 'catalog/category/view/id/37', 1, NULL, NULL, 37, NULL),
+(107, 3, 'category/38', 'vietnamese-book/schoolbook/sach-giao-khoa/cap3/lop11.html', 'catalog/category/view/id/38', 1, NULL, NULL, 38, NULL),
+(108, 3, 'category/39', 'vietnamese-book/schoolbook/sach-giao-khoa/cap3/lop12.html', 'catalog/category/view/id/39', 1, NULL, NULL, 39, NULL),
+(109, 3, 'category/24', 'vietnamese-book/schoolbook/sach-tham-khao.html', 'catalog/category/view/id/24', 1, NULL, NULL, 24, NULL),
+(110, 3, 'category/40', 'vietnamese-book/schoolbook/sach-tham-khao/cap1.html', 'catalog/category/view/id/40', 1, NULL, NULL, 40, NULL),
+(111, 3, 'category/44', 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop1.html', 'catalog/category/view/id/44', 1, NULL, NULL, 44, NULL),
+(112, 3, 'category/45', 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop2.html', 'catalog/category/view/id/45', 1, NULL, NULL, 45, NULL),
+(113, 3, 'category/46', 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop3.html', 'catalog/category/view/id/46', 1, NULL, NULL, 46, NULL),
+(114, 3, 'category/47', 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop4.html', 'catalog/category/view/id/47', 1, NULL, NULL, 47, NULL),
+(115, 3, 'category/48', 'vietnamese-book/schoolbook/sach-tham-khao/cap1/lop5.html', 'catalog/category/view/id/48', 1, NULL, NULL, 48, NULL),
+(116, 3, 'category/42', 'vietnamese-book/schoolbook/sach-tham-khao/cap2.html', 'catalog/category/view/id/42', 1, NULL, NULL, 42, NULL),
+(117, 3, 'category/49', 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop6.html', 'catalog/category/view/id/49', 1, NULL, NULL, 49, NULL),
+(118, 3, 'category/50', 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop7.html', 'catalog/category/view/id/50', 1, NULL, NULL, 50, NULL),
+(119, 3, 'category/51', 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop8.html', 'catalog/category/view/id/51', 1, NULL, NULL, 51, NULL),
+(120, 3, 'category/52', 'vietnamese-book/schoolbook/sach-tham-khao/cap2/lop9.html', 'catalog/category/view/id/52', 1, NULL, NULL, 52, NULL),
+(121, 3, 'category/43', 'vietnamese-book/schoolbook/sach-tham-khao/cap3.html', 'catalog/category/view/id/43', 1, NULL, NULL, 43, NULL),
+(122, 3, 'category/53', 'vietnamese-book/schoolbook/sach-tham-khao/cap3/lop10.html', 'catalog/category/view/id/53', 1, NULL, NULL, 53, NULL),
+(123, 3, 'category/54', 'vietnamese-book/schoolbook/sach-tham-khao/cap3/lop11.html', 'catalog/category/view/id/54', 1, NULL, NULL, 54, NULL),
+(124, 3, 'category/55', 'vietnamese-book/schoolbook/sach-tham-khao/cap3/lop12.html', 'catalog/category/view/id/55', 1, NULL, NULL, 55, NULL),
+(125, 3, 'category/5', 'vietnamese-book/fiction-literature.html', 'catalog/category/view/id/5', 1, NULL, NULL, 5, NULL),
+(126, 3, 'category/56', 'vietnamese-book/fiction-literature/truyen-cuoi.html', 'catalog/category/view/id/56', 1, NULL, NULL, 56, NULL),
+(127, 3, 'category/57', 'vietnamese-book/fiction-literature/van-hoc-nuoc-ngoai.html', 'catalog/category/view/id/57', 1, NULL, NULL, 57, NULL),
+(128, 3, 'category/58', 'vietnamese-book/fiction-literature/van-hoc-viet-nam.html', 'catalog/category/view/id/58', 1, NULL, NULL, 58, NULL),
+(129, 3, 'category/59', 'vietnamese-book/fiction-literature/tho.html', 'catalog/category/view/id/59', 1, NULL, NULL, 59, NULL),
+(130, 3, 'category/6', 'vietnamese-book/foreign-language-dictionary.html', 'catalog/category/view/id/6', 1, NULL, NULL, 6, NULL),
+(131, 3, 'category/60', 'vietnamese-book/foreign-language-dictionary/tieng-anh.html', 'catalog/category/view/id/60', 1, NULL, NULL, 60, NULL),
+(132, 3, 'category/61', 'vietnamese-book/foreign-language-dictionary/tieng-nhat.html', 'catalog/category/view/id/61', 1, NULL, NULL, 61, NULL),
+(133, 3, 'category/62', 'vietnamese-book/foreign-language-dictionary/tieng-hoa.html', 'catalog/category/view/id/62', 1, NULL, NULL, 62, NULL),
+(134, 3, 'category/7', 'vietnamese-book/economy.html', 'catalog/category/view/id/7', 1, NULL, NULL, 7, NULL),
+(135, 3, 'category/63', 'vietnamese-book/economy/quan-tri-lanh-dao.html', 'catalog/category/view/id/63', 1, NULL, NULL, 63, NULL),
+(136, 3, 'category/64', 'vietnamese-book/economy/marketing-ban-hang.html', 'catalog/category/view/id/64', 1, NULL, NULL, 64, NULL),
+(137, 3, 'category/65', 'vietnamese-book/economy/tai-chinh-ke-toan.html', 'catalog/category/view/id/65', 1, NULL, NULL, 65, NULL),
+(138, 3, 'category/66', 'vietnamese-book/economy/khoi-nghiep.html', 'catalog/category/view/id/66', 1, NULL, NULL, 66, NULL),
+(139, 3, 'category/8', 'vietnamese-book/comic.html', 'catalog/category/view/id/8', 1, NULL, NULL, 8, NULL),
+(140, 3, 'category/67', 'vietnamese-book/comic/doraemon.html', 'catalog/category/view/id/67', 1, NULL, NULL, 67, NULL),
+(141, 3, 'category/68', 'vietnamese-book/comic/conan.html', 'catalog/category/view/id/68', 1, NULL, NULL, 68, NULL),
+(142, 3, 'category/69', 'vietnamese-book/comic/one-piece.html', 'catalog/category/view/id/69', 1, NULL, NULL, 69, NULL),
+(143, 3, 'category/70', 'vietnamese-book/comic/shin.html', 'catalog/category/view/id/70', 1, NULL, NULL, 70, NULL),
+(144, 3, 'product/4/20', 'souvenir/album-frame/scrapbook-ps-i-love-you.html', 'catalog/product/view/id/4/category/20', 1, NULL, NULL, 20, 4),
+(145, 3, 'product/4', 'scrapbook-ps-i-love-you.html', 'catalog/product/view/id/4', 1, NULL, NULL, NULL, 4),
+(146, 1, 'product/4/20', 'souvenir/album-frame/scrapbook-ps-i-love-you.html', 'catalog/product/view/id/4/category/20', 1, NULL, NULL, 20, 4),
+(147, 1, 'product/4', 'scrapbook-ps-i-love-you.html', 'catalog/product/view/id/4', 1, NULL, NULL, NULL, 4),
+(148, 3, 'product/6/10', 'english-book/business-investing/the-profession-of-violence-the-rise-and-fall-of-the-kray-twins.html', 'catalog/product/view/id/6/category/10', 1, NULL, NULL, 10, 6),
+(149, 3, 'product/6', 'the-profession-of-violence-the-rise-and-fall-of-the-kray-twins.html', 'catalog/product/view/id/6', 1, NULL, NULL, NULL, 6),
+(150, 1, 'product/6/10', 'english-book/business-investing/the-profession-of-violence-the-rise-and-fall-of-the-kray-twins.html', 'catalog/product/view/id/6/category/10', 1, NULL, NULL, 10, 6),
+(151, 1, 'product/6', 'the-profession-of-violence-the-rise-and-fall-of-the-kray-twins.html', 'catalog/product/view/id/6', 1, NULL, NULL, NULL, 6),
+(152, 3, 'product/6/9', 'english-book/the-profession-of-violence-the-rise-and-fall-of-the-kray-twins.html', 'catalog/product/view/id/6/category/9', 1, NULL, NULL, 9, 6),
+(155, 1, 'product/6/9', 'english-book/the-profession-of-violence-the-rise-and-fall-of-the-kray-twins.html', 'catalog/product/view/id/6/category/9', 1, NULL, NULL, 9, 6),
+(158, 3, 'product/4/19', 'souvenir/scrapbook-ps-i-love-you.html', 'catalog/product/view/id/4/category/19', 1, NULL, NULL, 19, 4),
+(161, 1, 'product/4/19', 'souvenir/scrapbook-ps-i-love-you.html', 'catalog/product/view/id/4/category/19', 1, NULL, NULL, 19, 4),
+(164, 3, 'product/2/9', 'english-book/painting-in-wall-design.html', 'catalog/product/view/id/2/category/9', 1, NULL, NULL, 9, 2),
+(165, 3, 'product/2/13', 'english-book/culture-art/painting-in-wall-design.html', 'catalog/product/view/id/2/category/13', 1, NULL, NULL, 13, 2),
+(166, 3, 'product/2', 'painting-in-wall-design.html', 'catalog/product/view/id/2', 1, NULL, NULL, NULL, 2),
+(167, 1, 'product/2/9', 'english-book/painting-in-wall-design.html', 'catalog/product/view/id/2/category/9', 1, NULL, NULL, 9, 2);
 
 -- --------------------------------------------------------
 
@@ -4729,7 +6773,7 @@ INSERT INTO `eav_attribute` (`attribute_id`, `entity_type_id`, `attribute_code`,
 (77, 4, 'special_from_date', NULL, 'catalog/product_attribute_backend_startdate_specialprice', 'datetime', NULL, NULL, 'date', 'Special Price From Date', NULL, NULL, 0, 0, NULL, 0, NULL),
 (78, 4, 'special_to_date', NULL, 'eav/entity_attribute_backend_datetime', 'datetime', NULL, NULL, 'date', 'Special Price To Date', NULL, NULL, 0, 0, NULL, 0, NULL),
 (79, 4, 'cost', NULL, 'catalog/product_attribute_backend_price', 'decimal', NULL, NULL, 'price', 'Cost', NULL, NULL, 0, 1, NULL, 0, NULL),
-(80, 4, 'weight', NULL, NULL, 'decimal', NULL, NULL, 'weight', 'Weight', NULL, NULL, 1, 0, NULL, 0, NULL),
+(80, 4, 'weight', NULL, NULL, 'decimal', NULL, NULL, 'weight', 'Weight', 'validate-number', NULL, 0, 0, NULL, 0, NULL),
 (81, 4, 'manufacturer', NULL, NULL, 'int', NULL, NULL, 'select', 'Manufacturer', NULL, NULL, 0, 1, NULL, 0, NULL),
 (82, 4, 'meta_title', NULL, NULL, 'varchar', NULL, NULL, 'text', 'Meta Title', NULL, NULL, 0, 0, NULL, 0, NULL),
 (83, 4, 'meta_keyword', NULL, NULL, 'text', NULL, NULL, 'textarea', 'Meta Keywords', NULL, NULL, 0, 0, NULL, 0, NULL),
@@ -4780,7 +6824,16 @@ INSERT INTO `eav_attribute` (`attribute_id`, `entity_type_id`, `attribute_code`,
 (128, 4, 'links_purchased_separately', NULL, NULL, 'int', NULL, NULL, NULL, 'Links can be purchased separately', NULL, NULL, 1, 0, NULL, 0, NULL),
 (129, 4, 'samples_title', NULL, NULL, 'varchar', NULL, NULL, NULL, 'Samples title', NULL, NULL, 1, 0, NULL, 0, NULL),
 (130, 4, 'links_title', NULL, NULL, 'varchar', NULL, NULL, NULL, 'Links title', NULL, NULL, 1, 0, NULL, 0, NULL),
-(131, 4, 'links_exist', NULL, NULL, 'int', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, '0', 0, NULL);
+(131, 4, 'links_exist', NULL, NULL, 'int', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, '0', 0, NULL),
+(133, 4, 'author', NULL, NULL, 'varchar', NULL, NULL, 'text', 'Author', NULL, NULL, 0, 1, NULL, 0, NULL),
+(134, 4, 'publisher', NULL, NULL, 'varchar', NULL, NULL, 'text', 'Publisher', NULL, NULL, 0, 1, NULL, 0, NULL),
+(135, 4, 'size', NULL, NULL, 'varchar', NULL, NULL, 'text', 'Size', NULL, NULL, 0, 1, NULL, 0, NULL),
+(136, 4, 'number_of_pages', NULL, NULL, 'varchar', NULL, NULL, 'text', 'Number of pages', NULL, NULL, 0, 1, NULL, 0, NULL),
+(137, 4, 'distributor', NULL, NULL, 'varchar', NULL, NULL, 'text', 'Distributor', NULL, NULL, 0, 1, NULL, 0, NULL),
+(138, 4, 'publish_day', NULL, NULL, 'varchar', NULL, NULL, 'text', 'Publish day', NULL, NULL, 0, 1, NULL, 0, NULL),
+(139, 4, 'trademark', NULL, NULL, 'varchar', NULL, NULL, 'text', 'Trademark', NULL, NULL, 0, 1, NULL, 0, NULL),
+(140, 4, 'country_of_manufacture2', NULL, NULL, 'varchar', NULL, NULL, 'text', 'Country of Manufacture', NULL, NULL, 0, 1, NULL, 0, NULL),
+(141, 4, 'delivery_weight', NULL, NULL, 'varchar', NULL, NULL, 'text', 'Delivery weight', 'validate-digits', NULL, 1, 1, NULL, 0, NULL);
 
 -- --------------------------------------------------------
 
@@ -4817,7 +6870,23 @@ INSERT INTO `eav_attribute_group` (`attribute_group_id`, `attribute_set_id`, `at
 (14, 6, 'General', 1, 1),
 (15, 7, 'General', 1, 1),
 (16, 8, 'General', 1, 1),
-(17, 4, 'Gift Options', 7, 0);
+(17, 4, 'Gift Options', 7, 0),
+(18, 9, 'Gift Options', 7, 0),
+(19, 9, 'Design', 6, 0),
+(20, 9, 'Recurring Profile', 5, 0),
+(21, 9, 'Images', 4, 0),
+(22, 9, 'Meta Information', 3, 0),
+(23, 9, 'Prices', 2, 0),
+(24, 9, 'General', 1, 1),
+(25, 9, 'Book', 8, 0),
+(26, 10, 'Gift Options', 7, 0),
+(27, 10, 'Design', 6, 0),
+(28, 10, 'Recurring Profile', 5, 0),
+(29, 10, 'Images', 4, 0),
+(30, 10, 'Meta Information', 3, 0),
+(31, 10, 'Prices', 2, 0),
+(32, 10, 'General', 1, 1),
+(33, 10, 'Souvenir - Stationery', 8, 0);
 
 -- --------------------------------------------------------
 
@@ -4831,6 +6900,23 @@ CREATE TABLE `eav_attribute_label` (
   `store_id` smallint(5) UNSIGNED NOT NULL DEFAULT '0' COMMENT 'Store Id',
   `value` varchar(255) DEFAULT NULL COMMENT 'Value'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Eav Attribute Label';
+
+--
+-- Dumping data for table `eav_attribute_label`
+--
+
+INSERT INTO `eav_attribute_label` (`attribute_label_id`, `attribute_id`, `store_id`, `value`) VALUES
+(51, 133, 1, 'Tác giả'),
+(52, 134, 1, 'Nhà xuất bản'),
+(54, 136, 1, 'Số trang'),
+(55, 137, 1, 'Nhà phát hành'),
+(56, 138, 1, 'Ngày xuất bản'),
+(58, 80, 1, 'Khối lượng vận chuyển (gram)'),
+(59, 117, 1, 'Sản xuất tại'),
+(60, 135, 1, 'Kích thước (cm)'),
+(61, 139, 1, 'Thương hiệu'),
+(62, 140, 1, 'Sản xuất tại'),
+(63, 141, 1, 'Khối lượng vận chuyển (gram)');
 
 -- --------------------------------------------------------
 
@@ -4898,7 +6984,9 @@ INSERT INTO `eav_attribute_set` (`attribute_set_id`, `entity_type_id`, `attribut
 (5, 5, 'Default', 1),
 (6, 6, 'Default', 1),
 (7, 7, 'Default', 1),
-(8, 8, 'Default', 1);
+(8, 8, 'Default', 1),
+(9, 4, 'Book', 0),
+(10, 4, 'Souvenir - Stationery', 0);
 
 -- --------------------------------------------------------
 
@@ -5066,7 +7154,136 @@ INSERT INTO `eav_entity_attribute` (`entity_attribute_id`, `entity_type_id`, `at
 (126, 4, 4, 7, 128, 26),
 (127, 4, 4, 7, 129, 27),
 (128, 4, 4, 7, 130, 28),
-(129, 4, 4, 7, 131, 29);
+(129, 4, 4, 7, 131, 29),
+(181, 4, 9, 23, 99, 8),
+(203, 4, 9, 24, 89, 6),
+(213, 4, 9, 24, 98, 11),
+(217, 4, 9, 24, 108, 13),
+(219, 4, 9, 24, 110, 14),
+(221, 4, 9, 24, 111, 15),
+(223, 4, 9, 24, 112, 16),
+(225, 4, 9, 24, 113, 17),
+(227, 4, 9, 24, 114, 18),
+(229, 4, 9, 24, 115, 19),
+(231, 4, 9, 24, 116, 20),
+(235, 4, 9, 24, 123, 22),
+(237, 4, 9, 24, 124, 23),
+(239, 4, 9, 24, 125, 24),
+(241, 4, 9, 24, 127, 25),
+(243, 4, 9, 24, 128, 26),
+(245, 4, 9, 24, 129, 27),
+(247, 4, 9, 24, 130, 28),
+(249, 4, 9, 24, 131, 29),
+(815, 4, 10, 31, 99, 8),
+(837, 4, 10, 32, 89, 6),
+(847, 4, 10, 32, 98, 11),
+(851, 4, 10, 32, 108, 13),
+(853, 4, 10, 32, 110, 14),
+(855, 4, 10, 32, 111, 15),
+(857, 4, 10, 32, 112, 16),
+(859, 4, 10, 32, 113, 17),
+(861, 4, 10, 32, 114, 18),
+(863, 4, 10, 32, 115, 19),
+(865, 4, 10, 32, 116, 20),
+(869, 4, 10, 32, 123, 22),
+(871, 4, 10, 32, 124, 23),
+(873, 4, 10, 32, 125, 24),
+(875, 4, 10, 32, 127, 25),
+(877, 4, 10, 32, 128, 26),
+(879, 4, 10, 32, 129, 27),
+(881, 4, 10, 32, 130, 28),
+(883, 4, 10, 32, 131, 29),
+(971, 4, 9, 24, 71, 1),
+(973, 4, 9, 24, 72, 2),
+(975, 4, 9, 24, 73, 3),
+(977, 4, 9, 24, 74, 4),
+(979, 4, 9, 24, 80, 5),
+(981, 4, 9, 24, 93, 6),
+(983, 4, 9, 24, 94, 7),
+(985, 4, 9, 24, 96, 8),
+(987, 4, 9, 24, 97, 9),
+(989, 4, 9, 24, 102, 10),
+(991, 4, 9, 24, 117, 11),
+(993, 4, 9, 23, 75, 1),
+(995, 4, 9, 23, 76, 3),
+(997, 4, 9, 23, 77, 4),
+(999, 4, 9, 23, 78, 5),
+(1001, 4, 9, 23, 79, 6),
+(1003, 4, 9, 23, 90, 2),
+(1005, 4, 9, 23, 91, 7),
+(1007, 4, 9, 23, 118, 8),
+(1009, 4, 9, 23, 119, 9),
+(1011, 4, 9, 23, 120, 10),
+(1013, 4, 9, 23, 121, 11),
+(1015, 4, 9, 23, 126, 12),
+(1017, 4, 9, 22, 82, 1),
+(1019, 4, 9, 22, 83, 2),
+(1021, 4, 9, 22, 84, 3),
+(1023, 4, 9, 21, 85, 1),
+(1025, 4, 9, 21, 86, 2),
+(1027, 4, 9, 21, 87, 3),
+(1029, 4, 9, 21, 88, 4),
+(1031, 4, 9, 21, 95, 5),
+(1033, 4, 9, 20, 100, 1),
+(1035, 4, 9, 20, 101, 2),
+(1037, 4, 9, 19, 103, 1),
+(1039, 4, 9, 19, 104, 2),
+(1041, 4, 9, 19, 105, 3),
+(1043, 4, 9, 19, 106, 4),
+(1045, 4, 9, 19, 107, 5),
+(1047, 4, 9, 19, 109, 6),
+(1049, 4, 9, 18, 122, 1),
+(1051, 4, 9, 25, 133, 1),
+(1053, 4, 9, 25, 134, 3),
+(1055, 4, 9, 25, 135, 5),
+(1057, 4, 9, 25, 136, 4),
+(1059, 4, 9, 25, 137, 2),
+(1061, 4, 9, 25, 138, 7),
+(1063, 4, 9, 25, 141, 6),
+(1065, 4, 10, 32, 71, 1),
+(1067, 4, 10, 32, 72, 2),
+(1069, 4, 10, 32, 73, 3),
+(1071, 4, 10, 32, 74, 4),
+(1073, 4, 10, 32, 80, 5),
+(1075, 4, 10, 32, 93, 6),
+(1077, 4, 10, 32, 94, 7),
+(1079, 4, 10, 32, 96, 8),
+(1081, 4, 10, 32, 97, 9),
+(1083, 4, 10, 32, 102, 10),
+(1085, 4, 10, 32, 117, 11),
+(1087, 4, 10, 31, 75, 1),
+(1089, 4, 10, 31, 76, 3),
+(1091, 4, 10, 31, 77, 4),
+(1093, 4, 10, 31, 78, 5),
+(1095, 4, 10, 31, 79, 6),
+(1097, 4, 10, 31, 90, 2),
+(1099, 4, 10, 31, 91, 7),
+(1101, 4, 10, 31, 118, 8),
+(1103, 4, 10, 31, 119, 9),
+(1105, 4, 10, 31, 120, 10),
+(1107, 4, 10, 31, 121, 11),
+(1109, 4, 10, 31, 126, 12),
+(1111, 4, 10, 30, 82, 1),
+(1113, 4, 10, 30, 83, 2),
+(1115, 4, 10, 30, 84, 3),
+(1117, 4, 10, 29, 85, 1),
+(1119, 4, 10, 29, 86, 2),
+(1121, 4, 10, 29, 87, 3),
+(1123, 4, 10, 29, 88, 4),
+(1125, 4, 10, 29, 95, 5),
+(1127, 4, 10, 28, 100, 1),
+(1129, 4, 10, 28, 101, 2),
+(1131, 4, 10, 27, 103, 1),
+(1133, 4, 10, 27, 104, 2),
+(1135, 4, 10, 27, 105, 3),
+(1137, 4, 10, 27, 106, 4),
+(1139, 4, 10, 27, 107, 5),
+(1141, 4, 10, 27, 109, 6),
+(1143, 4, 10, 26, 122, 1),
+(1145, 4, 10, 33, 135, 3),
+(1147, 4, 10, 33, 139, 1),
+(1149, 4, 10, 33, 140, 2),
+(1151, 4, 10, 33, 141, 4);
 
 -- --------------------------------------------------------
 
@@ -5414,7 +7631,112 @@ CREATE TABLE `index_event` (
 
 INSERT INTO `index_event` (`event_id`, `type`, `entity`, `entity_pk`, `created_at`, `old_data`, `new_data`) VALUES
 (1, 'save', 'catalog_category', 1, '2016-07-07 19:07:46', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
-(2, 'save', 'catalog_category', 2, '2016-07-07 19:07:47', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}');
+(2, 'save', 'catalog_category', 2, '2016-07-07 19:07:47', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(3, 'save', 'catalog_category', 3, '2016-07-10 19:50:51', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(4, 'save', 'catalog_category', 4, '2016-07-10 19:53:42', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(5, 'save', 'catalog_category', 5, '2016-07-10 19:54:53', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(6, 'save', 'catalog_category', 6, '2016-07-10 19:57:07', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(7, 'save', 'catalog_category', 7, '2016-07-10 19:58:04', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(8, 'save', 'catalog_category', 8, '2016-07-10 19:59:13', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(9, 'save', 'catalog_category', 9, '2016-07-10 20:00:03', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(10, 'save', 'catalog_category', 10, '2016-07-10 20:00:44', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(11, 'save', 'catalog_category', 11, '2016-07-10 20:01:50', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(12, 'save', 'catalog_category', 12, '2016-07-10 20:03:20', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(13, 'save', 'catalog_category', 13, '2016-07-10 20:03:58', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(14, 'save', 'catalog_category', 14, '2016-07-10 20:05:29', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(15, 'save', 'catalog_category', 15, '2016-07-10 20:06:20', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(16, 'save', 'catalog_category', 16, '2016-07-10 20:09:01', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(17, 'save', 'catalog_category', 17, '2016-07-10 20:10:29', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(18, 'save', 'catalog_category', 18, '2016-07-10 20:11:18', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(19, 'save', 'catalog_category', 19, '2016-07-10 20:12:43', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(20, 'save', 'catalog_category', 20, '2016-07-10 20:13:43', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(21, 'save', 'catalog_category', 21, '2016-07-10 20:14:37', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(22, 'save', 'catalog_category', 22, '2016-07-10 20:16:10', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(23, 'save', 'catalog_category', 23, '2016-07-10 20:18:09', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(24, 'save', 'catalog_category', 24, '2016-07-10 20:18:32', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(25, 'save', 'catalog_category', 25, '2016-07-10 20:18:48', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(26, 'save', 'catalog_category', 26, '2016-07-10 20:19:16', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(27, 'save', 'catalog_category', 27, '2016-07-10 20:19:31', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(28, 'save', 'catalog_category', 28, '2016-07-10 20:21:14', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(29, 'save', 'catalog_category', 29, '2016-07-10 20:21:41', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(30, 'save', 'catalog_category', 30, '2016-07-10 20:22:00', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(31, 'save', 'catalog_category', 31, '2016-07-10 20:22:25', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(32, 'save', 'catalog_category', 32, '2016-07-10 20:22:40', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(33, 'save', 'catalog_category', 33, '2016-07-10 20:22:54', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(34, 'save', 'catalog_category', 34, '2016-07-10 20:23:09', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(35, 'save', 'catalog_category', 35, '2016-07-10 20:23:42', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(36, 'save', 'catalog_category', 36, '2016-07-10 20:24:09', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(37, 'save', 'catalog_category', 37, '2016-07-10 20:24:40', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(38, 'save', 'catalog_category', 38, '2016-07-10 20:24:51', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(39, 'save', 'catalog_category', 39, '2016-07-10 20:25:06', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(40, 'save', 'catalog_category', 40, '2016-07-10 20:43:18', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(41, 'save', 'catalog_category', 41, '2016-07-10 20:43:30', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(42, 'save', 'catalog_category', 42, '2016-07-10 20:43:50', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(43, 'save', 'catalog_category', 43, '2016-07-10 20:44:26', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(44, 'save', 'catalog_category', 44, '2016-07-10 20:46:23', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(45, 'save', 'catalog_category', 45, '2016-07-10 20:47:10', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(46, 'save', 'catalog_category', 46, '2016-07-10 20:47:30', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(47, 'save', 'catalog_category', 47, '2016-07-10 20:47:43', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(48, 'save', 'catalog_category', 48, '2016-07-10 20:47:58', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(49, 'save', 'catalog_category', 49, '2016-07-10 20:50:43', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(50, 'save', 'catalog_category', 50, '2016-07-10 20:51:11', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(51, 'save', 'catalog_category', 51, '2016-07-10 20:51:27', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(52, 'save', 'catalog_category', 52, '2016-07-10 20:52:58', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(53, 'save', 'catalog_category', 53, '2016-07-10 20:54:43', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(54, 'save', 'catalog_category', 54, '2016-07-10 20:55:15', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(55, 'save', 'catalog_category', 55, '2016-07-10 20:55:27', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(56, 'save', 'catalog_category', 56, '2016-07-10 20:57:05', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(57, 'save', 'catalog_category', 57, '2016-07-10 20:58:20', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(58, 'save', 'catalog_category', 58, '2016-07-10 20:58:54', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(59, 'save', 'catalog_category', 59, '2016-07-10 20:59:09', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(60, 'save', 'catalog_category', 60, '2016-07-10 20:59:43', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(61, 'save', 'catalog_category', 61, '2016-07-10 21:00:03', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(62, 'save', 'catalog_category', 62, '2016-07-10 21:00:25', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(63, 'save', 'catalog_category', 63, '2016-07-10 21:01:17', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(64, 'save', 'catalog_category', 64, '2016-07-10 21:01:32', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(65, 'save', 'catalog_category', 65, '2016-07-10 21:02:20', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(66, 'save', 'catalog_category', 66, '2016-07-10 21:02:49', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(67, 'save', 'catalog_category', 67, '2016-07-10 21:03:07', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(68, 'save', 'catalog_category', 68, '2016-07-10 21:03:17', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(69, 'save', 'catalog_category', 69, '2016-07-10 21:03:41', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(70, 'save', 'catalog_category', 70, '2016-07-10 21:04:05', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(71, 'save', 'cataloginventory_stock_item', 1, '2016-07-10 21:16:02', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(72, 'catalog_reindex_price', 'catalog_product', 1, '2016-07-10 21:16:04', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(73, 'save', 'catalog_product', 1, '2016-07-10 21:16:08', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(74, 'save', 'catalog_eav_attribute', 132, '2016-07-10 21:29:23', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(75, 'delete', 'catalog_eav_attribute', 132, '2016-07-10 21:34:57', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";s:1:"0";}'),
+(76, 'save', 'catalog_eav_attribute', 133, '2016-07-11 00:29:18', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(77, 'save', 'catalog_eav_attribute', 134, '2016-07-11 01:05:28', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(78, 'save', 'catalog_eav_attribute', 135, '2016-07-11 01:12:24', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(79, 'save', 'catalog_eav_attribute', 136, '2016-07-11 02:07:55', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(80, 'save', 'cataloginventory_stock_item', 2, '2016-07-11 02:13:09', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(81, 'catalog_reindex_price', 'catalog_product', 2, '2016-07-11 02:13:11', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(82, 'save', 'catalog_product', 2, '2016-07-11 02:13:13', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(83, 'save', 'catalog_eav_attribute', 137, '2016-07-11 02:16:46', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(84, 'save', 'core_store', 2, '2016-07-11 02:30:05', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(85, 'save', 'cataloginventory_stock_item', 3, '2016-07-11 02:33:00', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(86, 'catalog_reindex_price', 'catalog_product', 3, '2016-07-11 02:33:01', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(87, 'save', 'catalog_product', 3, '2016-07-11 02:33:02', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(88, 'delete', 'catalog_product', 3, '2016-07-11 02:34:04', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(89, 'delete', 'core_store', 2, '2016-07-11 02:35:19', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(90, 'save', 'catalog_eav_attribute', 80, '2016-07-11 02:43:41', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(91, 'save', 'core_store', 3, '2016-07-11 02:52:32', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(92, 'save', 'catalog_eav_attribute', 138, '2016-07-11 03:18:42', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(93, 'save', 'catalog_eav_attribute', 139, '2016-07-11 03:25:56', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(94, 'save', 'catalog_eav_attribute', 117, '2016-07-11 03:27:16', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(95, 'save', 'catalog_eav_attribute', 140, '2016-07-11 03:30:03', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(96, 'save', 'catalog_eav_attribute', 141, '2016-07-11 03:35:19', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(97, 'save', 'cataloginventory_stock_item', 4, '2016-07-11 03:47:25', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(98, 'catalog_reindex_price', 'catalog_product', 4, '2016-07-11 03:47:28', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(99, 'save', 'catalog_product', 4, '2016-07-11 03:47:30', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(100, 'save', 'cataloginventory_stock_item', 5, '2016-07-11 18:43:25', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(101, 'catalog_reindex_price', 'catalog_product', 5, '2016-07-11 18:43:27', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(102, 'save', 'catalog_product', 5, '2016-07-11 18:43:28', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(103, 'delete', 'catalog_product', 5, '2016-07-11 18:44:42', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(104, 'delete', 'catalog_product', 1, '2016-07-11 18:45:00', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(105, 'save', 'cataloginventory_stock_item', 6, '2016-07-11 18:53:13', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(106, 'catalog_reindex_price', 'catalog_product', 6, '2016-07-11 18:53:16', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(107, 'save', 'catalog_product', 6, '2016-07-11 18:53:18', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}');
 
 -- --------------------------------------------------------
 
@@ -5436,15 +7758,15 @@ CREATE TABLE `index_process` (
 --
 
 INSERT INTO `index_process` (`process_id`, `indexer_code`, `status`, `started_at`, `ended_at`, `mode`) VALUES
-(1, 'catalog_product_attribute', 'require_reindex', NULL, NULL, 'real_time'),
-(2, 'catalog_product_price', 'require_reindex', NULL, NULL, 'real_time'),
-(3, 'catalog_url', 'require_reindex', '2016-07-07 19:07:46', '2016-07-07 19:07:46', 'real_time'),
+(1, 'catalog_product_attribute', 'require_reindex', '2016-07-11 19:01:58', '2016-07-11 19:01:58', 'real_time'),
+(2, 'catalog_product_price', 'require_reindex', '2016-07-11 19:01:58', '2016-07-11 19:01:58', 'real_time'),
+(3, 'catalog_url', 'require_reindex', '2016-07-11 19:01:58', '2016-07-11 19:01:59', 'real_time'),
 (4, 'catalog_product_flat', 'require_reindex', NULL, NULL, 'real_time'),
 (5, 'catalog_category_flat', 'require_reindex', NULL, NULL, 'real_time'),
-(6, 'catalog_category_product', 'require_reindex', '2016-07-07 19:07:46', '2016-07-07 19:07:46', 'real_time'),
-(7, 'catalogsearch_fulltext', 'require_reindex', '2016-07-07 19:07:46', '2016-07-07 19:07:46', 'real_time'),
-(8, 'cataloginventory_stock', 'require_reindex', NULL, NULL, 'real_time'),
-(9, 'tag_summary', 'require_reindex', NULL, NULL, 'real_time');
+(6, 'catalog_category_product', 'require_reindex', '2016-07-11 19:01:59', '2016-07-11 19:01:59', 'real_time'),
+(7, 'catalogsearch_fulltext', 'require_reindex', '2016-07-11 19:01:59', '2016-07-11 19:01:59', 'real_time'),
+(8, 'cataloginventory_stock', 'require_reindex', '2016-07-11 19:01:58', '2016-07-11 19:01:58', 'real_time'),
+(9, 'tag_summary', 'require_reindex', '2016-07-11 19:01:59', '2016-07-11 19:01:59', 'real_time');
 
 -- --------------------------------------------------------
 
@@ -5566,7 +7888,11 @@ CREATE TABLE `log_visitor` (
 --
 
 INSERT INTO `log_visitor` (`visitor_id`, `session_id`, `first_visit_at`, `last_visit_at`, `last_url_id`, `store_id`) VALUES
-(1, 'e8l8dbmle8d97mpmbrl70pnlj2', '2016-07-07 19:15:08', '2016-07-07 19:15:12', 0, 1);
+(1, 'e8l8dbmle8d97mpmbrl70pnlj2', '2016-07-07 19:15:08', '2016-07-07 19:15:12', 0, 1),
+(2, 'd6v1cvr24jnn93e690hban60p0', '2016-07-10 19:03:05', '2016-07-10 19:03:15', 0, 1),
+(3, '1p2nfcmg9h442t6c062glc3dc5', '2016-07-10 19:03:12', '2016-07-10 21:29:57', 0, 1),
+(4, 'j0ut1o8tu38vqi67d9bqcu5un2', '2016-07-11 02:13:21', '2016-07-11 03:49:30', 0, 1),
+(5, 'nosatfd4t483o0fjts13qe57o6', '2016-07-11 18:45:18', '2016-07-11 19:02:12', 0, 1);
 
 -- --------------------------------------------------------
 
@@ -5589,7 +7915,11 @@ CREATE TABLE `log_visitor_info` (
 --
 
 INSERT INTO `log_visitor_info` (`visitor_id`, `http_referer`, `http_user_agent`, `http_accept_charset`, `http_accept_language`, `server_addr`, `remote_addr`) VALUES
-(1, 'http://localhost/bookstore/index.php/install/wizard/end/', 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/56.3.120 Chrome/50.3.2661.120 Safari/537.36', NULL, 'en-US,en;q=0.8,vi;q=0.6', 0x7f000001, 0x7f000001);
+(1, 'http://localhost/bookstore/index.php/install/wizard/end/', 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/56.3.120 Chrome/50.3.2661.120 Safari/537.36', NULL, 'en-US,en;q=0.8,vi;q=0.6', 0x7f000001, 0x7f000001),
+(2, NULL, 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/56.3.120 Chrome/50.3.2661.120 Safari/537.36', NULL, 'en-US,en;q=0.8,vi;q=0.6', 0x7f000001, 0x7f000001),
+(3, NULL, 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/56.3.120 Chrome/50.3.2661.120 Safari/537.36', NULL, 'en-US,en;q=0.8,vi;q=0.6', 0x7f000001, 0x7f000001),
+(4, NULL, 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/56.3.120 Chrome/50.3.2661.120 Safari/537.36', NULL, 'en-US,en;q=0.8,vi;q=0.6', 0x7f000001, 0x7f000001),
+(5, NULL, 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/56.3.120 Chrome/50.3.2661.120 Safari/537.36', NULL, 'en-US,en;q=0.8,vi;q=0.6', 0x7f000001, 0x7f000001);
 
 -- --------------------------------------------------------
 
@@ -6178,6 +8508,37 @@ CREATE TABLE `report_event` (
   `store_id` smallint(5) UNSIGNED NOT NULL COMMENT 'Store Id'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Reports Event Table';
 
+--
+-- Dumping data for table `report_event`
+--
+
+INSERT INTO `report_event` (`event_id`, `logged_at`, `event_type_id`, `object_id`, `subject_id`, `subtype`, `store_id`) VALUES
+(1, '2016-07-10 21:19:38', 1, 1, 3, 1, 1),
+(2, '2016-07-10 21:24:08', 1, 1, 3, 1, 1),
+(3, '2016-07-10 21:29:57', 1, 1, 3, 1, 1),
+(4, '2016-07-11 02:13:29', 1, 2, 4, 1, 1),
+(5, '2016-07-11 02:17:51', 1, 2, 4, 1, 1),
+(6, '2016-07-11 02:18:49', 1, 2, 4, 1, 1),
+(7, '2016-07-11 02:19:09', 1, 2, 4, 1, 1),
+(8, '2016-07-11 02:26:39', 1, 2, 4, 1, 1),
+(9, '2016-07-11 02:29:01', 1, 2, 4, 1, 1),
+(10, '2016-07-11 02:30:14', 1, 2, 4, 1, 1),
+(11, '2016-07-11 02:37:11', 1, 2, 4, 1, 1),
+(12, '2016-07-11 02:39:27', 1, 2, 4, 1, 1),
+(13, '2016-07-11 02:43:48', 1, 2, 4, 1, 1),
+(14, '2016-07-11 02:49:49', 1, 2, 4, 1, 1),
+(15, '2016-07-11 02:56:31', 1, 2, 4, 1, 1),
+(16, '2016-07-11 02:57:00', 1, 2, 4, 1, 1),
+(17, '2016-07-11 03:05:03', 1, 2, 4, 1, 1),
+(18, '2016-07-11 03:05:09', 1, 2, 4, 1, 1),
+(19, '2016-07-11 03:05:12', 1, 2, 4, 1, 1),
+(20, '2016-07-11 03:22:14', 1, 2, 4, 1, 1),
+(21, '2016-07-11 03:22:19', 1, 2, 4, 1, 1),
+(22, '2016-07-11 03:27:21', 1, 2, 4, 1, 1),
+(23, '2016-07-11 03:48:02', 1, 2, 4, 1, 1),
+(24, '2016-07-11 18:46:32', 1, 2, 5, 1, 1),
+(25, '2016-07-11 18:47:58', 1, 4, 5, 1, 1);
+
 -- --------------------------------------------------------
 
 --
@@ -6267,6 +8628,15 @@ CREATE TABLE `report_viewed_product_index` (
   `store_id` smallint(5) UNSIGNED DEFAULT NULL COMMENT 'Store Id',
   `added_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT 'Added At'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Reports Viewed Product Index Table';
+
+--
+-- Dumping data for table `report_viewed_product_index`
+--
+
+INSERT INTO `report_viewed_product_index` (`index_id`, `visitor_id`, `customer_id`, `product_id`, `store_id`, `added_at`) VALUES
+(4, 4, NULL, 2, 1, '2016-07-11 03:48:02'),
+(5, 5, NULL, 2, 1, '2016-07-11 18:46:31'),
+(6, 5, NULL, 4, 1, '2016-07-11 18:47:58');
 
 -- --------------------------------------------------------
 
@@ -11062,7 +13432,7 @@ ALTER TABLE `wishlist_item_option`
 -- AUTO_INCREMENT for table `adminnotification_inbox`
 --
 ALTER TABLE `adminnotification_inbox`
-  MODIFY `notification_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Notification id', AUTO_INCREMENT=101;
+  MODIFY `notification_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Notification id', AUTO_INCREMENT=115;
 --
 -- AUTO_INCREMENT for table `admin_assert`
 --
@@ -11127,7 +13497,7 @@ ALTER TABLE `cataloginventory_stock`
 -- AUTO_INCREMENT for table `cataloginventory_stock_item`
 --
 ALTER TABLE `cataloginventory_stock_item`
-  MODIFY `item_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Item Id';
+  MODIFY `item_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Item Id', AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `catalogrule`
 --
@@ -11147,7 +13517,7 @@ ALTER TABLE `catalogrule_product_price`
 -- AUTO_INCREMENT for table `catalogsearch_fulltext`
 --
 ALTER TABLE `catalogsearch_fulltext`
-  MODIFY `fulltext_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Entity ID';
+  MODIFY `fulltext_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Entity ID', AUTO_INCREMENT=26;
 --
 -- AUTO_INCREMENT for table `catalogsearch_query`
 --
@@ -11157,32 +13527,32 @@ ALTER TABLE `catalogsearch_query`
 -- AUTO_INCREMENT for table `catalog_category_entity`
 --
 ALTER TABLE `catalog_category_entity`
-  MODIFY `entity_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Entity ID', AUTO_INCREMENT=3;
+  MODIFY `entity_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Entity ID', AUTO_INCREMENT=71;
 --
 -- AUTO_INCREMENT for table `catalog_category_entity_datetime`
 --
 ALTER TABLE `catalog_category_entity_datetime`
-  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID';
+  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID', AUTO_INCREMENT=157;
 --
 -- AUTO_INCREMENT for table `catalog_category_entity_decimal`
 --
 ALTER TABLE `catalog_category_entity_decimal`
-  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID';
+  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID', AUTO_INCREMENT=69;
 --
 -- AUTO_INCREMENT for table `catalog_category_entity_int`
 --
 ALTER TABLE `catalog_category_entity_int`
-  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID', AUTO_INCREMENT=7;
+  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID', AUTO_INCREMENT=428;
 --
 -- AUTO_INCREMENT for table `catalog_category_entity_text`
 --
 ALTER TABLE `catalog_category_entity_text`
-  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID', AUTO_INCREMENT=5;
+  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID', AUTO_INCREMENT=395;
 --
 -- AUTO_INCREMENT for table `catalog_category_entity_varchar`
 --
 ALTER TABLE `catalog_category_entity_varchar`
-  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID', AUTO_INCREMENT=8;
+  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID', AUTO_INCREMENT=589;
 --
 -- AUTO_INCREMENT for table `catalog_compare_item`
 --
@@ -11207,17 +13577,17 @@ ALTER TABLE `catalog_product_bundle_selection`
 -- AUTO_INCREMENT for table `catalog_product_entity`
 --
 ALTER TABLE `catalog_product_entity`
-  MODIFY `entity_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Entity ID';
+  MODIFY `entity_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Entity ID', AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `catalog_product_entity_datetime`
 --
 ALTER TABLE `catalog_product_entity_datetime`
-  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID';
+  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID', AUTO_INCREMENT=105;
 --
 -- AUTO_INCREMENT for table `catalog_product_entity_decimal`
 --
 ALTER TABLE `catalog_product_entity_decimal`
-  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID';
+  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID', AUTO_INCREMENT=81;
 --
 -- AUTO_INCREMENT for table `catalog_product_entity_gallery`
 --
@@ -11232,17 +13602,17 @@ ALTER TABLE `catalog_product_entity_group_price`
 -- AUTO_INCREMENT for table `catalog_product_entity_int`
 --
 ALTER TABLE `catalog_product_entity_int`
-  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID';
+  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID', AUTO_INCREMENT=26;
 --
 -- AUTO_INCREMENT for table `catalog_product_entity_media_gallery`
 --
 ALTER TABLE `catalog_product_entity_media_gallery`
-  MODIFY `value_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Value ID';
+  MODIFY `value_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Value ID', AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `catalog_product_entity_text`
 --
 ALTER TABLE `catalog_product_entity_text`
-  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID';
+  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID', AUTO_INCREMENT=58;
 --
 -- AUTO_INCREMENT for table `catalog_product_entity_tier_price`
 --
@@ -11252,7 +13622,7 @@ ALTER TABLE `catalog_product_entity_tier_price`
 -- AUTO_INCREMENT for table `catalog_product_entity_varchar`
 --
 ALTER TABLE `catalog_product_entity_varchar`
-  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID';
+  MODIFY `value_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Value ID', AUTO_INCREMENT=275;
 --
 -- AUTO_INCREMENT for table `catalog_product_link`
 --
@@ -11387,7 +13757,7 @@ ALTER TABLE `core_layout_update`
 -- AUTO_INCREMENT for table `core_store`
 --
 ALTER TABLE `core_store`
-  MODIFY `store_id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Store Id', AUTO_INCREMENT=2;
+  MODIFY `store_id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Store Id', AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `core_store_group`
 --
@@ -11402,7 +13772,7 @@ ALTER TABLE `core_translate`
 -- AUTO_INCREMENT for table `core_url_rewrite`
 --
 ALTER TABLE `core_url_rewrite`
-  MODIFY `url_rewrite_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Rewrite Id';
+  MODIFY `url_rewrite_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Rewrite Id', AUTO_INCREMENT=170;
 --
 -- AUTO_INCREMENT for table `core_variable`
 --
@@ -11592,17 +13962,17 @@ ALTER TABLE `downloadable_sample_title`
 -- AUTO_INCREMENT for table `eav_attribute`
 --
 ALTER TABLE `eav_attribute`
-  MODIFY `attribute_id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Attribute Id', AUTO_INCREMENT=132;
+  MODIFY `attribute_id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Attribute Id', AUTO_INCREMENT=142;
 --
 -- AUTO_INCREMENT for table `eav_attribute_group`
 --
 ALTER TABLE `eav_attribute_group`
-  MODIFY `attribute_group_id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Attribute Group Id', AUTO_INCREMENT=18;
+  MODIFY `attribute_group_id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Attribute Group Id', AUTO_INCREMENT=34;
 --
 -- AUTO_INCREMENT for table `eav_attribute_label`
 --
 ALTER TABLE `eav_attribute_label`
-  MODIFY `attribute_label_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Attribute Label Id';
+  MODIFY `attribute_label_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Attribute Label Id', AUTO_INCREMENT=64;
 --
 -- AUTO_INCREMENT for table `eav_attribute_option`
 --
@@ -11617,7 +13987,7 @@ ALTER TABLE `eav_attribute_option_value`
 -- AUTO_INCREMENT for table `eav_attribute_set`
 --
 ALTER TABLE `eav_attribute_set`
-  MODIFY `attribute_set_id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Attribute Set Id', AUTO_INCREMENT=9;
+  MODIFY `attribute_set_id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Attribute Set Id', AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT for table `eav_entity`
 --
@@ -11627,7 +13997,7 @@ ALTER TABLE `eav_entity`
 -- AUTO_INCREMENT for table `eav_entity_attribute`
 --
 ALTER TABLE `eav_entity_attribute`
-  MODIFY `entity_attribute_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Entity Attribute Id', AUTO_INCREMENT=130;
+  MODIFY `entity_attribute_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Entity Attribute Id', AUTO_INCREMENT=1152;
 --
 -- AUTO_INCREMENT for table `eav_entity_datetime`
 --
@@ -11692,7 +14062,7 @@ ALTER TABLE `importexport_importdata`
 -- AUTO_INCREMENT for table `index_event`
 --
 ALTER TABLE `index_event`
-  MODIFY `event_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Event Id', AUTO_INCREMENT=3;
+  MODIFY `event_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Event Id', AUTO_INCREMENT=108;
 --
 -- AUTO_INCREMENT for table `index_process`
 --
@@ -11722,7 +14092,7 @@ ALTER TABLE `log_url_info`
 -- AUTO_INCREMENT for table `log_visitor`
 --
 ALTER TABLE `log_visitor`
-  MODIFY `visitor_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Visitor ID', AUTO_INCREMENT=2;
+  MODIFY `visitor_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Visitor ID', AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `log_visitor_online`
 --
@@ -11857,7 +14227,7 @@ ALTER TABLE `report_compared_product_index`
 -- AUTO_INCREMENT for table `report_event`
 --
 ALTER TABLE `report_event`
-  MODIFY `event_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Event Id';
+  MODIFY `event_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Event Id', AUTO_INCREMENT=26;
 --
 -- AUTO_INCREMENT for table `report_event_types`
 --
@@ -11882,7 +14252,7 @@ ALTER TABLE `report_viewed_product_aggregated_yearly`
 -- AUTO_INCREMENT for table `report_viewed_product_index`
 --
 ALTER TABLE `report_viewed_product_index`
-  MODIFY `index_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Index Id';
+  MODIFY `index_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Index Id', AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `review`
 --
