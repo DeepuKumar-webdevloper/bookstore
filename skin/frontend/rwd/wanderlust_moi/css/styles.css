@@ -11575,6 +11575,7 @@ body.customer-account .my-account .title-buttons .button {
     margin: 16px;
     border-radius: 50px;
     width: 30px;
+    display: inherit !important;
 }
 .img_footer img{
     border-radius: 20px;
@@ -11584,3 +11585,6 @@ body.customer-account .my-account .title-buttons .button {
     /*margin: 10px;*/
 }
 
+div.img_flow img{
+  display: inherit;
+}

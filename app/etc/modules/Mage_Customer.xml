@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Mage_Connect>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends />
+        </Mage_Connect>
+    </modules>
+</config>
