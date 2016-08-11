@@ -1,0 +1,283 @@
+<?php
+
+    function _substr1($str, $length, $minword = 3){
+        $sub = '';
+        $len = 0;
+        foreach (explode(' ', $str) as $word)
+        {
+            $part = (($sub != '') ? ' ' : '') . $word;
+            $sub .= $part;
+            $len += strlen($part);
+            if (strlen($word) > $minword && strlen($sub) >= $length)
+            {
+              break;
+            }
+         }
+        return $sub . (($len < strlen($str)) ? '...' : '');
+    }
+
+?>
+
+<?php
+/***************************************************************************
+ Extension Name	: Bestseller Products
+ Extension URL	: http://www.magebees.com/magento-bestseller-products-extension.html
+ Copyright		: Copyright (c) 2015 MageBees, http://www.magebees.com
+ Support Email	: support@magebees.com 
+ ***************************************************************************/
+?>
+<style>
+.std .products-grid { margin:0 auto; padding:0; list-style:none; }
+.std .products-grid li { margin-left:0; padding:0; list-style:none; }
+</style>
+<!-- thêm jquery -->
+<script type="text/javascript">
+  $(document).ready(
+        function(){
+            $('.row-home-first .actions-home-first .sub-action-home-first.cart-home-first i').hover(function(){
+                $(this).css('background-color','#02D0AC')
+            },function(){
+                $(this).css('background-color','white')
+            });
+
+            var i = 0;
+            len = $('.row-home-first').length;
+
+            function createEffect(i){
+                 $('#row-home-first-'+i+' .sub-content-home-first').mouseover(function(){
+                    
+                //reset frame
+                 // $('.row-home-first .opa-home-first').css('opacity','0');
+                $('.row-home-first .actions-home-first .sub-action-home-first.cart-home-first').css({'left':'-76px','transition':'left 0.2s'});
+
+                 //khung phải
+                 $('.row-home-first .actions-home-first .sub-action-home-first.wishlist-home-first').css({'left':'207px','transition':'left 0.2s'});
+
+                 $('.row-home-first .actions-home-first .sub-action-home-first.review-home-first').css({'opacity':'0'});
+
+                $('.row-home-first .opa-home-first .sub-opa-home-first:first-child').css({'margin-left':'-106px','transition':'margin-left 0.2s'});
+                $('.row-home-first .opa-home-first .sub-opa-home-first:last-child').css({'margin-left':'212px','transition':'margin-left 0.2s'});
+
+                //end-reset
+
+
+                 // $('#row-home-first-'+i+' .opa-home-first').css('opacity','1');
+                 //khung trái
+                 $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first.cart-home-first').css({'left':'31px','transition':'left 0.2s'});
+
+                 //khung phải
+                 $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first.wishlist-home-first').css({'left':'102px','transition':'left 0.2s'});
+
+                 $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first.review-home-first').css({'opacity':'1','transition':'opacity 0s ease-out'});
+
+
+                 $('#row-home-first-'+i+' .opa-home-first .sub-opa-home-first:first-child').css({'margin-left':'0px','transition':'margin-left 0.2s'});
+                 $('#row-home-first-'+i+' .opa-home-first .sub-opa-home-first:last-child').css({'margin-left':'106px','transition':'margin-left 0.2s'});
+                 $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first img').css('display','block');
+
+            });
+
+            $('#row-home-first-'+i+' .actions-home-first').mouseover(function(){
+                 //reset frame
+                 // $('.row-home-first .opa-home-first').css('opacity','0');
+                $('.row-home-first .actions-home-first .sub-action-home-first.cart-home-first').css({'left':'-76px','transition':'left 0.2s'});
+
+                 //khung phải
+                 $('.row-home-first .actions-home-first .sub-action-home-first.wishlist-home-first').css({'left':'207px','transition':'left 0.2s'});
+
+                 $('.row-home-first .actions-home-first .sub-action-home-first.review-home-first').css({'opacity':'0'});
+
+                $('.row-home-first .opa-home-first .sub-opa-home-first:first-child').css({'margin-left':'-106px','transition':'margin-left 0.2s'});
+                $('.row-home-first .opa-home-first .sub-opa-home-first:last-child').css({'margin-left':'212px','transition':'margin-left 0.2s'});
+
+                //end-reset
+
+
+                 // $('#row-home-first-'+i+' .opa-home-first').css('opacity','1');
+                 //khung trái
+                 $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first.cart-home-first').css({'left':'31px','transition':'left 0.2s'});
+
+                 //khung phải
+                 $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first.wishlist-home-first').css({'left':'102px','transition':'left 0.2s'});
+
+                 $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first.review-home-first').css({'opacity':'1','transition':'opacity 0s ease-out'});
+
+
+                 $('#row-home-first-'+i+' .opa-home-first .sub-opa-home-first:first-child').css({'margin-left':'0px','transition':'margin-left 0.2s'});
+                 $('#row-home-first-'+i+' .opa-home-first .sub-opa-home-first:last-child').css({'margin-left':'106px','transition':'margin-left 0.2s'});
+                 $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first img').css('display','block');
+            });
+
+
+
+            $('#row-home-first-'+i+' .sub-opa-home-first').mouseout(function(){
+                $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first.cart-home-first').css({'left':'-76px','transition':'left 0.2s'});
+
+                 //khung phải
+                 $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first.wishlist-home-first').css({'left':'207px','transition':'left 0.2s'});
+
+                 $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first.review-home-first').css({'opacity':'0','transition': 'opacity 0s'});
+
+                $('#row-home-first-'+i+' .opa-home-first .sub-opa-home-first:first-child').css({'margin-left':'-106px','transition':'margin-left 0.2s'});
+                $('#row-home-first-'+i+' .opa-home-first .sub-opa-home-first:last-child').css({'margin-left':'212px','transition':'margin-left 0.2s'});
+            });
+
+            $('#row-home-first-'+i+' .actions-home-first').mouseout(function(){
+                $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first.cart-home-first').css({'left':'-76px','transition':'left 0.2s'});
+
+                 $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first.wishlist-home-first').css({'left':'207px','transition':'left 0.2s'});
+
+                 $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first.review-home-first').css({'opacity':'0','transition': 'opacity 0s'});
+
+                $('#row-home-first-'+i+' .opa-home-first .sub-opa-home-first:first-child').css({'margin-left':'-106px','transition':'margin-left 0.2s'});
+                $('#row-home-first-'+i+' .opa-home-first .sub-opa-home-first:last-child').css({'margin-left':'212px','transition':'margin-left 0.2s'});
+            });
+
+
+            $('#row-home-first-'+i+' .sub-content-home-first').mouseout(function(){
+                $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first.cart-home-first').css({'left':'-76px','transition':'left 0.2s'});
+
+                 //khung phải
+                 $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first.wishlist-home-first').css({'left':'207px','transition':'left 0.2s'});
+
+                 $('#row-home-first-'+i+' .actions-home-first .sub-action-home-first.review-home-first').css({'opacity':'0','transition': 'opacity 0s'});
+
+                $('#row-home-first-'+i+' .opa-home-first .sub-opa-home-first:first-child').css({'margin-left':'-106px','transition':'margin-left 0.2s'});
+                $('#row-home-first-'+i+' .opa-home-first .sub-opa-home-first:last-child').css({'margin-left':'212px','transition':'margin-left 0.2s'});
+            });
+            }
+
+            for(i=1;i<=len;i++){
+                createEffect(i);
+            }
+                 
+        });
+    
+  </script>
+<!-- end thêm jquery -->
+<?php
+
+	$result = array();
+	$pro = array();
+	$bestseller_collection = $this->getBestsellerProduct();
+	foreach($bestseller_collection as $collection){
+		$pro[] = $collection->getEntityId();
+	}
+    if($this->getChooseProducts() == "1") {
+		$result = $pro;
+	}elseif($this->getChooseProducts() == "2") {
+	   $result = $this->getProductIds();
+	}else{
+		if($this->getSortOrder() == 1){
+			$result = array_unique(array_merge($pro, $this->getProductIds()));
+		}elseif($this->getSortOrder() == 2){
+			$result = array_unique(array_merge($this->getProductIds(),$pro));
+		}else{
+			$result = array_unique(array_merge($pro, $this->getProductIds()));
+			shuffle($result);
+		}
+	}
+	$upperLimit = ($this->getLimit()) ? $this->getLimit() : 1; 
+	$itemPerRow = ($this->getItemsPerRow()) ? $this->getItemsPerRow() : 1 ;
+	$_columnCount = ($this->getItemsPerRow()) ? $this->getItemsPerRow() : 1 ;
+	
+?>
+
+<?php if($this->getEnabled()): ?>
+<?php if($this->getDisplayHeader()): ?>
+	<div class="page-title category-title">
+		<h1><?php if(count($result) > 0) { echo $this->getHeader(); } ?></h1>
+	</div>
+ <?php endif; ?>
+ 		<?php  $k = 1; ?>
+	  	<ul class="products-grid products-grid--max-<?php echo $_columnCount; ?>-col">
+			<?php
+			$i=0; $x = 1;
+		foreach($result as $result){
+			$_product = $this->getProducts($result);
+			if(!$_product){
+				continue;
+			}
+			if($x <= $upperLimit) {
+			?>
+
+
+			<li class="item<?php if(($i-1)%$_columnCount==0): ?> first<?php elseif($i%$_columnCount==0): ?> last<?php endif; ?> row-home-first" id="row-home-first-<?php echo $k++; ?>">
+				<a href="<?php echo $this->getBaseUrl().$_product['url_path']; ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>" class="product-image sub-content-home-first">
+						<img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(($this->getImageHeight()) ? $this->getImageHeight() : 135,($this->getImageWidth()) ? $this->getImageWidth() : 135); ?>" alt="<?php echo $this->htmlEscape($_product['name']) ?>"/>
+				</a>
+				<div  class="product-info sub-content-home-first">
+					<h2 class="product-name">
+						<a href="<?php echo $this->getBaseUrl().$_product['url_path'] ?>" title="<?php echo $this->htmlEscape($_product['name']) ?>"> <?php
+                        $MAX_NAME_LENGTH = 35;
+                        $_helper = $this->helper('catalog/output');
+                        if (mb_strlen($_helper->productAttribute($_product, $_product->getName(), 'name'), 'UTF-8') < $MAX_NAME_LENGTH){
+                            echo $_helper->productAttribute($_product, $_product->getName(), 'name');
+                        } else{
+                            echo _substr1($_helper->productAttribute($_product, $_product->getName(), 'name'), $MAX_NAME_LENGTH - 3);
+                        }
+                        ?></a>
+					</h2>
+					<?php 
+						if($this->getReview()) {
+							$_product = Mage::getModel('catalog/product')->load($_product->getId());
+							echo $this->getReviewsSummaryHtml($_product, 'short'); 
+						}
+						if($this->getProductsPrice()) {
+							$_product = Mage::getModel('catalog/product')->load($_product->getId());
+								echo $this->getPriceHtml($_product, true); 
+						}
+					?> 
+
+					<!-- khung ảo -->
+                        <div class="opa-home-first sub-content-home-first">
+                            <div class="sub-opa-home-first sub-content-home-first"></div>  
+                            <div class="sub-opa-home-first sub-content-home-first"></div>  
+                        </div>
+                    <!-- end khung ảo -->
+
+
+					<div class="actions actions-home-first" style="display:block !important">	
+						<?php if($this->getAddToCart()): ?>
+							<?php if($_product->isSaleable() && !$_product->canConfigure()): ?>
+								<button class="button btn-cart cart-home-first sub-action-home-first sub-content-home-first" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')">
+									<span><span><i class="fa fa-cart-plus"></i></span></span>
+								</button>
+							<?php elseif($_product->isSaleable()): ?>
+								 <button class="button btn-cart sub-action-home-first" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')">
+									<span><?php echo $this->__('View Details')?></span>
+								</button> 
+							<?php else: ?>
+								<span class="out-of-stock">
+									<?php echo $this->__('Out of stock') ?>
+								</span>
+							<?php endif; ?>
+						<?php endif; ?>
+						<?php if($this->getActive() || $this->getAddToCompare()):?>
+							<ul class="add-to-links">
+								<?php if($this->getActive()):?>
+									<?php if ($this->helper('wishlist')->isAllow()) : ?>
+										<li class="sub-action-home-first wishlist-home-first sub-content-home-first"><a href="<?php echo $this->getAddToWishlistUrl($_product) ?>" class="addWishlist" style="border:0px solid white"><i class="fa fa-heart" ></i></a></li>
+									<?php endif; ?>
+								<?php endif; ?>
+							</ul>
+
+							<div class="sub-action-home-first review-home-first sub-content-home-first"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image sub-content-home-first">Xem chi tiết</a></div>
+						<?php endif; ?>					
+					</div>
+					<div class="opa"></div>
+				</div>	
+			</li>
+
+		    <?php
+			   	}
+				$x++;
+	        } 
+           ?>
+        </ul>
+		<script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>
+     
+	
+
+
+ <?php endif; ?>

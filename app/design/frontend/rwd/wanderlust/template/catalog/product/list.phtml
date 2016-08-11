@@ -62,12 +62,18 @@
 <script type="text/javascript">
   $(document).ready(
         function(){
+            $('.row .actions .sub-action.cart').hover(function(){
+                $(this).css('background-color','#02D0AC')
+            },function(){
+                $(this).css('background-color','white')
+            });
+            
             var i = 0;
             len = $('.row').length;
 
             function createEffect(i){
                  $('#row-'+i+' .sub-content').mouseover(function(){
-                $('.row .opa').css('display','none');
+                // $('.row .opa').css('display','none');
                 //reset frame
                 $('.row .actions .sub-action.cart').css({'left':'-85px','transition':'left 0.2s'});
 
@@ -82,7 +88,7 @@
                 //end-reset
 
 
-                 $('#row-'+i+' .opa').css('display','block');
+                 // $('#row-'+i+' .opa').css('display','block');
                  //khung trái
                  $('#row-'+i+' .actions .sub-action.cart').css({'left':'-9px','transition':'left 0.2s'});
 
@@ -98,9 +104,9 @@
 
             });
 
-            $('#row-'+i+' .actions').mouseover(function(i){
+            $('#row-'+i+' .actions').mouseover(function(){
 
-                $('.row .opa').css('display','none');
+                // $('.row .opa').css('display','none');
 
                 //reset frame
                 $('.row .actions .sub-action.cart').css({'left':'-85px','transition':'left 0.2s'});
@@ -116,7 +122,7 @@
                 //end-reset
 
 
-                 $('#row-'+i+' .opa').css('display','block');
+                 // $('#row-'+i+' .opa').css('display','block');
                  //khung trái
                  $('#row-'+i+' .actions .sub-action.cart').css({'left':'-9px','transition':'left 0.2s'});
 
@@ -130,7 +136,7 @@
                  $('#row-'+i+' .opa .sub-opa:last-child').css({'left':'74px','transition':'left 0.21s'});
                  $('#row-'+i+' .actions .sub-action img').css('display','block');
             });
-            $('#row-'+i+' .sub-opa').mouseout(function(i){
+            $('#row-'+i+' .sub-opa').mouseout(function(){
                 $('#row-'+i+' .actions .sub-action.cart').css({'left':'-85px','transition':'left 0.2s'});
 
                  //khung phải
@@ -168,7 +174,7 @@
             });
             }
 
-            for(i=0;i<=len;i++){
+            for(i=1;i<=len;i++){
                 createEffect(i);
             }
                  
@@ -319,8 +325,8 @@
                         <?php endif; ?>
                         <ul class="add-to-links">
                             <?php if ($this->helper('wishlist')->isAllow()) : ?>
-                                <li class="sub-action wishlist sub-content"><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="link-wishlist"><!-- <img src="<?php echo $this->getSkinUrl('images/wishlist.png') ?>" title="<?php echo $this->__('Add to Wishlist') ?>" alt="<?php echo $this->__('Add to wishlist') ?>" /> -->
-                                    <span class="glyphicon glyphicon-heart"></span></a></li>
+                                <li class="sub-action wishlist sub-content"><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="link-wishlist" style="border:0px solid white"><!-- <img src="<?php echo $this->getSkinUrl('images/wishlist.png') ?>" title="<?php echo $this->__('Add to Wishlist') ?>" alt="<?php echo $this->__('Add to wishlist') ?>" /> -->
+                                    <i class="fa fa-heart" ></i></a></li>
                             <?php endif; ?>
                             
                         </ul>
