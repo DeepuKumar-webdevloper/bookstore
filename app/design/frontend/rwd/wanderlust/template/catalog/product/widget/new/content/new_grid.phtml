@@ -43,6 +43,134 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
+
+<script type="text/javascript">
+  $(document).ready(
+        function(){
+            $('.row-home-last .actions-home-last .sub-action-home-last.cart-home-last i').hover(function(){
+                $(this).css('background-color','#02D0AC');
+            },function(){
+                $(this).css('background-color','white');
+            });
+
+            
+            var i = 0;
+            len = $('.row-home-last').length;
+
+            function createEffect(i){
+                 $('#row-home-last-'+i+' .sub-content-home-last').mouseover(function(){
+                    
+                //reset frame
+                 // $('.row-home-last .opa-home-last').css('display','none');
+                $('.row-home-last .actions-home-last .sub-action-home-last.cart-home-last').css({'left':'-76px','transition':'left 0.2s'});
+
+                 //khung phải
+                 $('.row-home-last .actions-home-last .sub-action-home-last.wishlist-home-last').css({'left':'207px','transition':'left 0.2s'});
+
+                 $('.row-home-last .actions-home-last .sub-action-home-last.review-home-last').css({'opacity':'0'});
+
+                $('.row-home-last .opa-home-last .sub-opa-home-last:first-child').css({'margin-left':'-106px','transition':'margin-left 0.2s'});
+                $('.row-home-last .opa-home-last .sub-opa-home-last:last-child').css({'margin-left':'212px','transition':'margin-left 0.2s'});
+
+                //end-reset
+
+
+                 // $('#row-home-last-'+i+' .opa-home-last').css('display','block');
+                 //khung trái
+                 $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last.cart-home-last').css({'left':'31px','transition':'left 0.2s'});
+
+                 //khung phải
+                 $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last.wishlist-home-last').css({'left':'102px','transition':'left 0.2s'});
+
+                 $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last.review-home-last').css({'opacity':'1','transition':'opacity 0s ease-out'});
+
+
+                 $('#row-home-last-'+i+' .opa-home-last .sub-opa-home-last:first-child').css({'margin-left':'0px','transition':'margin-left 0.2s'});
+                 $('#row-home-last-'+i+' .opa-home-last .sub-opa-home-last:last-child').css({'margin-left':'106px','transition':'margin-left 0.2s'});
+                 $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last img').css('display','block');
+
+            });
+
+            $('#row-home-last-'+i+' .actions-home-last').mouseover(function(){
+                 //reset frame
+                 // $('.row-home-last .opa-home-last').css('display','none');
+                $('.row-home-last .actions-home-last .sub-action-home-last.cart-home-last').css({'left':'-76px','transition':'left 0.2s'});
+
+                 //khung phải
+                 $('.row-home-last .actions-home-last .sub-action-home-last.wishlist-home-last').css({'left':'207px','transition':'left 0.2s'});
+
+                 $('.row-home-last .actions-home-last .sub-action-home-last.review-home-last').css({'opacity':'0'});
+
+                $('.row-home-last .opa-home-last .sub-opa-home-last:first-child').css({'margin-left':'-106px','transition':'margin-left 0.2s'});
+                $('.row-home-last .opa-home-last .sub-opa-home-last:last-child').css({'margin-left':'212px','transition':'margin-left 0.2s'});
+
+                //end-reset
+
+
+                 // $('#row-home-last-'+i+' .opa-home-last').css('display','block');
+                 //khung trái
+                 $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last.cart-home-last').css({'left':'31px','transition':'left 0.2s'});
+
+                 //khung phải
+                 $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last.wishlist-home-last').css({'left':'102px','transition':'left 0.2s'});
+
+                 $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last.review-home-last').css({'opacity':'1','transition':'opacity 0s ease-out'});
+
+
+                 $('#row-home-last-'+i+' .opa-home-last .sub-opa-home-last:first-child').css({'margin-left':'0px','transition':'margin-left 0.2s'});
+                 $('#row-home-last-'+i+' .opa-home-last .sub-opa-home-last:last-child').css({'margin-left':'106px','transition':'margin-left 0.2s'});
+                 $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last img').css('display','block');
+            });
+
+
+
+            $('#row-home-last-'+i+' .sub-opa-home-last').mouseout(function(){
+                $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last.cart-home-last').css({'left':'-76px','transition':'left 0.2s'});
+
+                 //khung phải
+                 $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last.wishlist-home-last').css({'left':'207px','transition':'left 0.2s'});
+
+                 $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last.review-home-last').css({'opacity':'0','transition': 'opacity 0s'});
+
+                $('#row-home-last-'+i+' .opa-home-last .sub-opa-home-last:first-child').css({'margin-left':'-106px','transition':'margin-left 0.2s'});
+                $('#row-home-last-'+i+' .opa-home-last .sub-opa-home-last:last-child').css({'margin-left':'212px','transition':'margin-left 0.2s'});
+            });
+
+            $('#row-home-last-'+i+' .actions-home-last').mouseout(function(){
+                $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last.cart-home-last').css({'left':'-76px','transition':'left 0.2s'});
+
+                 $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last.wishlist-home-last').css({'left':'207px','transition':'left 0.2s'});
+
+                 $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last.review-home-last').css({'opacity':'0','transition': 'opacity 0s'});
+
+                $('#row-home-last-'+i+' .opa-home-last .sub-opa-home-last:first-child').css({'margin-left':'-106px','transition':'margin-left 0.2s'});
+                $('#row-home-last-'+i+' .opa-home-last .sub-opa-home-last:last-child').css({'margin-left':'212px','transition':'margin-left 0.2s'});
+            });
+
+
+            $('#row-home-last-'+i+' .sub-content-home-last').mouseout(function(){
+                $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last.cart-home-last').css({'left':'-76px','transition':'left 0.2s'});
+
+                 //khung phải
+                 $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last.wishlist-home-last').css({'left':'207px','transition':'left 0.2s'});
+
+                 $('#row-home-last-'+i+' .actions-home-last .sub-action-home-last.review-home-last').css({'opacity':'0','transition': 'opacity 0s'});
+
+                $('#row-home-last-'+i+' .opa-home-last .sub-opa-home-last:first-child').css({'margin-left':'-106px','transition':'margin-left 0.2s'});
+                $('#row-home-last-'+i+' .opa-home-last .sub-opa-home-last:last-child').css({'margin-left':'212px','transition':'margin-left 0.2s'});
+            });
+            }
+
+            for(i=1;i<=len;i++){
+                createEffect(i);
+            }
+                 
+        });
+    
+  </script>
+<!-- end thêm jquery -->
+
+
 <?php if (($_products = $this->getProductCollection()) && $_products->getSize()): ?>
 <div class="widget widget-new-products">
     <div class="widget-title">
@@ -51,16 +179,18 @@
     <div class="widget-products">
         <?php echo $this->getPagerHtml() ?>
         <?php $_columnCount = $this->getColumnCount(); ?>
+        
         <?php $i=0; ?>
         <ul class="products-grid products-grid--max-<?php echo $_columnCount; ?>-col-widget">
+            <?php $k=1; ?>
             <?php foreach ($_products->getItems() as $_product): ?>
-                <li class="item<?php if(($i-1)%$_columnCount==0): ?> first<?php elseif($i%$_columnCount==0): ?> last<?php endif; ?>">
+                 <li class="item<?php if(($i-1)%$_columnCount==0): ?> first<?php elseif($i%$_columnCount==0): ?> last<?php endif; ?> row-home-last" id="row-home-last-<?php echo $k++; ?>">
                     <?php $_imgSize = 210; ?>
                     <?php // The image size is locked at 210 for this for display purposes. CSS has it at 75% which should equate to 278px?>
-                    <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>" class="product-image">
+                    <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>" class="product-image sub-content-home-last">
                         <img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(210) ?>" alt="<?php echo $this->stripTags($_product->getName(), null, true) ?>" />
                     </a>
-                    <div class="product-info">
+                    <div class="product-info sub-content-home-last">
                         <h3 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>"><?php
                         $MAX_NAME_LENGTH = 35;
                         $_helper = $this->helper('catalog/output');
@@ -72,18 +202,27 @@
                         ?></a></h3>
                         <?php echo $this->getPriceHtml($_product, true, '-widget-new-grid') ?>
                         <?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
-                        <div class="actions">
+
+                        <!-- khung ảo -->
+                        <div class="opa-home-last sub-content-home-last">
+                            <div class="sub-opa-home-last sub-content-home-last"></div>  
+                            <div class="sub-opa-home-last sub-content-home-last"></div>  
+                        </div>
+                        <!-- end khung ảo -->
+
+                        <div class="actions actions-home-last">
                             <?php if ($_product->isSaleable()): ?>
-                                <button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Add to Cart')) ?>" class="button btn-cart  sub-action" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><img src="<?php echo $this->getSkinUrl('images/cart.png') ?>" title="Add to cart" alt="Add to cart" /></span></span></button>
+                                <button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Add to Cart')) ?>" class="button btn-cart cart-home-last sub-action-home-last sub-content-home-last" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><i class="fa fa-cart-plus"></i></span></span></button>
                             <?php else: ?>
                                 <p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
                             <?php endif; ?>
-                            <ul class="add-to-links sub-action">
+                            <ul class="add-to-links">
                                 <?php if ($this->helper('wishlist')->isAllow()) : ?>
-                                        <li><a href="<?php echo $this->getAddToWishlistUrl($_product) ?>" class="addWishlist"><img src="<?php echo $this->getSkinUrl('images/wishlist.png') ?>" title="Add to wishlist" alt="Add to wishlist" /></a></li>
-                                    <li><a href="<?php echo $this->getAddToWishlistUrl($_product) ?>" class="link-wishlist"><?php echo $this->__('Add to Wishlist') ?></a></li>
+                                        <li class="sub-action-home-last wishlist-home-last sub-content-home-last"><a href="<?php echo $this->getAddToWishlistUrl($_product) ?>" class="addWishlist" style="border:0px solid white"><i class="fa fa-heart" ></i></a></li>
                                 <?php endif; ?>
                             </ul>
+
+                            <div class="sub-action-home-last review-home-last sub-content-home-last"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image sub-content">Xem chi tiết</a></div>
                         </div>
                     </div>
                 </li>
