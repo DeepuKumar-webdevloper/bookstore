@@ -28,9 +28,9 @@
 /* -------------------------------------------- *
  * Primary Banner
  */
-body.cms-home .main-container {
-  padding-top: 5px;
-}
+/*body.cms-home .main-container {
+  padding-top: 20px;
+}*/
 body.cms-home .slideshow-container {
   margin-top: 0;
 }
@@ -183,7 +183,8 @@ body .promos > li {
 .cms-index-index .products-grid .actions,
 .cms-index-noroute .products-grid .ratings,
 .cms-index-noroute .products-grid .actions {
-  display: block;
+  
+  display: none;
 }
 
 .cms-index-index h2.subtitle {
