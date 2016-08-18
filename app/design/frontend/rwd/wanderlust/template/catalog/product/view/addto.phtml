@@ -30,8 +30,16 @@
 
 <ul class="add-to-links">
 <?php if ($this->helper('wishlist')->isAllow()) : ?>
-    <li><a href="<?php echo $_wishlistSubmitUrl ?>" onclick="productAddToCartForm.submitLight(this, this.href); return false;" class="link-wishlist"><img src="<?php echo $this->getSkinUrl('images/wishlist.png') ?>" title="Add to cart" alt="Add to cart" /></a></li>
+    <li><a href="<?php echo $_wishlistSubmitUrl ?>" onclick="productAddToCartForm.submitLight(this, this.href); return false;" onmouseover="mouseOver()" id="link-new-wishlist" class="link-wishlist"><i class="fa fa-heart"></i></a></li>
 <?php endif; ?>
 
 </ul>
 
+<script type="text/javascript">
+	function mouseOver(){
+		var element = document.getElementById('link-new-wishlist');
+		element.style.background = '#F9F9F9';
+	}
+	
+
+</script>
