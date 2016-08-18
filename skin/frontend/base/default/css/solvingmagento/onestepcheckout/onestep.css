@@ -28,7 +28,7 @@ div.two-fields .input-box, div.two-fields input[type="password"]{
 div.customer-name .field, div.two-fields .field {
     float:left;
     margin-right: 10px;
-    width: 122px;
+    width: 177px;
 }
 
 ul.form-list input[type="radio"] {
@@ -41,7 +41,7 @@ ul.form-list div.input-box label {
 }
 
 div.osc-column-wrapper {
-    width: 890px;
+    width: 1200px;
     padding: 5px;
     min-height: 200px;;
 }
@@ -49,7 +49,7 @@ div.osc-column-wrapper h3 {
     font-size: 14px;
 }
 div.osc-column-wrapper div.osc-column {
-    width: 293px;
+    width: 390px;
     margin-right: 5px;
     float: left;
 }
@@ -72,7 +72,7 @@ div.osc-column-wrapper div.bottom {
 
 div.login-method {
     float:left;
-    margin-right: 20px;
+    margin-right: 145px;
 }
 
 div.step-please-wait {
@@ -91,4 +91,8 @@ div.checkout-review-update-container {
 #review-submit-please-wait {
     float: left;
     margin: 10px;
+}
+
+#checkout-review-submit #review-buttons-container .f-left{
+    float: left;
 }

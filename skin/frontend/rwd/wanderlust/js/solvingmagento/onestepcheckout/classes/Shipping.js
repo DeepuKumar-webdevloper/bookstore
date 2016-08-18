@@ -1,19 +1,20 @@
 var
-    //Prototype objects
-    $,
-    $$,
-    Class,
-    Event,
-    Element,
-    Form,
-    //external objects
-    shippingRegionUpdater,
-    //Creae the constructor
-    Shipping = Class.create();
+        //Prototype objects
+        $,
+        $$,
+        Class,
+        Event,
+        Element,
+        Form,
+        //external objects
+        shippingRegionUpdater,
+        shippingRegionUpdater1,
+        shippingRegionUpdater2,
+        //Creae the constructor
+        Shipping = Class.create();
 
 Shipping.prototype = {
     stepContainer: null,
-
     /**
      * Required initialization
      *
@@ -30,57 +31,56 @@ Shipping.prototype = {
          * Observe the customer choice regarding an existing address
          */
         $$('input[name="shipping_address_id"]').each(
-            function (element) {
-                Event.observe(
-                    $(element),
-                    'change',
-                    this.newShippingAddress.bindAsEventListener(this)
+                function (element) {
+                    Event.observe(
+                            $(element),
+                            'change',
+                            this.newShippingAddress.bindAsEventListener(this)
+                            );
+                }.bind(this)
                 );
-            }.bind(this)
-        );
 
         /**
          * Observe the state of the "use billing address for shipping" option
          * when initializing the shipping step
          */
         $$('input[name="billing[use_for_shipping]"]').each(
-            function (element) {
-                if (!!element.checked) {
-                    $('shipping:same_as_billing').checked = !!element.value;
+                function (element) {
+                    if (!!element.checked) {
+                        $('shipping:same_as_billing').checked = !!element.value;
+                    }
                 }
-            }
         );
 
         /**
          * Start observing the change of the "use billing address for shipping" option
          */
         $$('input[name="billing[use_for_shipping]"]').each(
-            function (element) {
-                Event.observe(
-                    $(element),
-                    'change',
-                    this.toggleSameAsBilling.bindAsEventListener(this)
+                function (element) {
+                    Event.observe(
+                            $(element),
+                            'change',
+                            this.toggleSameAsBilling.bindAsEventListener(this)
+                            );
+                }.bind(this)
                 );
-            }.bind(this)
-        );
 
         /**
          * Set the shipping form to the data of the billing one in case the customer
          * select the "use billing address" checkbox
          */
         Event.observe(
-            $('shipping:same_as_billing'),
-            'change',
-            function (event) {
-                if (Event.element(event).checked) {
-                    this.setSameAsBilling(true);
-                    $('billing:use_for_shipping_yes').checked = true;
-                    $('billing:use_for_shipping_no').checked  = false;
-                }
-            }.bind(this)
-        );
+                $('shipping:same_as_billing'),
+                'change',
+                function (event) {
+                    if (Event.element(event).checked) {
+                        this.setSameAsBilling(true);
+                        $('billing:use_for_shipping_yes').checked = true;
+                        $('billing:use_for_shipping_no').checked = false;
+                    }
+                }.bind(this)
+                );
     },
-
     /**
      * Toggles the new shipping address form display depending on customer's
      * decision to use an existing address or to enter a new one.
@@ -92,17 +92,17 @@ Shipping.prototype = {
         var value;
 
         $$('input[name="shipping_address_id"]').each(
-            function (element) {
-                if (!!element.checked) {
-                    value = !!parseInt(element.value, 10);
-                    var billingId = element.id.replace(/^shipping/, 'billing');
-                    if (!$(billingId).checked) {
-                        $('shipping:same_as_billing').checked     = false;
-                        $('billing:use_for_shipping_yes').checked = false;
-                        $('billing:use_for_shipping_no').checked  = true;
+                function (element) {
+                    if (!!element.checked) {
+                        value = !!parseInt(element.value, 10);
+                        var billingId = element.id.replace(/^shipping/, 'billing');
+                        if (!$(billingId).checked) {
+                            $('shipping:same_as_billing').checked = false;
+                            $('billing:use_for_shipping_yes').checked = false;
+                            $('billing:use_for_shipping_no').checked = true;
+                        }
                     }
                 }
-            }
         );
         //undefined value means no selection for shipping_address_id, also no "New Address - hide form
         if (!value && value !== undefined) {
@@ -112,7 +112,6 @@ Shipping.prototype = {
             Element.hide('shipping-new-address-form');
         }
     },
-
     /**
      * Responds to the customer's selecting the option "use billing address for shipping".
      * Copies the content of the billing address form into the shipping form if yes.
@@ -125,11 +124,11 @@ Shipping.prototype = {
         var value = false;
 
         $$('input[name="billing[use_for_shipping]"]').each(
-            function (element) {
-                if (!!element.checked) {
-                    value = !!parseInt(element.value, 10);
+                function (element) {
+                    if (!!element.checked) {
+                        value = !!parseInt(element.value, 10);
+                    }
                 }
-            }
         );
 
         //value === true : same as billing
@@ -141,7 +140,6 @@ Shipping.prototype = {
             this.resetAddress();
         }
     },
-
     /**
      * Copies the data from the billing form into the shipping one
      *
@@ -151,8 +149,8 @@ Shipping.prototype = {
         'use strict';
 
         var arrElements,
-            elemIndex,
-            billingId;
+                elemIndex,
+                billingId;
 
         if (flag) {
             arrElements = Form.getElements($('co-shipping-form'));
@@ -162,6 +160,12 @@ Shipping.prototype = {
                         billingId = arrElements[elemIndex].id.replace(/^shipping/, 'billing');
                         if ((billingId === 'billing:region_id') && shippingRegionUpdater) {
                             shippingRegionUpdater.update();
+                        }
+                        if ((billingId === 'billing:district_id') && shippingRegionUpdater1) {
+                            shippingRegionUpdater1.update();
+                        }
+                        if ((billingId === 'billing:ward_id') && shippingRegionUpdater2) {
+                            shippingRegionUpdater2.update();
                         }
                         arrElements[elemIndex].value = ($(billingId) && $(billingId).value) ? $(billingId).value : '';
                         if ($(billingId) && !!$(billingId).checked) {
@@ -180,14 +184,13 @@ Shipping.prototype = {
             $('shipping:same_as_billing').checked = false;
         }
     },
-
     /**
      * Sets shipping form input values to nothing (except shipping_address_id radio options)
      */
     resetAddress: function () {
         'use strict';
         var arrElements,
-            elemIndex;
+                elemIndex;
 
         arrElements = Form.getElements($('co-shipping-form'));
         for (elemIndex in arrElements) {
@@ -201,5 +204,6 @@ Shipping.prototype = {
                 }
             }
         }
+        $('shipping:country_id').value = $('billing:country_id').value;
     }
 };

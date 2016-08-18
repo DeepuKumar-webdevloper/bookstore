@@ -42,7 +42,7 @@ class Solvingmagento_OneStepCheckout_Block_Link extends Mage_Checkout_Block_Onep
 
         $parentBlock = $this->getParentBlock();
         if ($parentBlock && Mage::helper('core')->isModuleOutputEnabled('Solvingmagento_OneStepCheckout')) {
-            $text = $this->__('Checkout in One Step');
+            $text = $this->__('Thanh Toán Nhanh');
             $parentBlock->addLink(
                 $text,
                 'checkout/onestep',

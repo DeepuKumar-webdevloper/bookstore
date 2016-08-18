@@ -1,21 +1,23 @@
 var
-    //Prototype objects
-    $,
-    $$,
-    Event,
-    Element,
-    Validation,
-    Class,
-    //externally set variables:
-    billingRegionUpdater,
-    checkout,
-    buttonUpdateText,
-    buttonSaveText,
-    buttonWaitText,
-    //create the constructor
-    Checkout   = Class.create(),
-    baseUrl,
-    failureUrl = baseUrl + '/checkout/cart/';
+        //Prototype objects
+        $,
+        $$,
+        Event,
+        Element,
+        Validation,
+        Class,
+        //externally set variables:
+        billingRegionUpdater,
+        billingRegionUpdater1,
+        billingRegionUpdater2,
+        checkout,
+        buttonUpdateText,
+        buttonSaveText,
+        buttonWaitText,
+        //create the constructor
+        Checkout = Class.create(),
+        baseUrl,
+        failureUrl = baseUrl + '/checkout/cart/';
 
 
 Checkout.prototype = {
@@ -32,16 +34,16 @@ Checkout.prototype = {
 
         'use strict';
 
-        this.steps            = steps || {};
-        this.columnLeft       = $('osc-column-left');
-        this.columnCenter     = $('osc-column-center');
-        this.columnRight      = $('osc-column-right');
-        this.columnUp         = $('osc-column-up');
-        this.columnBottom     = $('osc-column-bottom');
+        this.steps = steps || {};
+        this.columnLeft = $('osc-column-left');
+        this.columnCenter = $('osc-column-center');
+        this.columnRight = $('osc-column-right');
+        this.columnUp = $('osc-column-up');
+        this.columnBottom = $('osc-column-bottom');
         //localized values can be set in the review/button.phtml template
         this.buttonUpdateText = buttonUpdateText || 'Update order before placing';
-        this.buttonSaveText   = buttonSaveText || 'Place order';
-        this.buttonWaitText   = buttonWaitText || 'Please wait...';
+        this.buttonSaveText = buttonSaveText || 'Place order';
+        this.buttonWaitText = buttonWaitText || 'Please wait...';
 
         this.moveTo(this.steps.login, 'up');
         this.moveTo(this.steps.billing, 'left');
@@ -67,28 +69,27 @@ Checkout.prototype = {
     observeChanges: function () {
         'use strict';
         $$('div.osc-column-wrapper input').each(
-            function (element) {
-                Event.observe(
-                    $(element),
-                    'change',
-                    function () {
-                        if (checkout.steps.review) {
-                            checkout.steps.review.readyToSave = false;
-                            if ($('order_submit_button')) {
-                                $('order_submit_button').title = checkout.buttonUpdateText;
-                                $('order_submit_button').down().down().update(checkout.buttonUpdateText);
+                function (element) {
+                    Event.observe(
+                            $(element),
+                            'change',
+                            function () {
+                                if (checkout.steps.review) {
+                                    checkout.steps.review.readyToSave = false;
+                                    if ($('order_submit_button')) {
+                                        $('order_submit_button').title = checkout.buttonUpdateText;
+                                        $('order_submit_button').down().down().update(checkout.buttonUpdateText);
+                                    }
+                                }
                             }
-                        }
-                    }
-                );
-            }
+                    );
+                }
         );
     },
-
     moveTo: function (element, id) {
         'use strict';
         var destination = this['column' + (id.charAt(0).toUpperCase() + id.slice(1))],
-            parent;
+                parent;
         if (element && element.stepContainer && destination) {
             parent = element.stepContainer.up();
             if (destination !== parent) {
@@ -98,7 +99,6 @@ Checkout.prototype = {
         }
 
     },
-
     /**
      * Action in case of a failed (e.g., 404) ajax request
      */
@@ -106,7 +106,6 @@ Checkout.prototype = {
         'use strict';
         location.href = failureUrl;
     },
-
     /**
      * Validates the form data in an address step
      *
@@ -117,7 +116,7 @@ Checkout.prototype = {
     validateAddress: function (type) {
         'use strict';
 
-        if (type  !== 'billing' && type !== 'shipping') {
+        if (type !== 'billing' && type !== 'shipping') {
             return false;
         }
         if (!window[type]) {
@@ -128,32 +127,32 @@ Checkout.prototype = {
             //the step is not shown, no validation required
             return true;
         }
-        var validationResult         = false,
-            newAddressFormValidation = false,
-            validator                = new Validation('co-' + type + '-form');
+        var validationResult = false,
+                newAddressFormValidation = false,
+                validator = new Validation('co-' + type + '-form');
 
         newAddressFormValidation = validator.validate();
 
         $$('div.advice-required-entry-' + type + '-address-id').each(
-            function (element) {
-                $(element).hide();
-            }
+                function (element) {
+                    $(element).hide();
+                }
         );
         if ($$('input[name="' + type + '_address_id"]')
                 && $$('input[name="' + type + '_address_id"]').length > 0
                 ) {
             $$('input[name="' + type + '_address_id"]').each(
-                function (element) {
-                    if ($(element).checked) {
-                        validationResult = true;
+                    function (element) {
+                        if ($(element).checked) {
+                            validationResult = true;
+                        }
                     }
-                }
             );
             if (!validationResult) {
                 $$('div.advice-required-entry-' + type + '-address-id').each(
-                    function (element) {
-                        $(element).show();
-                    }
+                        function (element) {
+                            $(element).show();
+                        }
                 );
             }
         } else {
@@ -161,7 +160,6 @@ Checkout.prototype = {
         }
         return (newAddressFormValidation && validationResult);
     },
-
     /**
      * Checks if the checkout method is selected, when the selection is there
      *
@@ -172,32 +170,31 @@ Checkout.prototype = {
 
         var valid = true;
         $$('div.advice-required-entry-checkout_method').each(
-            function (element) {
-                $(element).hide();
-            }
+                function (element) {
+                    $(element).hide();
+                }
         );
         if ($$('input[name="checkout_method"]').length > 0) {
             valid = false;
             $$('input[name="checkout_method"]').each(
-                function (element) {
-                    if ($(element).checked) {
-                        valid = true;
+                    function (element) {
+                        if ($(element).checked) {
+                            valid = true;
+                        }
                     }
-                }
             );
 
             if (!valid) {
                 $$('div.advice-required-entry-checkout_method').each(
-                    function (element) {
-                        $(element).show();
-                    }
+                        function (element) {
+                            $(element).show();
+                        }
                 );
             }
         }
 
         return valid;
     },
-
     /**
      * Shipping Method step validation
      *
@@ -208,26 +205,26 @@ Checkout.prototype = {
 
         var valid = true;
         $$('li div.advice-required-entry-shipping_method').each(
-            function (element) {
-                $(element).hide();
-            }
+                function (element) {
+                    $(element).hide();
+                }
         );
 
         if ($$('input[name="shipping_method"]').length > 0) {
             valid = false;
             $$('input[name="shipping_method"]').each(
-                function (element) {
-                    if ($(element).checked) {
-                        valid = true;
+                    function (element) {
+                        if ($(element).checked) {
+                            valid = true;
+                        }
                     }
-                }
             );
 
             if (!valid) {
                 $$('li div.advice-required-entry-shipping_method').each(
-                    function (element) {
-                        $(element).show();
-                    }
+                        function (element) {
+                            $(element).show();
+                        }
                 );
             }
         }
@@ -242,30 +239,30 @@ Checkout.prototype = {
     validatePaymentMethod: function () {
         'use strict';
 
-        var valid     = true,
-            validator = new Validation('co-payment-form');
+        var valid = true,
+                validator = new Validation('co-payment-form');
 
         $$('dt div.advice-required-entry-payment_method').each(
-            function (element) {
-                $(element).hide();
-            }
+                function (element) {
+                    $(element).hide();
+                }
         );
 
         if ($$('input[name="payment[method]"]').length > 0) {
             valid = false;
             $$('input[name="payment[method]"]').each(
-                function (element) {
-                    if ($(element).checked) {
-                        valid = true;
+                    function (element) {
+                        if ($(element).checked) {
+                            valid = true;
+                        }
                     }
-                }
             );
 
             if (!valid) {
                 $$('dt div.advice-required-entry-payment_method').each(
-                    function (element) {
-                        $(element).show();
-                    }
+                        function (element) {
+                            $(element).show();
+                        }
                 );
             }
         }
@@ -282,7 +279,6 @@ Checkout.prototype = {
 
         return this.validateAddress('billing');
     },
-
     /**
      * Billing Address step validation
      *
@@ -293,7 +289,6 @@ Checkout.prototype = {
 
         return this.validateAddress('shipping');
     },
-
     /**
      * validates the final step
      *
@@ -314,15 +309,14 @@ Checkout.prototype = {
          */
         if (validateSteps) {
             valid = this.validateCheckoutSteps(
-                ['CheckoutMethod', 'BillingAddress', 'ShippingAddress', 'ShippingMethod', 'PaymentMethod']
-            );
+                    ['CheckoutMethod', 'BillingAddress', 'ShippingAddress', 'ShippingMethod', 'PaymentMethod']
+                    );
         } else {
             valid = true;
         }
 
         return valid;
     },
-
     /**
      * Validates the checkout steps
      *
@@ -346,7 +340,6 @@ Checkout.prototype = {
 
         return result;
     },
-
     /**
      * Toggles the display state of loading elements
      *
@@ -362,7 +355,6 @@ Checkout.prototype = {
             Element.hide($(element));
         }
     },
-
     setResponse: function (response) {
         'use strict';
 
@@ -374,6 +366,12 @@ Checkout.prototype = {
             } else {
                 if (window.billingRegionUpdater) {
                     billingRegionUpdater.update();
+                }
+                if (window.billingRegionUpdater1) {
+                    billingRegionUpdater1.update();
+                }
+                if (window.billingRegionUpdater2) {
+                    billingRegionUpdater2.update();
                 }
                 alert(response.message.join("\n"));
             }
